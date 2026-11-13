@@ -233,7 +233,7 @@ function micada_render_managed_news_events() {
 		return false;
 	}
 	$language = function_exists( 'micada_language' ) ? micada_language() : 'en';
-	echo '<marquee direction="up" scrollamount="3" data-pause-marquee style="max-height:300px"><ul class="w3-ul">';
+	echo '<marquee direction="up" scrollamount="3" data-pause-marquee style="max-height:300px"><ul class="w3-ul" style="font-size:12px">';
 	foreach ( $items as $event ) {
 		$title = 'hd' === $language && '' !== $event->title_hi ? $event->title_hi : $event->title_en;
 		$description = 'hd' === $language && '' !== $event->description_hi ? $event->description_hi : $event->description_en;
