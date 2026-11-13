@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
     <div class="p-fluid p-formgrid justify-content-center top-header-sec" style="display: flex; flex-wrap:wrap">
         
         <div class="field sm:col-6 md:col-1 lg:col-1 my-0 py-0 mx-0 px-0 logo-continer">
-            <img src="<?php echo esc_url( micada_asset( 'activitiesImages/new_logo.png' ) ); ?>" alt="MICADA Haryana">
+            <a href="<?php echo esc_url( micada_url( 'home' ) ); ?>"><img src="<?php echo esc_url( micada_asset( 'activitiesImages/new_logo.png' ) ); ?>" alt="MICADA Haryana"></a>
         </div>
         <div class="p-fluid p-formgrid justify-content-center field sm:col-12 md:col-10 lg:col-10 my-0 py-0 mx-0 px-2" style="display: flex; flex-wrap:wrap">
             <div class="field sm:col-12 md:col-12 lg:col-12 my-0 py-0 mx-0 px-0 micada-heading">
@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) || exit;
             </div>
         </div>
         <div class="field sm:col-2 md:col-1 lg:col-1 my-0 py-0 mx-0 px-0 logo-continer hide-small">
-            <img src="<?php echo esc_url( micada_asset( 'activitiesImages/logo.png' ) ); ?>" alt="MICADA Haryana">
+            <a href="<?php echo esc_url( micada_url( 'home' ) ); ?>"><img src="<?php echo esc_url( micada_asset( 'activitiesImages/logo.png' ) ); ?>" alt="MICADA Haryana"></a>
         </div>
         
 

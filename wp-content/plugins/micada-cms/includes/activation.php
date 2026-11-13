@@ -17,18 +17,22 @@ function micada_cms_set_default_theme_and_homepage() {
 		}
 	}
 
-	$front_page_id = absint( get_option( 'page_on_front' ) );
-	if ( ! $front_page_id ) {
-		$home_page = get_page_by_path( 'home', OBJECT, 'page' );
-		if ( $home_page && 'publish' === $home_page->post_status ) {
-			$front_page_id = absint( $home_page->ID );
-			update_option( 'show_on_front', 'page' );
-			update_option( 'page_on_front', $front_page_id );
+	// Ensure the front page is set to the MICADA Reference Homepage (micada-home / ID 1315)
+	$micada_home = get_page_by_path( 'micada-home', OBJECT, 'page' );
+	if ( ! $micada_home ) {
+		$candidate = get_post( 1315 );
+		if ( $candidate && 'page' === $candidate->post_type ) {
+			$micada_home = $candidate;
 		}
 	}
+	if ( ! $micada_home ) {
+		$micada_home = get_page_by_path( 'home', OBJECT, 'page' );
+	}
 
-	if ( $front_page_id && 'page' === get_post_type( $front_page_id ) ) {
-		update_post_meta( $front_page_id, '_wp_page_template', 'page-micada.php' );
+	if ( $micada_home && 'publish' === $micada_home->post_status ) {
+		update_option( 'show_on_front', 'page' );
+		update_option( 'page_on_front', $micada_home->ID );
+		update_post_meta( $micada_home->ID, '_wp_page_template', 'page-micada.php' );
 	}
 }
 
@@ -96,6 +100,7 @@ register_deactivation_hook( MICADA_CMS_PLUGIN_FILE, 'micada_cms_deactivate_core'
 
 /** Check on admin_init to ensure tables exist and data is migrated. */
 function micada_cms_maybe_auto_migrate() {
+	micada_cms_set_default_theme_and_homepage();
 	$installed_version = get_option( 'micada_cms_db_version', '' );
 	if ( version_compare( (string) $installed_version, MICADA_CMS_VERSION, '<' ) ) {
 		micada_cms_install_all_tables();
