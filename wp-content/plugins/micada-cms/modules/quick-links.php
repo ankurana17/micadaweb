@@ -292,7 +292,7 @@ function micada_render_managed_quick_links() {
 		return false;
 	}
 	$language = function_exists( 'micada_language' ) ? micada_language() : 'en';
-	echo '<marquee direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3" style="max-height:300px;overflow-y:auto;">';
+	echo '<marquee direction="up" scrollamount="3" data-pause-marquee style="max-height:300px"><ul class="w3-ul" style="font-size:12px">';
 	foreach ( $links as $link ) {
 		$label = 'hd' === $language && '' !== $link->label_hi ? $link->label_hi : $link->label_en;
 		if ( '' === $link->url ) {
@@ -308,7 +308,8 @@ function micada_render_managed_quick_links() {
 		}
 		echo '</a></li>';
 	}
-	echo '</marquee>';
+	echo '<li class="w3-padding-24"></li><li class="w3-padding-16"></li>';
+	echo '</ul></marquee>';
 	return true;
 }
 }
