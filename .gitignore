@@ -1,0 +1,19 @@
+# Machine-specific WordPress configuration and Apache rules
+/wp-config.php
+/.htaccess
+/.env
+/.env.*
+!.env.example
+
+# Uploaded content and generated WordPress files
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backup*/
+/wp-content/debug.log
+
+# Runtime logs and editor files
+*.log
+*.swp
+*.swo
+*~

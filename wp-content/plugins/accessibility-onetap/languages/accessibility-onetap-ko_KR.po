@@ -1,0 +1,1691 @@
+# Copyright (C) 2025 OneTap
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Accessibility Widget by OneTap – Easy One-Click "
+"Accessibility Toolbar 2.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-"
+"onetap\n"
+"POT-Creation-Date: 2026-08-18T14:06:02+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: accessibility-onetap\n"
+
+#. Plugin Name of the plugin
+#: accessibility-onetap.php
+msgid "Accessibility Widget by OneTap – Easy One-Click Accessibility Toolbar"
+msgstr "OneTap 접근성 위젯 – 손쉬운 원클릭 접근성 도구 모음"
+
+#. Plugin URI of the plugin
+#: accessibility-onetap.php
+msgid "https://wponetap.com"
+msgstr "https://wponetap.com"
+
+#. Description of the plugin
+#: accessibility-onetap.php
+msgid ""
+"OneTap is a multilingual WordPress plugin designed for seamless website "
+"accessibility. With a simple one-click installation, it ensures your site "
+"meets accessibility standards without any hassle. Built for performance, "
+"providing an inclusive, user-friendly web environment for all visitors."
+msgstr ""
+"OneTap은 원활한 웹사이트 접근성을 위해 설계된 다국어 지원 WordPress 플러그인"
+"입니다. 간단한 원클릭 설치로 번거로움 없이 사이트가 접근성 표준을 충족하도록 "
+"보장합니다. 뛰어난 성능을 바탕으로 모든 방문자에게 포괄적이고 사용하기 쉬운 "
+"웹 환경을 제공합니다."
+
+#. Author of the plugin
+#: accessibility-onetap.php
+#: admin/class-accessibility-onetap-settings-options.php:171
+#: admin/class-accessibility-onetap-settings-options.php:172
+#: public/class-accessibility-onetap-public.php:5994
+msgid "OneTap"
+msgstr "OneTap"
+
+#. Author URI of the plugin
+#: accessibility-onetap.php
+msgid "https://wponetap.com/"
+msgstr "https://wponetap.com/"
+
+#: admin/class-accessibility-onetap-admin.php:161
+msgid "Warning!"
+msgstr "경고!"
+
+#: admin/class-accessibility-onetap-admin.php:162
+msgid "Please complete all fields."
+msgstr "모든 항목을 입력해 주세요."
+
+#: admin/class-accessibility-onetap-admin.php:163
+msgid ""
+"AltPilot could not be installed. Please try again from Plugins → Add New."
+msgstr ""
+
+#: admin/class-accessibility-onetap-admin.php:275
+msgid ""
+"Enjoying OneTap? If it makes your work easier, we’d love to get a quick "
+"review on WordPress.org – it would mean a lot to us and helps us keep "
+"improving the plugin for you "
+msgstr ""
+"Gefällt Ihnen OneTap? Wenn es Ihre Arbeit erleichtert, würden wir uns über "
+"eine schnelle Bewertung auf WordPress.org freuen – das bedeutet uns viel und "
+"hilft uns, das Plugin für Sie weiter zu verbessern "
+
+#: admin/class-accessibility-onetap-admin.php:280
+msgid "Don't show again"
+msgstr "Nicht mehr anzeigen"
+
+#: admin/class-accessibility-onetap-admin.php:283
+msgid "Maybe later"
+msgstr "Vielleicht später"
+
+#: admin/class-accessibility-onetap-admin.php:286
+msgid "Leave a Review"
+msgstr "Bewertung abgeben"
+
+#: admin/class-accessibility-onetap-admin.php:524
+msgid ""
+"Hey!\n"
+"\t\t\t\t\tWe’re happy that you’re using OneTap. We'd like to take this "
+"opportunity to kindly ask for a 5-star rating on WordPress."
+msgstr ""
+"안녕하세요!\n"
+"\t\t\t\t\tOneTap을 사용해 주셔서 감사합니다. 이 기회에 WordPress에서 별 5개 "
+"평가를 정중히 부탁드립니다."
+
+#: admin/class-accessibility-onetap-admin.php:531
+msgid "It would mean a lot to us."
+msgstr "큰 힘이 됩니다."
+
+#: admin/class-accessibility-onetap-admin.php:534
+#: admin/class-accessibility-onetap-admin.php:556
+msgid "Ok, you deserve it"
+msgstr "좋아요, 그럴 자격이 있어요"
+
+#: admin/class-accessibility-onetap-admin.php:535
+#: admin/class-accessibility-onetap-admin.php:559
+msgid "Already did"
+msgstr "이미 했어요"
+
+#: admin/class-accessibility-onetap-admin.php:536
+msgid "No, it’s not  good enough"
+msgstr "아니요, 아직 충분하지 않아요"
+
+#: admin/class-accessibility-onetap-admin.php:552
+msgid "Hey! We’re happy that you’re using OneTap!"
+msgstr "안녕하세요! OneTap을 사용해 주셔서 기쁩니다!"
+
+#: admin/class-accessibility-onetap-admin.php:553
+msgid ""
+"If OneTap helped you make your site more accessible, we’d truly appreciate a "
+"quick review – a good rating would mean a lot to us ❤️"
+msgstr ""
+"OneTap이 사이트의 접근성 향상에 도움이 되었다면, 짧은 리뷰를 남겨 주시면 정"
+"말 감사하겠습니다. 좋은 평가는 저희에게 큰 의미가 있습니다 ❤️"
+
+#: admin/class-accessibility-onetap-admin.php:562
+msgid "No, it’s not good enough"
+msgstr "아니요, 아직 충분하지 않아요"
+
+#: admin/class-accessibility-onetap-admin.php:824
+#: admin/class-accessibility-onetap-settings-options.php:221
+#: admin/class-accessibility-onetap-settings-options.php:222
+#: admin/class-accessibility-onetap-settings-options.php:406
+#: admin/partials/header.php:97
+msgid "Settings"
+msgstr "설정"
+
+#: admin/class-accessibility-onetap-admin.php:990
+msgid "Missing Alt-Text"
+msgstr "대체 텍스트 없음"
+
+#. translators: 1: number of images without alt text, 2: total number of images in the media library
+#: admin/class-accessibility-onetap-admin.php:1022
+msgid "%1$s / %2$s Images"
+msgstr "%1$s / %2$s 이미지"
+
+#: admin/class-accessibility-onetap-admin.php:1029
+msgid ""
+"Alt text improves SEO and makes your content accessible to screen readers."
+msgstr ""
+"대체 텍스트는 SEO를 개선하고 스크린 리더로 콘텐츠에 접근할 수 있게 합니다."
+
+#: admin/class-accessibility-onetap-admin.php:1033
+msgid "Add Alt-Texts"
+msgstr "대체 텍스트 추가"
+
+#: admin/class-accessibility-onetap-settings-manager.php:292
+#: admin/partials/header.php:32
+msgid "Upgrade to OneTap PRO"
+msgstr "OneTap PRO로 업그레이드"
+
+#: admin/class-accessibility-onetap-settings-manager.php:292
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/class-accessibility-onetap-settings-manager.php:561
+#: admin/class-accessibility-onetap-settings-manager.php:624
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: admin/class-accessibility-onetap-settings-manager.php:654
+#: admin/class-accessibility-onetap-settings-manager.php:946
+#: admin/class-accessibility-onetap-settings-manager.php:1035
+#: admin/class-accessibility-onetap-settings-manager.php:1182
+#: admin/class-accessibility-onetap-settings-manager.php:2557
+msgid "This is a PRO Feature"
+msgstr "이 기능은 PRO 전용입니다"
+
+#: admin/class-accessibility-onetap-settings-manager.php:655
+#: admin/class-accessibility-onetap-settings-manager.php:947
+#: admin/class-accessibility-onetap-settings-manager.php:1036
+#: admin/class-accessibility-onetap-settings-manager.php:1183
+#: admin/class-accessibility-onetap-settings-manager.php:2558
+msgid " to use this Feature."
+msgstr " 이 기능을 사용하려면."
+
+#: admin/class-accessibility-onetap-settings-manager.php:656
+#: admin/class-accessibility-onetap-settings-manager.php:948
+#: admin/class-accessibility-onetap-settings-manager.php:1037
+#: admin/class-accessibility-onetap-settings-manager.php:1184
+#: admin/class-accessibility-onetap-settings-manager.php:2559
+msgid "Upgrade to Pro"
+msgstr "Pro로 업그레이드"
+
+#: admin/class-accessibility-onetap-settings-manager.php:683
+#: admin/class-accessibility-onetap-settings-manager.php:1067
+#: admin/class-accessibility-onetap-settings-manager.php:2046
+msgid "Beta"
+msgstr "베타"
+
+#: admin/class-accessibility-onetap-settings-manager.php:841
+#: admin/partials/settings.php:28
+msgid "Desktop"
+msgstr "데스크톱"
+
+#: admin/class-accessibility-onetap-settings-manager.php:847
+#: admin/partials/settings.php:32
+msgid "Tablet"
+msgstr "태블릿"
+
+#: admin/class-accessibility-onetap-settings-manager.php:853
+#: admin/partials/settings.php:36
+msgid "Mobile"
+msgstr "모바일"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Copied!"
+msgstr "복사되었습니다!"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Failed!"
+msgstr "실패했습니다!"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Copy"
+msgstr "복사"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1044
+msgid "Enter Custom Label"
+msgstr "사용자 지정 라벨 입력"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1096
+msgid "Save"
+msgstr "저장"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1173
+msgid "Select…"
+msgstr "선택…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1174
+msgid "Search…"
+msgstr "검색…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1175
+msgid "No results found"
+msgstr "결과를 찾을 수 없습니다"
+
+#. translators: %s: name of the selected item.
+#: admin/class-accessibility-onetap-settings-manager.php:1254
+msgid "Remove %s"
+msgstr "%s 제거"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1400
+#: admin/class-accessibility-onetap-settings-manager.php:1768
+#: admin/class-accessibility-onetap-settings-manager.php:1977
+#: admin/class-accessibility-onetap-settings-options.php:599
+#: admin/class-accessibility-onetap-settings-options.php:659
+#: public/class-accessibility-onetap-public.php:6261
+#: public/class-accessibility-onetap-public.php:6300
+msgid "Default"
+msgstr "기본값"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1729
+#: admin/class-accessibility-onetap-settings-manager.php:1905
+#: admin/class-accessibility-onetap-settings-options.php:543
+#: admin/class-accessibility-onetap-settings-options.php:603
+msgid "Default Language"
+msgstr "기본 언어"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1730
+#: admin/class-accessibility-onetap-settings-manager.php:1906
+msgid "Display Options"
+msgstr "표시 옵션"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1985
+msgid "Disable All"
+msgstr "모두 비활성화"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1986
+msgid "Enable All"
+msgstr "모두 활성화"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2027
+msgid "All"
+msgstr "전체"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2028
+msgid "With Alt Text"
+msgstr "대체 텍스트 있음"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2029
+msgid "Without Alt Text"
+msgstr "대체 텍스트 없음"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2043
+msgid "Filter images by alt text"
+msgstr "대체 텍스트로 이미지 필터"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2058
+msgid "Thumbnail"
+msgstr "썸네일"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2059
+#: admin/class-accessibility-onetap-settings-options.php:211
+#: admin/class-accessibility-onetap-settings-options.php:212
+#: admin/class-accessibility-onetap-settings-options.php:422
+#: admin/partials/header.php:91
+msgid "Alt Text"
+msgstr "대체 텍스트"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2060
+msgid "Uploaded"
+msgstr "업로드됨"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2061
+msgid "Actions"
+msgstr "작업"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2089
+msgid "Enter a Alt-text..."
+msgstr "대체 텍스트 입력..."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2105
+msgid "Generate with AltPilot.ai"
+msgstr "AltPilot.ai로 생성"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2126
+msgid "No images found in Media Library."
+msgstr "미디어 라이브러리에 이미지가 없습니다."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2127
+msgid "No images match this filter."
+msgstr "이 필터와 일치하는 이미지가 없습니다."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2129
+msgid ""
+"Upload images to your Media Library to start managing their alt text here."
+msgstr ""
+"미디어 라이브러리에 이미지를 업로드하여 여기에서 대체 텍스트 관리를 시작하세"
+"요."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2130
+msgid "Try choosing a different filter to see more of your images."
+msgstr "다른 필터를 선택하여 더 많은 이미지를 확인해 보세요."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2158
+#: admin/class-accessibility-onetap-settings-manager.php:2163
+msgid "Previous"
+msgstr "이전"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2206
+#: admin/class-accessibility-onetap-settings-manager.php:2211
+msgid "Next"
+msgstr "다음"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2306
+#: admin/class-accessibility-onetap-settings-manager.php:2343
+msgid "Generate with AI"
+msgstr "AI로 생성"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2315
+#: admin/class-accessibility-onetap-settings-manager.php:2335
+msgid "Activate AltPilot"
+msgstr "AltPilot 활성화"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2327
+msgid "Install AltPilot for free"
+msgstr "AltPilot 무료 설치"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2334
+msgid "Installing…"
+msgstr "설치 중…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2680
+msgid "Active"
+msgstr "활성"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2681
+msgid "Deactivate License"
+msgstr "라이선스 비활성화"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2688
+msgid "Inactive"
+msgstr "비활성"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2689
+msgid "Activate License"
+msgstr "라이선스 활성화"
+
+#: admin/class-accessibility-onetap-settings-options.php:182
+#: admin/class-accessibility-onetap-settings-options.php:183
+#: admin/partials/header.php:75
+msgid "Widget"
+msgstr "위젯"
+
+#: admin/class-accessibility-onetap-settings-options.php:191
+#: admin/class-accessibility-onetap-settings-options.php:192
+#: admin/class-accessibility-onetap-settings-options.php:414
+#: admin/partials/header.php:80
+msgid "Modules"
+msgstr "모듈"
+
+#: admin/class-accessibility-onetap-settings-options.php:200
+#: admin/class-accessibility-onetap-settings-options.php:201
+#: admin/class-accessibility-onetap-settings-options.php:1447
+#: admin/partials/header.php:85
+#: public/class-accessibility-onetap-public.php:6005
+msgid "Statement"
+msgstr "성명"
+
+#: admin/class-accessibility-onetap-settings-options.php:230
+#: admin/class-accessibility-onetap-settings-options.php:231
+#: admin/class-accessibility-onetap-settings-options.php:418
+msgid "Module Labels"
+msgstr "모듈 라벨"
+
+#: admin/class-accessibility-onetap-settings-options.php:239
+#: admin/class-accessibility-onetap-settings-options.php:240
+#: admin/partials/header.php:56 admin/partials/header.php:61
+msgid "Get PRO"
+msgstr "PRO 받기"
+
+#: admin/class-accessibility-onetap-settings-options.php:410
+msgid "General settings"
+msgstr "일반 설정"
+
+#: admin/class-accessibility-onetap-settings-options.php:472
+msgid "Icons"
+msgstr "아이콘"
+
+#: admin/class-accessibility-onetap-settings-options.php:483
+msgid ""
+"Customize your accessibility button's color, icon, and size to match your "
+"brand."
+msgstr "브랜드에 맞게 접근성 버튼의 색상, 아이콘, 크기를 사용자 지정하세요."
+
+#: admin/class-accessibility-onetap-settings-options.php:483
+#: admin/class-accessibility-onetap-settings-options.php:544
+#: admin/class-accessibility-onetap-settings-options.php:604
+#: admin/class-accessibility-onetap-settings-options.php:682
+#: admin/partials/accessibility-status.php:1761
+msgid "See Documentation"
+msgstr "문서 보기"
+
+#: admin/class-accessibility-onetap-settings-options.php:485
+msgid "Widget Design"
+msgstr "위젯 디자인"
+
+#: admin/class-accessibility-onetap-settings-options.php:493
+msgid "Icon Size"
+msgstr "아이콘 크기"
+
+#: admin/class-accessibility-onetap-settings-options.php:509
+msgid "Add Border"
+msgstr "테두리 추가"
+
+#: admin/class-accessibility-onetap-settings-options.php:536
+msgid "Set your own branding colors to personalize the plugin's appearance."
+msgstr "브랜딩 색상을 설정하여 플러그인의 모양을 개인화하세요."
+
+#: admin/class-accessibility-onetap-settings-options.php:536
+msgid "Free WCAG Contrast-Checker"
+msgstr "무료 WCAG 대비 체크 도구"
+
+#: admin/class-accessibility-onetap-settings-options.php:537
+msgid "Widget Color"
+msgstr "위젯 색상"
+
+#: admin/class-accessibility-onetap-settings-options.php:544
+#: admin/class-accessibility-onetap-settings-options.php:604
+msgid "Choose your preferred language for the plugin's interface."
+msgstr "플러그인 인터페이스에 사용할 선호 언어를 선택하세요."
+
+#: admin/class-accessibility-onetap-settings-options.php:663
+msgid "Automatic Language detection"
+msgstr "자동 언어 감지"
+
+#: admin/class-accessibility-onetap-settings-options.php:664
+msgid ""
+"When enabled, the toolbar language is automatically set based on the "
+"visitor's browser language."
+msgstr ""
+"활성화하면 도구 모음 언어가 방문자의 브라우저 언어에 따라 자동으로 설정됩니"
+"다."
+
+#: admin/class-accessibility-onetap-settings-options.php:682
+msgid "Adjust the position of widgets to fit your layout preferences."
+msgstr "레이아웃 선호도에 맞게 위젯 위치를 조정합니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:684
+msgid "Widget Position "
+msgstr "위젯 위치 "
+
+#: admin/class-accessibility-onetap-settings-options.php:690
+#: admin/class-accessibility-onetap-settings-options.php:742
+#: admin/class-accessibility-onetap-settings-options.php:794
+msgid "Widget Position"
+msgstr "위젯 위치"
+
+#: admin/class-accessibility-onetap-settings-options.php:700
+#: admin/class-accessibility-onetap-settings-options.php:752
+#: admin/class-accessibility-onetap-settings-options.php:804
+msgid "Top right"
+msgstr "오른쪽 위"
+
+#: admin/class-accessibility-onetap-settings-options.php:701
+#: admin/class-accessibility-onetap-settings-options.php:753
+#: admin/class-accessibility-onetap-settings-options.php:805
+msgid "Top left"
+msgstr "왼쪽 위"
+
+#: admin/class-accessibility-onetap-settings-options.php:702
+#: admin/class-accessibility-onetap-settings-options.php:754
+#: admin/class-accessibility-onetap-settings-options.php:806
+msgid "Middle right"
+msgstr "오른쪽 가운데"
+
+#: admin/class-accessibility-onetap-settings-options.php:703
+#: admin/class-accessibility-onetap-settings-options.php:755
+#: admin/class-accessibility-onetap-settings-options.php:807
+msgid "Middle left"
+msgstr "왼쪽 가운데"
+
+#: admin/class-accessibility-onetap-settings-options.php:704
+#: admin/class-accessibility-onetap-settings-options.php:756
+#: admin/class-accessibility-onetap-settings-options.php:808
+msgid "Bottom right"
+msgstr "오른쪽 아래"
+
+#: admin/class-accessibility-onetap-settings-options.php:705
+#: admin/class-accessibility-onetap-settings-options.php:757
+#: admin/class-accessibility-onetap-settings-options.php:809
+msgid "Bottom left"
+msgstr "왼쪽 아래"
+
+#: admin/class-accessibility-onetap-settings-options.php:710
+#: admin/class-accessibility-onetap-settings-options.php:762
+#: admin/class-accessibility-onetap-settings-options.php:814
+msgid "Vertical (Default 15px)"
+msgstr "Vertikal (Standard 15px)"
+
+#: admin/class-accessibility-onetap-settings-options.php:726
+#: admin/class-accessibility-onetap-settings-options.php:778
+#: admin/class-accessibility-onetap-settings-options.php:830
+msgid "Horizontal (Default 15px)"
+msgstr "Horizontal (Standard 15px)"
+
+#: admin/class-accessibility-onetap-settings-options.php:863
+msgid "Hide On Desktop"
+msgstr "데스크톱에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:864
+msgid "When enabled, the icon will not be displayed on desktop devices."
+msgstr "활성화하면 데스크톱 기기에서 아이콘이 표시되지 않습니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:879
+msgid "Hide On Tablet"
+msgstr "태블릿에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:880
+msgid "When enabled, the icon will not be displayed on tablet devices."
+msgstr "활성화하면 태블릿 기기에서 아이콘이 표시되지 않습니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:895
+msgid "Hide On Mobile"
+msgstr "모바일에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:896
+msgid "When enabled, the icon will not be displayed on mobile devices."
+msgstr "활성화하면 모바일 기기에서 아이콘이 표시되지 않습니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:914
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: admin/class-accessibility-onetap-settings-options.php:915
+msgid "Hide \"Powered by OneTap\""
+msgstr "\"Powered by OneTap\" 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:916
+msgid ""
+"Remove the \"Powered by OneTap\" text from the Toolbar on the frontend of "
+"your website."
+msgstr ""
+"웹사이트 프론트엔드의 도구 모음에서 \"Powered by OneTap\" 텍스트를 제거합니"
+"다."
+
+#: admin/class-accessibility-onetap-settings-options.php:929
+msgid "Button Focus Indicator"
+msgstr "버튼 포커스 표시"
+
+#: admin/class-accessibility-onetap-settings-options.php:930
+msgid ""
+"Show a visible dotted border on the floating toolbar icon image when the "
+"button is focused (e.g. keyboard navigation)."
+msgstr ""
+"버튼에 포커스가 있을 때 플로팅 도구 모음 아이콘에 점선 테두리를 표시합니다"
+"(예: 키보드 탐색)."
+
+#: admin/class-accessibility-onetap-settings-options.php:943
+msgid "Hide Alt Text Feature"
+msgstr "대체 텍스트 기능 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:944
+msgid ""
+"Hide the Alt Text submenu, its navigation link, and the \"Missing Alt-Text\" "
+"dashboard widget."
+msgstr ""
+"대체 텍스트 하위 메뉴, 해당 탐색 링크, \"대체 텍스트 없음\" 대시보드 위젯을 "
+"숨깁니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:957
+msgid "Open with URL"
+msgstr "URL로 열기"
+
+#: admin/class-accessibility-onetap-settings-options.php:958
+msgid "Open the OneTap Toolbar with URL"
+msgstr "URL로 OneTap 도구 모음 열기"
+
+#: admin/class-accessibility-onetap-settings-options.php:970
+#: admin/class-accessibility-onetap-settings-options.php:975
+#: admin/partials/header.php:105
+msgid "Edit Labels"
+msgstr "라벨 편집"
+
+#: admin/class-accessibility-onetap-settings-options.php:971
+msgid "Change module name"
+msgstr "모듈 이름 변경"
+
+#: admin/class-accessibility-onetap-settings-options.php:984
+msgid "Alt-Text AI"
+msgstr "Alt-Text AI"
+
+#: admin/class-accessibility-onetap-settings-options.php:985
+msgid "Generate Alt-Text with Ai"
+msgstr "AI로 대체 텍스트 생성"
+
+#: admin/class-accessibility-onetap-settings-options.php:986
+msgid "Save hours, boost SEO & Accessibility"
+msgstr "시간을 절약하고 SEO와 접근성을 향상하세요"
+
+#: admin/class-accessibility-onetap-settings-options.php:990
+msgid "Start with AltPilot.ai"
+msgstr "AltPilot.ai 시작하기"
+
+#: admin/class-accessibility-onetap-settings-options.php:999
+msgid "Hide on Specific Pages / Post Types"
+msgstr "특정 페이지 / 글 유형에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1000
+msgid "Hide on Specific Pages"
+msgstr "특정 페이지에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1001
+msgid "Select individual pages where the OneTap Toolbar should be hidden."
+msgstr "OneTap 툴바를 숨길 페이지를 개별적으로 선택하세요."
+
+#: admin/class-accessibility-onetap-settings-options.php:1008
+msgid "Select pages..."
+msgstr "페이지 선택..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1009
+msgid "Search pages..."
+msgstr "페이지 검색..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1010
+msgid "No pages found"
+msgstr "페이지를 찾을 수 없습니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1016
+msgid "Hide on Post Types"
+msgstr "글 유형에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1017
+msgid "Hide the toolbar across entire post types at once."
+msgstr "글 유형 전체에서 툴바를 한 번에 숨깁니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:1024
+msgid "Select post types..."
+msgstr "글 유형 선택..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1025
+msgid "Search post types..."
+msgstr "글 유형 검색..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1026
+msgid "No post types found"
+msgstr "글 유형을 찾을 수 없습니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1032
+msgid "Hide on Specific Posts"
+msgstr "특정 글에서 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1033
+msgid "Select individual posts where the toolbar should be hidden."
+msgstr "툴바를 숨길 글을 개별적으로 선택하세요."
+
+#: admin/class-accessibility-onetap-settings-options.php:1040
+msgid "Select posts..."
+msgstr "글 선택..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1041
+msgid "Search posts..."
+msgstr "글 검색..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1042
+msgid "No posts found"
+msgstr "글을 찾을 수 없습니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1050
+#: admin/class-accessibility-onetap-settings-options.php:1051
+#: admin/class-accessibility-onetap-settings-options.php:1480
+msgid "Accessibility Profiles"
+msgstr "접근성 프로필"
+
+#: admin/class-accessibility-onetap-settings-options.php:1052
+msgid "Ready-to-use accessibility profiles for different user needs."
+msgstr "다양한 사용자 요구에 맞춘 즉시 사용 가능한 접근성 프로필."
+
+#: admin/class-accessibility-onetap-settings-options.php:1066
+#: admin/class-accessibility-onetap-settings-options.php:1659
+#: public/class-accessibility-onetap-public.php:6246
+msgid "Content Modules"
+msgstr "콘텐츠 모듈"
+
+#: admin/class-accessibility-onetap-settings-options.php:1067
+#: admin/class-accessibility-onetap-settings-options.php:1675
+#: public/class-accessibility-onetap-public.php:6255
+msgid "Font Size"
+msgstr "아이콘 크기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1068
+#: admin/class-accessibility-onetap-settings-options.php:1676
+#: admin/class-accessibility-onetap-settings-options.php:1691
+msgid "Easily enlarge text for improved readability and accessibility for all"
+msgstr "모두의 가독성과 접근성을 높이기 위해 텍스트를 쉽게 확대합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1081
+#: admin/class-accessibility-onetap-settings-options.php:1750
+#: public/class-accessibility-onetap-public.php:6286
+msgid "Readable Font"
+msgstr "읽기 쉬운 글꼴"
+
+#: admin/class-accessibility-onetap-settings-options.php:1082
+#: admin/class-accessibility-onetap-settings-options.php:1751
+msgid "Switch to a clearer, easy-to-read font for improved text accessibility"
+msgstr "더 명확하고 읽기 쉬운 글꼴로 전환하여 텍스트 접근성을 향상하세요"
+
+#: admin/class-accessibility-onetap-settings-options.php:1095
+#: admin/class-accessibility-onetap-settings-options.php:1720
+#: public/class-accessibility-onetap-public.php:6294
+msgid "Line Height"
+msgstr "줄 간격"
+
+#: admin/class-accessibility-onetap-settings-options.php:1096
+#: admin/class-accessibility-onetap-settings-options.php:1721
+#: admin/class-accessibility-onetap-settings-options.php:1736
+msgid "Adjust line spacing for better readability and improved text clarity"
+msgstr "줄 간격을 조정하여 가독성과 텍스트 선명도를 향상합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1109
+#: admin/class-accessibility-onetap-settings-options.php:1765
+msgid "Big Cursor"
+msgstr "커서"
+
+#: admin/class-accessibility-onetap-settings-options.php:1110
+#: admin/class-accessibility-onetap-settings-options.php:1766
+msgid ""
+"Enhance visibility with a larger cursor for easier navigation and control"
+msgstr "더 큰 커서로 가시성을 높여 탐색과 조작을 쉽게 합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1123
+#: admin/class-accessibility-onetap-settings-options.php:1780
+msgid "Text Magnifier"
+msgstr "텍스트 돋보기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1124
+#: admin/class-accessibility-onetap-settings-options.php:1781
+msgid "Magnify selected text for enhanced readability and accessibility"
+msgstr "선택한 텍스트를 확대하여 가독성과 접근성을 향상합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1138
+#: admin/class-accessibility-onetap-settings-options.php:1795
+msgid "Dyslexic Font"
+msgstr "난독증 친화 글꼴"
+
+#: admin/class-accessibility-onetap-settings-options.php:1139
+#: admin/class-accessibility-onetap-settings-options.php:1796
+msgid ""
+"Use a specialized font designed to enhance readability for dyslexic users"
+msgstr "난독증 사용자의 가독성을 높이기 위해 설계된 특수 글꼴을 사용합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1153
+#: admin/class-accessibility-onetap-settings-options.php:1825
+#: public/class-accessibility-onetap-public.php:6339
+msgid "Letter Spacing"
+msgstr "자간"
+
+#: admin/class-accessibility-onetap-settings-options.php:1154
+#: admin/class-accessibility-onetap-settings-options.php:1826
+msgid "Adjust letter spacing for improved readability"
+msgstr "자간을 조정하여 가독성을 개선합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1167
+#: admin/class-accessibility-onetap-settings-options.php:1810
+#: public/class-accessibility-onetap-public.php:6359
+msgid "Align Text"
+msgstr "텍스트 정렬"
+
+#: admin/class-accessibility-onetap-settings-options.php:1168
+#: admin/class-accessibility-onetap-settings-options.php:1811
+msgid "Adjust text alignment for improved structure and readability"
+msgstr "텍스트 정렬을 조정하여 구조와 가독성을 향상합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1181
+#: public/class-accessibility-onetap-public.php:6371
+msgid "Font Weight"
+msgstr "줄 간격"
+
+#: admin/class-accessibility-onetap-settings-options.php:1182
+#: admin/class-accessibility-onetap-settings-options.php:1841
+msgid "Adjust font weight for improved readability"
+msgstr "자간을 조정하여 가독성을 개선합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1195
+#: admin/class-accessibility-onetap-settings-options.php:1855
+#: public/class-accessibility-onetap-public.php:6383
+msgid "Color Modules"
+msgstr "색상 모듈"
+
+#: admin/class-accessibility-onetap-settings-options.php:1196
+#: admin/class-accessibility-onetap-settings-options.php:1856
+msgid "Dark Contrast"
+msgstr "대비"
+
+#: admin/class-accessibility-onetap-settings-options.php:1197
+#: admin/class-accessibility-onetap-settings-options.php:1857
+msgid "Adjust dark contrast for a more vivid or subdued visual experience"
+msgstr "색상 채도를 조정하여 더 생생하거나 차분한 시각 경험을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1211
+#: admin/class-accessibility-onetap-settings-options.php:1871
+#: public/class-accessibility-onetap-public.php:6396
+msgid "Light Contrast"
+msgstr "대비"
+
+#: admin/class-accessibility-onetap-settings-options.php:1212
+#: admin/class-accessibility-onetap-settings-options.php:1872
+msgid "Adjust light contrast for a more vivid or subdued visual experience"
+msgstr "색상 채도를 조정하여 더 생생하거나 차분한 시각 경험을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1225
+#: admin/class-accessibility-onetap-settings-options.php:1886
+#: public/class-accessibility-onetap-public.php:6408
+msgid "High Contrast"
+msgstr "대비"
+
+#: admin/class-accessibility-onetap-settings-options.php:1226
+#: admin/class-accessibility-onetap-settings-options.php:1887
+msgid "Adjust high contrast for a more vivid or subdued visual experience"
+msgstr "색상 채도를 조정하여 더 생생하거나 차분한 시각 경험을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1239
+#: admin/class-accessibility-onetap-settings-options.php:1901
+#: public/class-accessibility-onetap-public.php:6420
+msgid "Monochrome"
+msgstr "단색"
+
+#: admin/class-accessibility-onetap-settings-options.php:1240
+#: admin/class-accessibility-onetap-settings-options.php:1902
+msgid "Adjust color monochrome for a more vivid or subdued visual experience"
+msgstr "색상 채도를 조정하여 더 생생하거나 차분한 시각 경험을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1253
+#: admin/class-accessibility-onetap-settings-options.php:1916
+msgid "Saturation"
+msgstr "채도"
+
+#: admin/class-accessibility-onetap-settings-options.php:1254
+#: admin/class-accessibility-onetap-settings-options.php:1917
+msgid "Adjust color saturation for a more vivid or subdued visual experience"
+msgstr "색상 채도를 조정하여 더 생생하거나 차분한 시각 경험을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1268
+#: admin/class-accessibility-onetap-settings-options.php:1931
+#: public/class-accessibility-onetap-public.php:6431
+msgid "Orientation Modules"
+msgstr "오리엔테이션 모듈"
+
+#: admin/class-accessibility-onetap-settings-options.php:1269
+#: admin/class-accessibility-onetap-settings-options.php:1932
+#: public/class-accessibility-onetap-public.php:6444
+msgid "Reading Line"
+msgstr "읽기 가이드 라인"
+
+#: admin/class-accessibility-onetap-settings-options.php:1270
+#: admin/class-accessibility-onetap-settings-options.php:1933
+msgid "Highlight the current line to track reading progress and improve focus"
+msgstr "현재 줄을 강조 표시하여 읽기 진행 상황을 파악하고 집중력을 높입니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1283
+#: admin/class-accessibility-onetap-settings-options.php:1947
+#: public/class-accessibility-onetap-public.php:6456
+msgid "Reading Mask"
+msgstr "리딩 마스크"
+
+#: admin/class-accessibility-onetap-settings-options.php:1284
+#: admin/class-accessibility-onetap-settings-options.php:1948
+msgid "Use a mask to focus on a specific area of text and reduce distractions"
+msgstr "마스크를 사용해 특정 텍스트 영역에 집중하고 방해 요소를 줄입니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1297
+#: admin/class-accessibility-onetap-settings-options.php:1962
+msgid "Read Page"
+msgstr "페이지 읽기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1298
+#: admin/class-accessibility-onetap-settings-options.php:1963
+msgid "Automatically read aloud the page content for hands-free accessibility"
+msgstr "핸즈프리 접근성을 위해 페이지 내용을 자동으로 음성으로 읽어줍니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1312
+#: admin/class-accessibility-onetap-settings-options.php:1977
+msgid "Keyboard Navigation"
+msgstr "키보드 내비게이션"
+
+#: admin/class-accessibility-onetap-settings-options.php:1313
+#: admin/class-accessibility-onetap-settings-options.php:1978
+msgid "Navigate the site using only the keyboard"
+msgstr "키보드만으로 사이트를 탐색합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1327
+#: admin/class-accessibility-onetap-settings-options.php:1992
+#: public/class-accessibility-onetap-public.php:6468
+msgid "Hide Images"
+msgstr "이미지 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1328
+#: admin/class-accessibility-onetap-settings-options.php:1993
+msgid ""
+"Remove distracting images for a cleaner, more focused browsing experience"
+msgstr ""
+"산만한 이미지를 제거해 더 깔끔하고 집중하기 쉬운 탐색 환경을 제공합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1341
+#: admin/class-accessibility-onetap-settings-options.php:2007
+msgid "Mute Sounds"
+msgstr "소리 끄기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1342
+#: admin/class-accessibility-onetap-settings-options.php:2008
+msgid "Easily mute website sounds for a distraction-free browsing experience"
+msgstr "웹사이트 소리를 손쉽게 끄고 방해 없는 탐색을 즐기세요"
+
+#: admin/class-accessibility-onetap-settings-options.php:1356
+#: admin/class-accessibility-onetap-settings-options.php:2022
+msgid "Highlight Titles"
+msgstr "제목 강조 표시"
+
+#: admin/class-accessibility-onetap-settings-options.php:1357
+#: admin/class-accessibility-onetap-settings-options.php:2023
+msgid "Highlight titles for better recognition"
+msgstr "제목을 강조하여 인식성을 높입니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1371
+#: admin/class-accessibility-onetap-settings-options.php:2037
+#: public/class-accessibility-onetap-public.php:6481
+msgid "Highlight Content"
+msgstr "제목 강조 표시"
+
+#: admin/class-accessibility-onetap-settings-options.php:1372
+#: admin/class-accessibility-onetap-settings-options.php:2038
+msgid "Highlight elements when hovered over"
+msgstr "마우스를 올리면 요소를 강조 표시합니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1385
+#: admin/class-accessibility-onetap-settings-options.php:2052
+#: public/class-accessibility-onetap-public.php:6493
+msgid "Stop Animations"
+msgstr "애니메이션 중지"
+
+#: admin/class-accessibility-onetap-settings-options.php:1386
+#: admin/class-accessibility-onetap-settings-options.php:2053
+msgid "Disable animations to reduce distractions"
+msgstr "애니메이션을 비활성화하여 방해 요소를 줄입니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1399
+#: admin/class-accessibility-onetap-settings-options.php:1705
+#: public/class-accessibility-onetap-public.php:6505
+msgid "Highlight Links"
+msgstr "링크 강조 표시"
+
+#: admin/class-accessibility-onetap-settings-options.php:1400
+#: admin/class-accessibility-onetap-settings-options.php:1706
+msgid ""
+"Easily identify clickable links with visual enhancements for better "
+"navigation"
+msgstr "시각적 강조를 통해 클릭 가능한 링크를 쉽게 식별하여 탐색성을 높입니다"
+
+#: admin/class-accessibility-onetap-settings-options.php:1413
+#: admin/class-accessibility-onetap-settings-options.php:1414
+#: admin/class-accessibility-onetap-settings-options.php:1660
+#: public/class-accessibility-onetap-public.php:6518
+msgid "Skip To Content"
+msgstr "콘텐츠로 건너뛰기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1415
+#: admin/class-accessibility-onetap-settings-options.php:1661
+msgid "Let visitors jump to main content, navigation, or footer landmarks."
+msgstr "방문자가 본문, 탐색 또는 바닥글로 이동할 수 있게 합니다."
+
+#: admin/class-accessibility-onetap-settings-options.php:1431
+#: admin/class-accessibility-onetap-settings-options.php:1433
+msgid "Current language"
+msgstr "현재 언어"
+
+#: admin/class-accessibility-onetap-settings-options.php:1449
+msgid "Information"
+msgstr "정보"
+
+#: admin/class-accessibility-onetap-settings-options.php:1463
+#: public/class-accessibility-onetap-public.php:6014
+#: public/class-accessibility-onetap-public.php:6071
+msgid "Hide Toolbar"
+msgstr "도구 모음 숨기기"
+
+#: admin/class-accessibility-onetap-settings-options.php:1478
+msgid "Accessibility Adjustments"
+msgstr "접근성 조정"
+
+#: admin/class-accessibility-onetap-settings-options.php:1494
+#: public/class-accessibility-onetap-public.php:6081
+msgid "Select your accessibility profile"
+msgstr "접근성 프로필"
+
+#: admin/class-accessibility-onetap-settings-options.php:1509
+#: public/class-accessibility-onetap-public.php:6093
+#: public/class-accessibility-onetap-public.php:6114
+msgid "Vision Impaired Mode"
+msgstr "시각 장애 모드"
+
+#: admin/class-accessibility-onetap-settings-options.php:1524
+#: public/class-accessibility-onetap-public.php:6098
+msgid "Enhances website's visuals"
+msgstr "웹사이트의 시각적 요소를 향상"
+
+#: admin/class-accessibility-onetap-settings-options.php:1539
+#: public/class-accessibility-onetap-public.php:6129
+#: public/class-accessibility-onetap-public.php:6144
+msgid "Seizure Safe Profile"
+msgstr "발작 안전 프로필"
+
+#: admin/class-accessibility-onetap-settings-options.php:1554
+#: public/class-accessibility-onetap-public.php:6134
+msgid "Clear flashes & reduces color"
+msgstr "플래시를 제거하고 색상을 줄임"
+
+#: admin/class-accessibility-onetap-settings-options.php:1569
+#: public/class-accessibility-onetap-public.php:6159
+#: public/class-accessibility-onetap-public.php:6174
+msgid "ADHD Friendly Mode"
+msgstr "ADHD 친화적 모드"
+
+#: admin/class-accessibility-onetap-settings-options.php:1584
+#: public/class-accessibility-onetap-public.php:6164
+msgid "Focused browsing, distraction-free"
+msgstr "집중 탐색, 산만함 없음"
+
+#: admin/class-accessibility-onetap-settings-options.php:1599
+#: public/class-accessibility-onetap-public.php:6189
+#: public/class-accessibility-onetap-public.php:6204
+msgid "Blindness Mode"
+msgstr "실명 모드"
+
+#: admin/class-accessibility-onetap-settings-options.php:1614
+#: public/class-accessibility-onetap-public.php:6194
+msgid "Reduces distractions, improves focus"
+msgstr "산만함을 줄이고 집중력을 향상"
+
+#: admin/class-accessibility-onetap-settings-options.php:1629
+#: public/class-accessibility-onetap-public.php:6219
+#: public/class-accessibility-onetap-public.php:6234
+msgid "Epilepsy Safe Mode"
+msgstr "간질 안전 모드"
+
+#: admin/class-accessibility-onetap-settings-options.php:1644
+#: public/class-accessibility-onetap-public.php:6224
+msgid "Dims colors and stops blinking"
+msgstr "색상을 어둡게 하고 깜빡임을 중지"
+
+#: admin/class-accessibility-onetap-settings-options.php:1690
+msgid "Font Size (Default)"
+msgstr "글꼴 크기 (기본값)"
+
+#: admin/class-accessibility-onetap-settings-options.php:1735
+msgid "Line Height (Default)"
+msgstr "줄 간격"
+
+#: admin/class-accessibility-onetap-settings-options.php:1840
+msgid "Font weight"
+msgstr "줄 간격"
+
+#: admin/class-accessibility-onetap-settings-options.php:2069
+msgid "Edit Alt Text"
+msgstr "대체 텍스트 편집"
+
+#: admin/partials/accessibility-status.php:66
+msgid "Show Accessibility Statement"
+msgstr "접근성 성명 표시"
+
+#: admin/partials/accessibility-status.php:78
+msgid "Select Language"
+msgstr "언어 선택"
+
+#: admin/partials/accessibility-status.php:230
+msgid "Company Name"
+msgstr "회사명"
+
+#: admin/partials/accessibility-status.php:231
+msgid "Company Inc."
+msgstr "Company Inc."
+
+#: admin/partials/accessibility-status.php:236
+msgid "Business E-mail"
+msgstr "업무용 이메일"
+
+#: admin/partials/accessibility-status.php:237
+msgid "info@company.com"
+msgstr "info@company.com"
+
+#: admin/partials/accessibility-status.php:242
+msgid "Website"
+msgstr "웹사이트"
+
+#: admin/partials/accessibility-status.php:244
+msgid "https://"
+msgstr "https://"
+
+#: admin/partials/accessibility-status.php:246
+msgid "www.company.com"
+msgstr "www.company.com"
+
+#: admin/partials/accessibility-status.php:254
+msgid ""
+"I confirm that the generated accessibility status is based on my own "
+"assessment. The provider of this generator assumes no liability for its "
+"accuracy or compliance."
+msgstr ""
+"생성된 접근성 현황은 제 개인적인 평가에 기반함을 확인합니다. 이 생성기의 제공"
+"자는 정확성 또는 준수 여부에 대해 어떠한 책임도 지지 않습니다."
+
+#: admin/partials/accessibility-status.php:270
+msgid "Generate Text"
+msgstr "텍스트 생성"
+
+#: admin/partials/accessibility-status.php:274
+msgid ""
+"Please note: Generating a new statement will automatically overwrite the "
+"previous version."
+msgstr "주의: 새 성명을 생성하면 이전 버전이 자동으로 덮어써집니다."
+
+#: admin/partials/accessibility-status.php:1757
+msgid "Generate Accessibility Status"
+msgstr "접근성 현황 생성"
+
+#: admin/partials/accessibility-status.php:1760
+msgid ""
+"You can edit or insert a Statement as needed. Click \"Save settings\" to "
+"save your changes."
+msgstr ""
+"필요에 따라 성명을 편집하거나 삽입할 수 있습니다. 변경 사항을 저장하려면 \"설"
+"정 저장\"을 클릭하세요."
+
+#: admin/partials/alt-text.php:37
+msgid "Save hours"
+msgstr "시간 절약"
+
+#: admin/partials/alt-text.php:38
+msgid "and generate your Alt-text with AltPilot.ai."
+msgstr "AltPilot.ai로 대체 텍스트를 생성하세요."
+
+#: admin/partials/alt-text.php:39
+msgid "Try 25 Images for Free"
+msgstr "이미지 25장 무료로 사용해 보기"
+
+#: admin/partials/footer.php:17
+msgid "If you're enjoying OneTap, we'd really appreciate a quick "
+msgstr "OneTap이 마음에 드셨다면 짧은"
+
+#: admin/partials/footer.php:17
+msgid " review – it means a lot to us. "
+msgstr " 리뷰를 남겨 주세요 — 큰 힘이 됩니다. "
+
+#: admin/partials/general-settings.php:41 admin/partials/modules.php:41
+msgid "Banner Bottom"
+msgstr "Banner unten"
+
+#: admin/partials/header.php:28
+msgid "Get Text-to-Speech, Keyboard Navigation, Dyslexic Font"
+msgstr "텍스트 음성 변환, 키보드 탐색, 난독증 글꼴 사용하기"
+
+#: admin/partials/header.php:35
+msgid "Dismiss banner"
+msgstr "배너 닫기"
+
+#: admin/partials/header.php:51
+msgid "Support"
+msgstr "지원"
+
+#: admin/partials/header.php:111
+msgid "Save changes"
+msgstr "변경 사항 저장"
+
+#: admin/partials/module-labels.php:291
+msgid "You’re currently editing"
+msgstr "현재 편집 중"
+
+#: admin/partials/module-labels.php:293
+msgid "labels."
+msgstr "라벨."
+
+#: admin/partials/module-labels.php:294
+msgid "Choose another language to edit its translations."
+msgstr "다른 언어를 선택하여 번역을 편집하세요."
+
+#: admin/partials/module-labels.php:299
+msgid "Change Language"
+msgstr "언어 변경"
+
+#: admin/partials/settings.php:23
+msgid "Live Preview"
+msgstr "실시간 미리보기"
+
+#: public/class-accessibility-onetap-public.php:5663
+msgid "United States"
+msgstr "미국"
+
+#: public/class-accessibility-onetap-public.php:5668
+msgid "Germany"
+msgstr "독일"
+
+#: public/class-accessibility-onetap-public.php:5673
+msgid "Spain"
+msgstr "스페인"
+
+#: public/class-accessibility-onetap-public.php:5678
+msgid "France"
+msgstr "프랑스"
+
+#: public/class-accessibility-onetap-public.php:5683
+msgid "Italy"
+msgstr "이탈리아"
+
+#: public/class-accessibility-onetap-public.php:5688
+msgid "Poland"
+msgstr "폴란드"
+
+#: public/class-accessibility-onetap-public.php:5693
+msgid "Sweden"
+msgstr "스웨덴"
+
+#: public/class-accessibility-onetap-public.php:5698
+msgid "Finland"
+msgstr "핀란드"
+
+#: public/class-accessibility-onetap-public.php:5703
+msgid "Portugal"
+msgstr "포르투갈"
+
+#: public/class-accessibility-onetap-public.php:5708
+msgid "Romania"
+msgstr "루마니아"
+
+#: public/class-accessibility-onetap-public.php:5713
+msgid "Slovenia"
+msgstr "슬로베니아"
+
+#: public/class-accessibility-onetap-public.php:5718
+msgid "Slovakia"
+msgstr "슬로바키아"
+
+#: public/class-accessibility-onetap-public.php:5723
+msgid "Netherlands"
+msgstr "네덜란드"
+
+#: public/class-accessibility-onetap-public.php:5728
+msgid "Denmark"
+msgstr "덴마크"
+
+#: public/class-accessibility-onetap-public.php:5733
+msgid "Greece"
+msgstr "그리스"
+
+#: public/class-accessibility-onetap-public.php:5738
+msgid "Czechia"
+msgstr "체코"
+
+#: public/class-accessibility-onetap-public.php:5743
+msgid "Hungary"
+msgstr "헝가리"
+
+#: public/class-accessibility-onetap-public.php:5748
+msgid "Lithuania"
+msgstr "리투아니아"
+
+#: public/class-accessibility-onetap-public.php:5753
+msgid "Latvia"
+msgstr "라트비아"
+
+#: public/class-accessibility-onetap-public.php:5758
+msgid "Estonia"
+msgstr "에스토니아"
+
+#: public/class-accessibility-onetap-public.php:5763
+msgid "Croatia"
+msgstr "크로아티아"
+
+#: public/class-accessibility-onetap-public.php:5768
+msgid "Ireland"
+msgstr "아일랜드"
+
+#: public/class-accessibility-onetap-public.php:5773
+msgid "Bulgaria"
+msgstr "불가리아"
+
+#: public/class-accessibility-onetap-public.php:5778
+msgid "Norway"
+msgstr "노르웨이"
+
+#: public/class-accessibility-onetap-public.php:5783
+msgid "Türkiye"
+msgstr "튀르키예"
+
+#: public/class-accessibility-onetap-public.php:5788
+msgid "Indonesia"
+msgstr "인도네시아"
+
+#: public/class-accessibility-onetap-public.php:5793
+msgid "Brazil"
+msgstr "브라질"
+
+#: public/class-accessibility-onetap-public.php:5798
+msgid "Japan"
+msgstr "일본"
+
+#: public/class-accessibility-onetap-public.php:5803
+msgid "South Korea"
+msgstr "대한민국"
+
+#: public/class-accessibility-onetap-public.php:5808
+msgid "China"
+msgstr "중국"
+
+#: public/class-accessibility-onetap-public.php:5813
+msgid "United Arab Emirates"
+msgstr "아랍에미리트"
+
+#: public/class-accessibility-onetap-public.php:5818
+msgid "Russia"
+msgstr "러시아"
+
+#: public/class-accessibility-onetap-public.php:5823
+msgid "India"
+msgstr "인도"
+
+#: public/class-accessibility-onetap-public.php:5828
+msgid "Ukraine"
+msgstr "우크라이나"
+
+#: public/class-accessibility-onetap-public.php:5833
+msgid "Serbia"
+msgstr "세르비아"
+
+#: public/class-accessibility-onetap-public.php:5838
+msgid "United Kingdom"
+msgstr "영국"
+
+#: public/class-accessibility-onetap-public.php:5843
+msgid "Iran"
+msgstr "이란"
+
+#: public/class-accessibility-onetap-public.php:5848
+msgid "Israel"
+msgstr "이스라엘"
+
+#: public/class-accessibility-onetap-public.php:5853
+msgid "North Macedonia"
+msgstr "북마케도니아"
+
+#: public/class-accessibility-onetap-public.php:5858
+msgid "Thailand"
+msgstr "태국"
+
+#: public/class-accessibility-onetap-public.php:5863
+msgid "Vietnam"
+msgstr "베트남"
+
+#: public/class-accessibility-onetap-public.php:5868
+msgid "Bangladesh"
+msgstr "방글라데시"
+
+#: public/class-accessibility-onetap-public.php:5873
+msgid "Philippines"
+msgstr "필리핀"
+
+#: public/class-accessibility-onetap-public.php:5878
+msgid "Pakistan"
+msgstr "파키스탄"
+
+#: public/class-accessibility-onetap-public.php:5973
+msgid "Accessibility  Adjustments"
+msgstr "접근성 조정"
+
+#: public/class-accessibility-onetap-public.php:5991
+msgid "Powered by"
+msgstr "제공:"
+
+#: public/class-accessibility-onetap-public.php:6027
+msgid "Back"
+msgstr "뒤로"
+
+#: public/class-accessibility-onetap-public.php:6043
+msgid "How long do you want to hide the toolbar?"
+msgstr "접근성 도구 모음을 얼마나 오래 숨기시겠습니까?"
+
+#: public/class-accessibility-onetap-public.php:6047
+msgid "Hide Toolbar Duration"
+msgstr "도구 모음 숨김 기간"
+
+#: public/class-accessibility-onetap-public.php:6051
+msgid "Only for this session"
+msgstr "이 세션만"
+
+#: public/class-accessibility-onetap-public.php:6058
+msgid "24 hours"
+msgstr "24시간"
+
+#: public/class-accessibility-onetap-public.php:6065
+msgid "A Week"
+msgstr "일주일"
+
+#: public/class-accessibility-onetap-public.php:6070
+msgid "Not Now"
+msgstr "나중에"
+
+#: public/class-accessibility-onetap-public.php:6257
+msgid "Increase Font Size"
+msgstr "글자 크기 크게"
+
+#: public/class-accessibility-onetap-public.php:6258
+#: public/class-accessibility-onetap-public.php:6297
+msgid "+"
+msgstr "+"
+
+#: public/class-accessibility-onetap-public.php:6263
+msgid "Decrease Font Size"
+msgstr "글자 크기 작게"
+
+#: public/class-accessibility-onetap-public.php:6264
+#: public/class-accessibility-onetap-public.php:6303
+msgid "-"
+msgstr "-"
+
+#: public/class-accessibility-onetap-public.php:6296
+msgid "Increase Line Height"
+msgstr "줄 간격 늘리기"
+
+#: public/class-accessibility-onetap-public.php:6302
+msgid "Decrease Line Height"
+msgstr "줄 간격 줄이기"
+
+#: public/class-accessibility-onetap-public.php:6325
+msgid "Cursor"
+msgstr "커서"
+
+#: public/class-accessibility-onetap-public.php:6521
+msgid "Choose..."
+msgstr "선택..."
+
+#: public/class-accessibility-onetap-public.php:6522
+msgid "Main Content"
+msgstr "본문"
+
+#: public/class-accessibility-onetap-public.php:6523
+msgid "Navigation"
+msgstr "탐색"
+
+#: public/class-accessibility-onetap-public.php:6524
+msgid "Footer"
+msgstr "바닥글"
+
+#: public/class-accessibility-onetap-public.php:6533
+msgid "Reset Settings"
+msgstr "설정 초기화"
+
+#~ msgid "Edit Module Labels"
+#~ msgstr "모듈 라벨 편집"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Deutsch"
+#~ msgstr "Deutsch"
+
+#~ msgid "Español"
+#~ msgstr "Español"
+
+#~ msgid "Français"
+#~ msgstr "Français"
+
+#~ msgid "Italiano"
+#~ msgstr "Italiano"
+
+#~ msgid "Polski"
+#~ msgstr "Polski"
+
+#~ msgid "Svenska"
+#~ msgstr "Svenska"
+
+#~ msgid "Suomi"
+#~ msgstr "Suomi"
+
+#~ msgid "Português"
+#~ msgstr "Português"
+
+#~ msgid "Română"
+#~ msgstr "Română"
+
+#~ msgid "Slovenščina"
+#~ msgstr "Slovenščina"
+
+#~ msgid "Slovenčina"
+#~ msgstr "Slovenčina"
+
+#~ msgid "Nederlands"
+#~ msgstr "Nederlands"
+
+#~ msgid "Dansk"
+#~ msgstr "Dansk"
+
+#~ msgid "Ελληνικά"
+#~ msgstr "Ελληνικά"
+
+#~ msgid "Čeština"
+#~ msgstr "Čeština"
+
+#~ msgid "Magyar"
+#~ msgstr "Magyar"
+
+#~ msgid "Lietuvių"
+#~ msgstr "Lietuvių"
+
+#~ msgid "Latviešu"
+#~ msgstr "Latviešu"
+
+#~ msgid "Eesti"
+#~ msgstr "Eesti"
+
+#~ msgid "Hrvatski"
+#~ msgstr "Hrvatski"
+
+#~ msgid "Gaeilge"
+#~ msgstr "Gaeilge"
+
+#~ msgid "Български"
+#~ msgstr "Български"
+
+#~ msgid "Norsk"
+#~ msgstr "Norsk"
+
+#~ msgid "Türkçe"
+#~ msgstr "Türkçe"
+
+#~ msgid "Bahasa Indonesia"
+#~ msgstr "Bahasa Indonesia"
+
+#~ msgid "Português (Brasil)"
+#~ msgstr "Português (Brasil)"
+
+#~ msgid "日本語"
+#~ msgstr "日本語"
+
+#~ msgid "한국어"
+#~ msgstr "한국어"
+
+#~ msgid "简体中文"
+#~ msgstr "简体中文"
+
+#~ msgid "العربية"
+#~ msgstr "العربية"
+
+#~ msgid "Русский"
+#~ msgstr "Русский"
+
+#~ msgid "हिन्दी"
+#~ msgstr "हिन्दी"
+
+#~ msgid "Українська"
+#~ msgstr "Українська"
+
+#~ msgid "Srpski"
+#~ msgstr "Srpski"
+
+#~ msgid "English (UK)"
+#~ msgstr "영어(영국)"
+
+#~ msgid "ایران"
+#~ msgstr "ایران"
+
+#~ msgid "ישראל"
+#~ msgstr "ישראל"
+
+#~ msgid "Македонија"
+#~ msgstr "Македонија"
+
+#~ msgid "ประเทศไทย"
+#~ msgstr "ประเทศไทย"
+
+#~ msgid "Việt Nam"
+#~ msgstr "Việt Nam"
+
+#~ msgid "icon drop down menu"
+#~ msgstr "아이콘 드롭다운 메뉴"
+
+#~ msgid "Vertical (Default 20px)"
+#~ msgstr "수직(기본 20px)"
+
+#~ msgid "Horizontal (Default 20px)"
+#~ msgstr "수평(기본 20px)"
+
+#~ msgid "Currently editing"
+#~ msgstr "현재 편집 중"
+
+#~ msgid "labels. Change the language to edit others."
+#~ msgstr "라벨입니다. 다른 항목을 편집하려면 언어를 변경하세요."
+
+#~ msgid "Align Center"
+#~ msgstr "텍스트 정렬"
+
+#~ msgid "Bigger Text"
+#~ msgstr "더 큰 텍스트"
+
+#~ msgid "Text Align"
+#~ msgstr "텍스트 정렬"
+
+#~ msgid "Invert Colors"
+#~ msgstr "색상 반전"
+
+#~ msgid "Swap text and background colors for better contrast and readability"
+#~ msgstr "텍스트와 배경 색상을 바꿔 대비와 가독성을 개선합니다"
+
+#~ msgid "Brightness"
+#~ msgstr "밝기"
+
+#~ msgid "Adjust screen brightness to reduce glare and enhance text visibility"
+#~ msgstr "화면 밝기를 조정하여 눈부심을 줄이고 텍스트 가시성을 높입니다"
+
+#~ msgid "Fine-tune color contrast for clearer text and improved readability"
+#~ msgstr ""
+#~ "색상 대비를 미세 조정하여 텍스트를 더 선명하게 하고 가독성을 향상합니다"
+
+#~ msgid "Grayscale"
+#~ msgstr "그레이스케일"
+
+#~ msgid ""
+#~ "Convert display to black and white for reduced visual clutter and better "
+#~ "focus"
+#~ msgstr "표시를 흑백으로 전환하여 시각적 혼란을 줄이고 집중력을 높입니다"
+
+#~ msgid "Highlight All"
+#~ msgstr "모두 강조 표시"
+
+#~ msgid "Documentation"
+#~ msgstr "문서"
+
+#~ msgid "Colors"
+#~ msgstr "색상"
+
+#~ msgid "Orientation"
+#~ msgstr "방향"
+
+#~ msgid "Highlight Al"
+#~ msgstr "Al 강조 표시"
+
+#~ msgid "Version "
+#~ msgstr "버전 "

@@ -1,0 +1,55 @@
+{
+    "banners": [
+        {
+            "previewImageSrc": "home/resize/Drip irrigated wheat in 8 acre in Mangali Suratiya, Hisar, 12.1.2024.jpg",
+            "description": "@DRIP_IRR_WHEAT_IN_8ACR"
+        },
+        {
+            "previewImageSrc": "home/resize/Wheat with mini sprinklers in Budak, Hisar, 08.03.24.jpg",
+            "description": "@WHEAT_WITH_MIN_SPRINKLERS"
+        },
+        {
+            "previewImageSrc": "home/resize/Tomato with drip and poly mulch in the field of Dr. Harish Gupta, Balsamand, Hisar, 8.3.2024.jpg",
+            "description": "@TOMATO_WITH_DRIP&POLY_MULCH"
+        },
+        {
+            "previewImageSrc": "home/resize/Harvesting Paired row drip irrigated mustard after cotton in Budak village, Hisar, 20.03.24.jpg",
+            "description": "@HARVERSTING_PAIRED_ROW_DRIP"
+        },
+        {
+            "previewImageSrc": "home/resize/Citrus intercropped with drip irrigated mustard, Arya Nagar, Hisar, 18.01.2024.jpg",
+            "description": "@CITRUS_INTERCROPPED_WITH_DRIP_IRR"
+        },
+        {
+            "previewImageSrc": "home/resize/Mini sprinkler irrigated wheat field, Khairampur, Hisar, 07.03.24.jpg",
+            "description": "@MINI_SPRINKLER_IRR_WHEAT_FIELD"
+        }
+    ],
+    "leaders": [
+        {
+            "name": "@CHIEF_MIN_NAME",
+            "title": "@CHIEF_MIN",
+            "location": "@HARYANA",
+            "image": "activitiesImages/cm.jpeg"
+        },
+        {
+            "name": "@IRRIGATION_MIN_NAME",
+            "title": "@IRRIGATION_MIN",
+            "location": "@HARYANA",
+            "image": "activitiesImages/ir_min.jpeg"
+        },
+        {
+            "name": "@ADD_CHIEF_SEC_NAME",
+            "title": "@ADD_CHIEF_SEC",
+            "location": "@I&WRD_HARYANA",
+            "image": "activitiesImages/chief_sec.jpg"
+        },
+        {
+            "name": "@ADMINISTRATOR_NAME",
+            "title": "@ADMINISTRATOR",
+            "location": "@MICADA_HARYANA",
+            "image": "activitiesImages/admin.jpeg"
+        }
+    ],
+    "notice": "landing page pop-up content/landing page pop-up.jpeg"
+}

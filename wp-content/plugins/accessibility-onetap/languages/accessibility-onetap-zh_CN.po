@@ -1,0 +1,1675 @@
+# Copyright (C) 2025 OneTap
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Accessibility Widget by OneTap – Easy One-Click "
+"Accessibility Toolbar 2.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/accessibility-"
+"onetap\n"
+"POT-Creation-Date: 2026-08-18T14:06:02+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: accessibility-onetap\n"
+
+#. Plugin Name of the plugin
+#: accessibility-onetap.php
+msgid "Accessibility Widget by OneTap – Easy One-Click Accessibility Toolbar"
+msgstr "OneTap 无障碍小工具 – 简单易用的一键无障碍工具栏"
+
+#. Plugin URI of the plugin
+#: accessibility-onetap.php
+msgid "https://wponetap.com"
+msgstr "https://wponetap.com"
+
+#. Description of the plugin
+#: accessibility-onetap.php
+msgid ""
+"OneTap is a multilingual WordPress plugin designed for seamless website "
+"accessibility. With a simple one-click installation, it ensures your site "
+"meets accessibility standards without any hassle. Built for performance, "
+"providing an inclusive, user-friendly web environment for all visitors."
+msgstr ""
+"OneTap 是一款多语言的 WordPress 插件，旨在帮助网站轻松实现无障碍访问。通过简"
+"单的一键安装，它可让您的站点轻松符合无障碍标准。插件以性能为先，为所有访客提"
+"供包容且友好的网站环境。"
+
+#. Author of the plugin
+#: accessibility-onetap.php
+#: admin/class-accessibility-onetap-settings-options.php:171
+#: admin/class-accessibility-onetap-settings-options.php:172
+#: public/class-accessibility-onetap-public.php:5994
+msgid "OneTap"
+msgstr "OneTap"
+
+#. Author URI of the plugin
+#: accessibility-onetap.php
+msgid "https://wponetap.com/"
+msgstr "https://wponetap.com/"
+
+#: admin/class-accessibility-onetap-admin.php:161
+msgid "Warning!"
+msgstr "警告！"
+
+#: admin/class-accessibility-onetap-admin.php:162
+msgid "Please complete all fields."
+msgstr "请填写所有字段。"
+
+#: admin/class-accessibility-onetap-admin.php:163
+msgid ""
+"AltPilot could not be installed. Please try again from Plugins → Add New."
+msgstr ""
+
+#: admin/class-accessibility-onetap-admin.php:275
+msgid ""
+"Enjoying OneTap? If it makes your work easier, we’d love to get a quick "
+"review on WordPress.org – it would mean a lot to us and helps us keep "
+"improving the plugin for you "
+msgstr ""
+"Gefällt Ihnen OneTap? Wenn es Ihre Arbeit erleichtert, würden wir uns über "
+"eine schnelle Bewertung auf WordPress.org freuen – das bedeutet uns viel und "
+"hilft uns, das Plugin für Sie weiter zu verbessern "
+
+#: admin/class-accessibility-onetap-admin.php:280
+msgid "Don't show again"
+msgstr "Nicht mehr anzeigen"
+
+#: admin/class-accessibility-onetap-admin.php:283
+msgid "Maybe later"
+msgstr "Vielleicht später"
+
+#: admin/class-accessibility-onetap-admin.php:286
+msgid "Leave a Review"
+msgstr "Bewertung abgeben"
+
+#: admin/class-accessibility-onetap-admin.php:524
+msgid ""
+"Hey!\n"
+"\t\t\t\t\tWe’re happy that you’re using OneTap. We'd like to take this "
+"opportunity to kindly ask for a 5-star rating on WordPress."
+msgstr ""
+"嗨！\n"
+"\t\t\t\t\t我们很高兴您使用 OneTap。借此机会，诚挚邀请您在 WordPress 上给予我"
+"们五星评价。"
+
+#: admin/class-accessibility-onetap-admin.php:531
+msgid "It would mean a lot to us."
+msgstr "这对我们意义重大。"
+
+#: admin/class-accessibility-onetap-admin.php:534
+#: admin/class-accessibility-onetap-admin.php:556
+msgid "Ok, you deserve it"
+msgstr "好的，你们值得。"
+
+#: admin/class-accessibility-onetap-admin.php:535
+#: admin/class-accessibility-onetap-admin.php:559
+msgid "Already did"
+msgstr "已经评过"
+
+#: admin/class-accessibility-onetap-admin.php:536
+msgid "No, it’s not  good enough"
+msgstr "不，这还不够好"
+
+#: admin/class-accessibility-onetap-admin.php:552
+msgid "Hey! We’re happy that you’re using OneTap!"
+msgstr "嗨！很高兴您正在使用 OneTap！"
+
+#: admin/class-accessibility-onetap-admin.php:553
+msgid ""
+"If OneTap helped you make your site more accessible, we’d truly appreciate a "
+"quick review – a good rating would mean a lot to us ❤️"
+msgstr ""
+"如果 OneTap 帮助您提升了站点的无障碍性，我们由衷期待您留下一个快捷评价——好评"
+"对我们真的非常重要 ❤️"
+
+#: admin/class-accessibility-onetap-admin.php:562
+msgid "No, it’s not good enough"
+msgstr "不，这还不够好"
+
+#: admin/class-accessibility-onetap-admin.php:824
+#: admin/class-accessibility-onetap-settings-options.php:221
+#: admin/class-accessibility-onetap-settings-options.php:222
+#: admin/class-accessibility-onetap-settings-options.php:406
+#: admin/partials/header.php:97
+msgid "Settings"
+msgstr "设置"
+
+#: admin/class-accessibility-onetap-admin.php:990
+msgid "Missing Alt-Text"
+msgstr "缺少替代文本"
+
+#. translators: 1: number of images without alt text, 2: total number of images in the media library
+#: admin/class-accessibility-onetap-admin.php:1022
+msgid "%1$s / %2$s Images"
+msgstr "%1$s / %2$s 张图片"
+
+#: admin/class-accessibility-onetap-admin.php:1029
+msgid ""
+"Alt text improves SEO and makes your content accessible to screen readers."
+msgstr "替代文本可改善SEO并使内容可供屏幕阅读器访问。"
+
+#: admin/class-accessibility-onetap-admin.php:1033
+msgid "Add Alt-Texts"
+msgstr "添加替代文本"
+
+#: admin/class-accessibility-onetap-settings-manager.php:292
+#: admin/partials/header.php:32
+msgid "Upgrade to OneTap PRO"
+msgstr "升级到 OneTap PRO"
+
+#: admin/class-accessibility-onetap-settings-manager.php:292
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/class-accessibility-onetap-settings-manager.php:561
+#: admin/class-accessibility-onetap-settings-manager.php:624
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: admin/class-accessibility-onetap-settings-manager.php:654
+#: admin/class-accessibility-onetap-settings-manager.php:946
+#: admin/class-accessibility-onetap-settings-manager.php:1035
+#: admin/class-accessibility-onetap-settings-manager.php:1182
+#: admin/class-accessibility-onetap-settings-manager.php:2557
+msgid "This is a PRO Feature"
+msgstr "这是 PRO 功能"
+
+#: admin/class-accessibility-onetap-settings-manager.php:655
+#: admin/class-accessibility-onetap-settings-manager.php:947
+#: admin/class-accessibility-onetap-settings-manager.php:1036
+#: admin/class-accessibility-onetap-settings-manager.php:1183
+#: admin/class-accessibility-onetap-settings-manager.php:2558
+msgid " to use this Feature."
+msgstr " 才能使用此功能。"
+
+#: admin/class-accessibility-onetap-settings-manager.php:656
+#: admin/class-accessibility-onetap-settings-manager.php:948
+#: admin/class-accessibility-onetap-settings-manager.php:1037
+#: admin/class-accessibility-onetap-settings-manager.php:1184
+#: admin/class-accessibility-onetap-settings-manager.php:2559
+msgid "Upgrade to Pro"
+msgstr "升级到 Pro"
+
+#: admin/class-accessibility-onetap-settings-manager.php:683
+#: admin/class-accessibility-onetap-settings-manager.php:1067
+#: admin/class-accessibility-onetap-settings-manager.php:2046
+msgid "Beta"
+msgstr "测试版"
+
+#: admin/class-accessibility-onetap-settings-manager.php:841
+#: admin/partials/settings.php:28
+msgid "Desktop"
+msgstr "桌面端"
+
+#: admin/class-accessibility-onetap-settings-manager.php:847
+#: admin/partials/settings.php:32
+msgid "Tablet"
+msgstr "平板"
+
+#: admin/class-accessibility-onetap-settings-manager.php:853
+#: admin/partials/settings.php:36
+msgid "Mobile"
+msgstr "移动端"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Copied!"
+msgstr "已复制！"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Failed!"
+msgstr "失败！"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1000
+msgid "Copy"
+msgstr "复制"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1044
+msgid "Enter Custom Label"
+msgstr "输入自定义标签"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1096
+msgid "Save"
+msgstr "保存"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1173
+msgid "Select…"
+msgstr "选择…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1174
+msgid "Search…"
+msgstr "搜索…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1175
+msgid "No results found"
+msgstr "未找到结果"
+
+#. translators: %s: name of the selected item.
+#: admin/class-accessibility-onetap-settings-manager.php:1254
+msgid "Remove %s"
+msgstr "移除 %s"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1400
+#: admin/class-accessibility-onetap-settings-manager.php:1768
+#: admin/class-accessibility-onetap-settings-manager.php:1977
+#: admin/class-accessibility-onetap-settings-options.php:599
+#: admin/class-accessibility-onetap-settings-options.php:659
+#: public/class-accessibility-onetap-public.php:6261
+#: public/class-accessibility-onetap-public.php:6300
+msgid "Default"
+msgstr "默认"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1729
+#: admin/class-accessibility-onetap-settings-manager.php:1905
+#: admin/class-accessibility-onetap-settings-options.php:543
+#: admin/class-accessibility-onetap-settings-options.php:603
+msgid "Default Language"
+msgstr "默认语言"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1730
+#: admin/class-accessibility-onetap-settings-manager.php:1906
+msgid "Display Options"
+msgstr "显示选项"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1985
+msgid "Disable All"
+msgstr "全部禁用"
+
+#: admin/class-accessibility-onetap-settings-manager.php:1986
+msgid "Enable All"
+msgstr "全部启用"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2027
+msgid "All"
+msgstr "全部"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2028
+msgid "With Alt Text"
+msgstr "有替代文本"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2029
+msgid "Without Alt Text"
+msgstr "无替代文本"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2043
+msgid "Filter images by alt text"
+msgstr "按替代文本筛选图片"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2058
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2059
+#: admin/class-accessibility-onetap-settings-options.php:211
+#: admin/class-accessibility-onetap-settings-options.php:212
+#: admin/class-accessibility-onetap-settings-options.php:422
+#: admin/partials/header.php:91
+msgid "Alt Text"
+msgstr "替代文本"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2060
+msgid "Uploaded"
+msgstr "已上传"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2061
+msgid "Actions"
+msgstr "操作"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2089
+msgid "Enter a Alt-text..."
+msgstr "输入替代文本..."
+
+#: admin/class-accessibility-onetap-settings-manager.php:2105
+msgid "Generate with AltPilot.ai"
+msgstr "使用 AltPilot.ai 生成"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2126
+msgid "No images found in Media Library."
+msgstr "在媒体库中未找到图片。"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2127
+msgid "No images match this filter."
+msgstr "没有图片符合此筛选条件。"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2129
+msgid ""
+"Upload images to your Media Library to start managing their alt text here."
+msgstr "将图片上传到媒体库，即可在此开始管理它们的替代文本。"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2130
+msgid "Try choosing a different filter to see more of your images."
+msgstr "尝试选择其他筛选条件以查看更多图片。"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2158
+#: admin/class-accessibility-onetap-settings-manager.php:2163
+msgid "Previous"
+msgstr "上一页"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2206
+#: admin/class-accessibility-onetap-settings-manager.php:2211
+msgid "Next"
+msgstr "下一页"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2306
+#: admin/class-accessibility-onetap-settings-manager.php:2343
+msgid "Generate with AI"
+msgstr "用 AI 生成"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2315
+#: admin/class-accessibility-onetap-settings-manager.php:2335
+msgid "Activate AltPilot"
+msgstr "启用 AltPilot"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2327
+msgid "Install AltPilot for free"
+msgstr "免费安装 AltPilot"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2334
+msgid "Installing…"
+msgstr "正在安装…"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2680
+msgid "Active"
+msgstr "活跃"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2681
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2688
+msgid "Inactive"
+msgstr "未激活"
+
+#: admin/class-accessibility-onetap-settings-manager.php:2689
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: admin/class-accessibility-onetap-settings-options.php:182
+#: admin/class-accessibility-onetap-settings-options.php:183
+#: admin/partials/header.php:75
+msgid "Widget"
+msgstr "小工具"
+
+#: admin/class-accessibility-onetap-settings-options.php:191
+#: admin/class-accessibility-onetap-settings-options.php:192
+#: admin/class-accessibility-onetap-settings-options.php:414
+#: admin/partials/header.php:80
+msgid "Modules"
+msgstr "模块"
+
+#: admin/class-accessibility-onetap-settings-options.php:200
+#: admin/class-accessibility-onetap-settings-options.php:201
+#: admin/class-accessibility-onetap-settings-options.php:1447
+#: admin/partials/header.php:85
+#: public/class-accessibility-onetap-public.php:6005
+msgid "Statement"
+msgstr "声明"
+
+#: admin/class-accessibility-onetap-settings-options.php:230
+#: admin/class-accessibility-onetap-settings-options.php:231
+#: admin/class-accessibility-onetap-settings-options.php:418
+msgid "Module Labels"
+msgstr "模块标签"
+
+#: admin/class-accessibility-onetap-settings-options.php:239
+#: admin/class-accessibility-onetap-settings-options.php:240
+#: admin/partials/header.php:56 admin/partials/header.php:61
+msgid "Get PRO"
+msgstr "获取 PRO"
+
+#: admin/class-accessibility-onetap-settings-options.php:410
+msgid "General settings"
+msgstr "常规设置"
+
+#: admin/class-accessibility-onetap-settings-options.php:472
+msgid "Icons"
+msgstr "图标"
+
+#: admin/class-accessibility-onetap-settings-options.php:483
+msgid ""
+"Customize your accessibility button's color, icon, and size to match your "
+"brand."
+msgstr "自定义无障碍按钮的颜色、图标与大小，使其符合您的品牌。"
+
+#: admin/class-accessibility-onetap-settings-options.php:483
+#: admin/class-accessibility-onetap-settings-options.php:544
+#: admin/class-accessibility-onetap-settings-options.php:604
+#: admin/class-accessibility-onetap-settings-options.php:682
+#: admin/partials/accessibility-status.php:1761
+msgid "See Documentation"
+msgstr "查看文档"
+
+#: admin/class-accessibility-onetap-settings-options.php:485
+msgid "Widget Design"
+msgstr "小工具设计"
+
+#: admin/class-accessibility-onetap-settings-options.php:493
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: admin/class-accessibility-onetap-settings-options.php:509
+msgid "Add Border"
+msgstr "添加边框"
+
+#: admin/class-accessibility-onetap-settings-options.php:536
+msgid "Set your own branding colors to personalize the plugin's appearance."
+msgstr "设定品牌颜色以个性化插件外观。"
+
+#: admin/class-accessibility-onetap-settings-options.php:536
+msgid "Free WCAG Contrast-Checker"
+msgstr "免费 WCAG 对比度检查器"
+
+#: admin/class-accessibility-onetap-settings-options.php:537
+msgid "Widget Color"
+msgstr "小工具颜色"
+
+#: admin/class-accessibility-onetap-settings-options.php:544
+#: admin/class-accessibility-onetap-settings-options.php:604
+msgid "Choose your preferred language for the plugin's interface."
+msgstr "选择插件界面的首选语言。"
+
+#: admin/class-accessibility-onetap-settings-options.php:663
+msgid "Automatic Language detection"
+msgstr "自动语言检测"
+
+#: admin/class-accessibility-onetap-settings-options.php:664
+msgid ""
+"When enabled, the toolbar language is automatically set based on the "
+"visitor's browser language."
+msgstr "启用后，工具栏语言将根据访客的浏览器语言自动设置。"
+
+#: admin/class-accessibility-onetap-settings-options.php:682
+msgid "Adjust the position of widgets to fit your layout preferences."
+msgstr "调整小工具位置以符合您的布局偏好。"
+
+#: admin/class-accessibility-onetap-settings-options.php:684
+msgid "Widget Position "
+msgstr "小工具位置 "
+
+#: admin/class-accessibility-onetap-settings-options.php:690
+#: admin/class-accessibility-onetap-settings-options.php:742
+#: admin/class-accessibility-onetap-settings-options.php:794
+msgid "Widget Position"
+msgstr "小工具位置"
+
+#: admin/class-accessibility-onetap-settings-options.php:700
+#: admin/class-accessibility-onetap-settings-options.php:752
+#: admin/class-accessibility-onetap-settings-options.php:804
+msgid "Top right"
+msgstr "右上角"
+
+#: admin/class-accessibility-onetap-settings-options.php:701
+#: admin/class-accessibility-onetap-settings-options.php:753
+#: admin/class-accessibility-onetap-settings-options.php:805
+msgid "Top left"
+msgstr "左上角"
+
+#: admin/class-accessibility-onetap-settings-options.php:702
+#: admin/class-accessibility-onetap-settings-options.php:754
+#: admin/class-accessibility-onetap-settings-options.php:806
+msgid "Middle right"
+msgstr "右侧中部"
+
+#: admin/class-accessibility-onetap-settings-options.php:703
+#: admin/class-accessibility-onetap-settings-options.php:755
+#: admin/class-accessibility-onetap-settings-options.php:807
+msgid "Middle left"
+msgstr "左侧中部"
+
+#: admin/class-accessibility-onetap-settings-options.php:704
+#: admin/class-accessibility-onetap-settings-options.php:756
+#: admin/class-accessibility-onetap-settings-options.php:808
+msgid "Bottom right"
+msgstr "右下角"
+
+#: admin/class-accessibility-onetap-settings-options.php:705
+#: admin/class-accessibility-onetap-settings-options.php:757
+#: admin/class-accessibility-onetap-settings-options.php:809
+msgid "Bottom left"
+msgstr "左下角"
+
+#: admin/class-accessibility-onetap-settings-options.php:710
+#: admin/class-accessibility-onetap-settings-options.php:762
+#: admin/class-accessibility-onetap-settings-options.php:814
+msgid "Vertical (Default 15px)"
+msgstr "Vertikal (Standard 15px)"
+
+#: admin/class-accessibility-onetap-settings-options.php:726
+#: admin/class-accessibility-onetap-settings-options.php:778
+#: admin/class-accessibility-onetap-settings-options.php:830
+msgid "Horizontal (Default 15px)"
+msgstr "Horizontal (Standard 15px)"
+
+#: admin/class-accessibility-onetap-settings-options.php:863
+msgid "Hide On Desktop"
+msgstr "在桌面端隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:864
+msgid "When enabled, the icon will not be displayed on desktop devices."
+msgstr "启用后，图标不会在桌面设备上显示。"
+
+#: admin/class-accessibility-onetap-settings-options.php:879
+msgid "Hide On Tablet"
+msgstr "在平板端隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:880
+msgid "When enabled, the icon will not be displayed on tablet devices."
+msgstr "启用后，图标不会在平板设备上显示。"
+
+#: admin/class-accessibility-onetap-settings-options.php:895
+msgid "Hide On Mobile"
+msgstr "在移动端隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:896
+msgid "When enabled, the icon will not be displayed on mobile devices."
+msgstr "启用后，图标不会在移动设备上显示。"
+
+#: admin/class-accessibility-onetap-settings-options.php:914
+msgid "General Settings"
+msgstr "常规设置"
+
+#: admin/class-accessibility-onetap-settings-options.php:915
+msgid "Hide \"Powered by OneTap\""
+msgstr "隐藏“Powered by OneTap”"
+
+#: admin/class-accessibility-onetap-settings-options.php:916
+msgid ""
+"Remove the \"Powered by OneTap\" text from the Toolbar on the frontend of "
+"your website."
+msgstr "从网站前端的工具栏中移除“Powered by OneTap”文字。"
+
+#: admin/class-accessibility-onetap-settings-options.php:929
+msgid "Button Focus Indicator"
+msgstr "按钮焦点指示器"
+
+#: admin/class-accessibility-onetap-settings-options.php:930
+msgid ""
+"Show a visible dotted border on the floating toolbar icon image when the "
+"button is focused (e.g. keyboard navigation)."
+msgstr "按钮获得焦点时，在浮动工具栏图标上显示可见虚线边框（例如键盘导航）。"
+
+#: admin/class-accessibility-onetap-settings-options.php:943
+msgid "Hide Alt Text Feature"
+msgstr "隐藏替代文本功能"
+
+#: admin/class-accessibility-onetap-settings-options.php:944
+msgid ""
+"Hide the Alt Text submenu, its navigation link, and the \"Missing Alt-Text\" "
+"dashboard widget."
+msgstr "隐藏替代文本子菜单、其导航链接以及“缺少替代文本”仪表盘小工具。"
+
+#: admin/class-accessibility-onetap-settings-options.php:957
+msgid "Open with URL"
+msgstr "通过 URL 打开"
+
+#: admin/class-accessibility-onetap-settings-options.php:958
+msgid "Open the OneTap Toolbar with URL"
+msgstr "使用 URL 打开 OneTap 工具栏"
+
+#: admin/class-accessibility-onetap-settings-options.php:970
+#: admin/class-accessibility-onetap-settings-options.php:975
+#: admin/partials/header.php:105
+msgid "Edit Labels"
+msgstr "编辑标签"
+
+#: admin/class-accessibility-onetap-settings-options.php:971
+msgid "Change module name"
+msgstr "更改模块名称"
+
+#: admin/class-accessibility-onetap-settings-options.php:984
+msgid "Alt-Text AI"
+msgstr "Alt-Text AI"
+
+#: admin/class-accessibility-onetap-settings-options.php:985
+msgid "Generate Alt-Text with Ai"
+msgstr "使用 AI 生成替代文本"
+
+#: admin/class-accessibility-onetap-settings-options.php:986
+msgid "Save hours, boost SEO & Accessibility"
+msgstr "节省时间，提升 SEO 与无障碍性"
+
+#: admin/class-accessibility-onetap-settings-options.php:990
+msgid "Start with AltPilot.ai"
+msgstr "从 AltPilot.ai 开始"
+
+#: admin/class-accessibility-onetap-settings-options.php:999
+msgid "Hide on Specific Pages / Post Types"
+msgstr "在特定页面／内容类型上隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:1000
+msgid "Hide on Specific Pages"
+msgstr "在特定页面上隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:1001
+msgid "Select individual pages where the OneTap Toolbar should be hidden."
+msgstr "选择需要隐藏 OneTap 工具栏的单个页面。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1008
+msgid "Select pages..."
+msgstr "选择页面..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1009
+msgid "Search pages..."
+msgstr "搜索页面..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1010
+msgid "No pages found"
+msgstr "未找到页面"
+
+#: admin/class-accessibility-onetap-settings-options.php:1016
+msgid "Hide on Post Types"
+msgstr "在内容类型上隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:1017
+msgid "Hide the toolbar across entire post types at once."
+msgstr "一次性在整个内容类型上隐藏工具栏。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1024
+msgid "Select post types..."
+msgstr "选择内容类型..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1025
+msgid "Search post types..."
+msgstr "搜索内容类型..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1026
+msgid "No post types found"
+msgstr "未找到内容类型"
+
+#: admin/class-accessibility-onetap-settings-options.php:1032
+msgid "Hide on Specific Posts"
+msgstr "在特定文章上隐藏"
+
+#: admin/class-accessibility-onetap-settings-options.php:1033
+msgid "Select individual posts where the toolbar should be hidden."
+msgstr "选择需要隐藏工具栏的单篇文章。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1040
+msgid "Select posts..."
+msgstr "选择文章..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1041
+msgid "Search posts..."
+msgstr "搜索文章..."
+
+#: admin/class-accessibility-onetap-settings-options.php:1042
+msgid "No posts found"
+msgstr "未找到文章"
+
+#: admin/class-accessibility-onetap-settings-options.php:1050
+#: admin/class-accessibility-onetap-settings-options.php:1051
+#: admin/class-accessibility-onetap-settings-options.php:1480
+msgid "Accessibility Profiles"
+msgstr "无障碍配置"
+
+#: admin/class-accessibility-onetap-settings-options.php:1052
+msgid "Ready-to-use accessibility profiles for different user needs."
+msgstr "为不同用户需求提供即用型无障碍配置。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1066
+#: admin/class-accessibility-onetap-settings-options.php:1659
+#: public/class-accessibility-onetap-public.php:6246
+msgid "Content Modules"
+msgstr "内容模块"
+
+#: admin/class-accessibility-onetap-settings-options.php:1067
+#: admin/class-accessibility-onetap-settings-options.php:1675
+#: public/class-accessibility-onetap-public.php:6255
+msgid "Font Size"
+msgstr "图标大小"
+
+#: admin/class-accessibility-onetap-settings-options.php:1068
+#: admin/class-accessibility-onetap-settings-options.php:1676
+#: admin/class-accessibility-onetap-settings-options.php:1691
+msgid "Easily enlarge text for improved readability and accessibility for all"
+msgstr "轻松放大文本以提升可读性与通用无障碍。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1081
+#: admin/class-accessibility-onetap-settings-options.php:1750
+#: public/class-accessibility-onetap-public.php:6286
+msgid "Readable Font"
+msgstr "易读字体"
+
+#: admin/class-accessibility-onetap-settings-options.php:1082
+#: admin/class-accessibility-onetap-settings-options.php:1751
+msgid "Switch to a clearer, easy-to-read font for improved text accessibility"
+msgstr "切换为更清晰、易读的字体以提升文本无障碍性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1095
+#: admin/class-accessibility-onetap-settings-options.php:1720
+#: public/class-accessibility-onetap-public.php:6294
+msgid "Line Height"
+msgstr "行高"
+
+#: admin/class-accessibility-onetap-settings-options.php:1096
+#: admin/class-accessibility-onetap-settings-options.php:1721
+#: admin/class-accessibility-onetap-settings-options.php:1736
+msgid "Adjust line spacing for better readability and improved text clarity"
+msgstr "调整行距以提高可读性并增强文本清晰度"
+
+#: admin/class-accessibility-onetap-settings-options.php:1109
+#: admin/class-accessibility-onetap-settings-options.php:1765
+msgid "Big Cursor"
+msgstr "光标"
+
+#: admin/class-accessibility-onetap-settings-options.php:1110
+#: admin/class-accessibility-onetap-settings-options.php:1766
+msgid ""
+"Enhance visibility with a larger cursor for easier navigation and control"
+msgstr "通过更大的光标提升可见性，便于导航与控制"
+
+#: admin/class-accessibility-onetap-settings-options.php:1123
+#: admin/class-accessibility-onetap-settings-options.php:1780
+msgid "Text Magnifier"
+msgstr "文本放大镜"
+
+#: admin/class-accessibility-onetap-settings-options.php:1124
+#: admin/class-accessibility-onetap-settings-options.php:1781
+msgid "Magnify selected text for enhanced readability and accessibility"
+msgstr "放大所选文本以提升可读性与无障碍性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1138
+#: admin/class-accessibility-onetap-settings-options.php:1795
+msgid "Dyslexic Font"
+msgstr "阅读障碍友好字体"
+
+#: admin/class-accessibility-onetap-settings-options.php:1139
+#: admin/class-accessibility-onetap-settings-options.php:1796
+msgid ""
+"Use a specialized font designed to enhance readability for dyslexic users"
+msgstr "使用专为阅读障碍用户设计的字体以提升可读性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1153
+#: admin/class-accessibility-onetap-settings-options.php:1825
+#: public/class-accessibility-onetap-public.php:6339
+msgid "Letter Spacing"
+msgstr "字符间距"
+
+#: admin/class-accessibility-onetap-settings-options.php:1154
+#: admin/class-accessibility-onetap-settings-options.php:1826
+msgid "Adjust letter spacing for improved readability"
+msgstr "调整字符间距以提升可读性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1167
+#: admin/class-accessibility-onetap-settings-options.php:1810
+#: public/class-accessibility-onetap-public.php:6359
+msgid "Align Text"
+msgstr "对齐文本"
+
+#: admin/class-accessibility-onetap-settings-options.php:1168
+#: admin/class-accessibility-onetap-settings-options.php:1811
+msgid "Adjust text alignment for improved structure and readability"
+msgstr "调整文本对齐以改进结构与可读性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1181
+#: public/class-accessibility-onetap-public.php:6371
+msgid "Font Weight"
+msgstr "行高"
+
+#: admin/class-accessibility-onetap-settings-options.php:1182
+#: admin/class-accessibility-onetap-settings-options.php:1841
+msgid "Adjust font weight for improved readability"
+msgstr "调整字符间距以提升可读性"
+
+#: admin/class-accessibility-onetap-settings-options.php:1195
+#: admin/class-accessibility-onetap-settings-options.php:1855
+#: public/class-accessibility-onetap-public.php:6383
+msgid "Color Modules"
+msgstr "颜色模块"
+
+#: admin/class-accessibility-onetap-settings-options.php:1196
+#: admin/class-accessibility-onetap-settings-options.php:1856
+msgid "Dark Contrast"
+msgstr "对比度"
+
+#: admin/class-accessibility-onetap-settings-options.php:1197
+#: admin/class-accessibility-onetap-settings-options.php:1857
+msgid "Adjust dark contrast for a more vivid or subdued visual experience"
+msgstr "调整颜色饱和度以获得更鲜艳或更柔和的视觉体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1211
+#: admin/class-accessibility-onetap-settings-options.php:1871
+#: public/class-accessibility-onetap-public.php:6396
+msgid "Light Contrast"
+msgstr "对比度"
+
+#: admin/class-accessibility-onetap-settings-options.php:1212
+#: admin/class-accessibility-onetap-settings-options.php:1872
+msgid "Adjust light contrast for a more vivid or subdued visual experience"
+msgstr "调整颜色饱和度以获得更鲜艳或更柔和的视觉体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1225
+#: admin/class-accessibility-onetap-settings-options.php:1886
+#: public/class-accessibility-onetap-public.php:6408
+msgid "High Contrast"
+msgstr "对比度"
+
+#: admin/class-accessibility-onetap-settings-options.php:1226
+#: admin/class-accessibility-onetap-settings-options.php:1887
+msgid "Adjust high contrast for a more vivid or subdued visual experience"
+msgstr "调整颜色饱和度以获得更鲜艳或更柔和的视觉体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1239
+#: admin/class-accessibility-onetap-settings-options.php:1901
+#: public/class-accessibility-onetap-public.php:6420
+msgid "Monochrome"
+msgstr "单色"
+
+#: admin/class-accessibility-onetap-settings-options.php:1240
+#: admin/class-accessibility-onetap-settings-options.php:1902
+msgid "Adjust color monochrome for a more vivid or subdued visual experience"
+msgstr "调整颜色饱和度以获得更鲜艳或更柔和的视觉体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1253
+#: admin/class-accessibility-onetap-settings-options.php:1916
+msgid "Saturation"
+msgstr "饱和度"
+
+#: admin/class-accessibility-onetap-settings-options.php:1254
+#: admin/class-accessibility-onetap-settings-options.php:1917
+msgid "Adjust color saturation for a more vivid or subdued visual experience"
+msgstr "调整颜色饱和度以获得更鲜艳或更柔和的视觉体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1268
+#: admin/class-accessibility-onetap-settings-options.php:1931
+#: public/class-accessibility-onetap-public.php:6431
+msgid "Orientation Modules"
+msgstr "定位模块"
+
+#: admin/class-accessibility-onetap-settings-options.php:1269
+#: admin/class-accessibility-onetap-settings-options.php:1932
+#: public/class-accessibility-onetap-public.php:6444
+msgid "Reading Line"
+msgstr "阅读指示线"
+
+#: admin/class-accessibility-onetap-settings-options.php:1270
+#: admin/class-accessibility-onetap-settings-options.php:1933
+msgid "Highlight the current line to track reading progress and improve focus"
+msgstr "高亮当前行以跟踪阅读进度并提升专注"
+
+#: admin/class-accessibility-onetap-settings-options.php:1283
+#: admin/class-accessibility-onetap-settings-options.php:1947
+#: public/class-accessibility-onetap-public.php:6456
+msgid "Reading Mask"
+msgstr "阅读遮罩"
+
+#: admin/class-accessibility-onetap-settings-options.php:1284
+#: admin/class-accessibility-onetap-settings-options.php:1948
+msgid "Use a mask to focus on a specific area of text and reduce distractions"
+msgstr "使用遮罩聚焦于特定文本区域，减少干扰"
+
+#: admin/class-accessibility-onetap-settings-options.php:1297
+#: admin/class-accessibility-onetap-settings-options.php:1962
+msgid "Read Page"
+msgstr "朗读页面"
+
+#: admin/class-accessibility-onetap-settings-options.php:1298
+#: admin/class-accessibility-onetap-settings-options.php:1963
+msgid "Automatically read aloud the page content for hands-free accessibility"
+msgstr "自动朗读页面内容，实现免手动的无障碍体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1312
+#: admin/class-accessibility-onetap-settings-options.php:1977
+msgid "Keyboard Navigation"
+msgstr "键盘导航"
+
+#: admin/class-accessibility-onetap-settings-options.php:1313
+#: admin/class-accessibility-onetap-settings-options.php:1978
+msgid "Navigate the site using only the keyboard"
+msgstr "使用仅键盘导航网站"
+
+#: admin/class-accessibility-onetap-settings-options.php:1327
+#: admin/class-accessibility-onetap-settings-options.php:1992
+#: public/class-accessibility-onetap-public.php:6468
+msgid "Hide Images"
+msgstr "隐藏图片"
+
+#: admin/class-accessibility-onetap-settings-options.php:1328
+#: admin/class-accessibility-onetap-settings-options.php:1993
+msgid ""
+"Remove distracting images for a cleaner, more focused browsing experience"
+msgstr "移除分散注意力的图片，带来更干净、更专注的浏览体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1341
+#: admin/class-accessibility-onetap-settings-options.php:2007
+msgid "Mute Sounds"
+msgstr "静音"
+
+#: admin/class-accessibility-onetap-settings-options.php:1342
+#: admin/class-accessibility-onetap-settings-options.php:2008
+msgid "Easily mute website sounds for a distraction-free browsing experience"
+msgstr "轻松静音网站声音，获得无干扰的浏览体验"
+
+#: admin/class-accessibility-onetap-settings-options.php:1356
+#: admin/class-accessibility-onetap-settings-options.php:2022
+msgid "Highlight Titles"
+msgstr "高亮标题"
+
+#: admin/class-accessibility-onetap-settings-options.php:1357
+#: admin/class-accessibility-onetap-settings-options.php:2023
+msgid "Highlight titles for better recognition"
+msgstr "高亮标题以便更易识别"
+
+#: admin/class-accessibility-onetap-settings-options.php:1371
+#: admin/class-accessibility-onetap-settings-options.php:2037
+#: public/class-accessibility-onetap-public.php:6481
+msgid "Highlight Content"
+msgstr "高亮标题"
+
+#: admin/class-accessibility-onetap-settings-options.php:1372
+#: admin/class-accessibility-onetap-settings-options.php:2038
+msgid "Highlight elements when hovered over"
+msgstr "悬停时高亮元素"
+
+#: admin/class-accessibility-onetap-settings-options.php:1385
+#: admin/class-accessibility-onetap-settings-options.php:2052
+#: public/class-accessibility-onetap-public.php:6493
+msgid "Stop Animations"
+msgstr "停止动画"
+
+#: admin/class-accessibility-onetap-settings-options.php:1386
+#: admin/class-accessibility-onetap-settings-options.php:2053
+msgid "Disable animations to reduce distractions"
+msgstr "禁用动画以减少干扰"
+
+#: admin/class-accessibility-onetap-settings-options.php:1399
+#: admin/class-accessibility-onetap-settings-options.php:1705
+#: public/class-accessibility-onetap-public.php:6505
+msgid "Highlight Links"
+msgstr "高亮链接"
+
+#: admin/class-accessibility-onetap-settings-options.php:1400
+#: admin/class-accessibility-onetap-settings-options.php:1706
+msgid ""
+"Easily identify clickable links with visual enhancements for better "
+"navigation"
+msgstr "通过视觉增强轻松识别可点击链接，便于导航"
+
+#: admin/class-accessibility-onetap-settings-options.php:1413
+#: admin/class-accessibility-onetap-settings-options.php:1414
+#: admin/class-accessibility-onetap-settings-options.php:1660
+#: public/class-accessibility-onetap-public.php:6518
+msgid "Skip To Content"
+msgstr "跳转到内容"
+
+#: admin/class-accessibility-onetap-settings-options.php:1415
+#: admin/class-accessibility-onetap-settings-options.php:1661
+msgid "Let visitors jump to main content, navigation, or footer landmarks."
+msgstr "让访客跳转到主要内容、导航或页脚地标。"
+
+#: admin/class-accessibility-onetap-settings-options.php:1431
+#: admin/class-accessibility-onetap-settings-options.php:1433
+msgid "Current language"
+msgstr "当前语言"
+
+#: admin/class-accessibility-onetap-settings-options.php:1449
+msgid "Information"
+msgstr "信息"
+
+#: admin/class-accessibility-onetap-settings-options.php:1463
+#: public/class-accessibility-onetap-public.php:6014
+#: public/class-accessibility-onetap-public.php:6071
+msgid "Hide Toolbar"
+msgstr "隐藏工具栏"
+
+#: admin/class-accessibility-onetap-settings-options.php:1478
+msgid "Accessibility Adjustments"
+msgstr "无障碍调整"
+
+#: admin/class-accessibility-onetap-settings-options.php:1494
+#: public/class-accessibility-onetap-public.php:6081
+msgid "Select your accessibility profile"
+msgstr "无障碍配置"
+
+#: admin/class-accessibility-onetap-settings-options.php:1509
+#: public/class-accessibility-onetap-public.php:6093
+#: public/class-accessibility-onetap-public.php:6114
+msgid "Vision Impaired Mode"
+msgstr "视力障碍模式"
+
+#: admin/class-accessibility-onetap-settings-options.php:1524
+#: public/class-accessibility-onetap-public.php:6098
+msgid "Enhances website's visuals"
+msgstr "增强网站视觉效果"
+
+#: admin/class-accessibility-onetap-settings-options.php:1539
+#: public/class-accessibility-onetap-public.php:6129
+#: public/class-accessibility-onetap-public.php:6144
+msgid "Seizure Safe Profile"
+msgstr "癫痫安全配置文件"
+
+#: admin/class-accessibility-onetap-settings-options.php:1554
+#: public/class-accessibility-onetap-public.php:6134
+msgid "Clear flashes & reduces color"
+msgstr "清除闪烁并减少颜色"
+
+#: admin/class-accessibility-onetap-settings-options.php:1569
+#: public/class-accessibility-onetap-public.php:6159
+#: public/class-accessibility-onetap-public.php:6174
+msgid "ADHD Friendly Mode"
+msgstr "多动症友好模式"
+
+#: admin/class-accessibility-onetap-settings-options.php:1584
+#: public/class-accessibility-onetap-public.php:6164
+msgid "Focused browsing, distraction-free"
+msgstr "专注浏览，无干扰"
+
+#: admin/class-accessibility-onetap-settings-options.php:1599
+#: public/class-accessibility-onetap-public.php:6189
+#: public/class-accessibility-onetap-public.php:6204
+msgid "Blindness Mode"
+msgstr "失明模式"
+
+#: admin/class-accessibility-onetap-settings-options.php:1614
+#: public/class-accessibility-onetap-public.php:6194
+msgid "Reduces distractions, improves focus"
+msgstr "减少干扰，提高专注力"
+
+#: admin/class-accessibility-onetap-settings-options.php:1629
+#: public/class-accessibility-onetap-public.php:6219
+#: public/class-accessibility-onetap-public.php:6234
+msgid "Epilepsy Safe Mode"
+msgstr "癫痫安全模式"
+
+#: admin/class-accessibility-onetap-settings-options.php:1644
+#: public/class-accessibility-onetap-public.php:6224
+msgid "Dims colors and stops blinking"
+msgstr "调暗颜色并停止闪烁"
+
+#: admin/class-accessibility-onetap-settings-options.php:1690
+msgid "Font Size (Default)"
+msgstr "字体大小（默认）"
+
+#: admin/class-accessibility-onetap-settings-options.php:1735
+msgid "Line Height (Default)"
+msgstr "行高"
+
+#: admin/class-accessibility-onetap-settings-options.php:1840
+msgid "Font weight"
+msgstr "行高"
+
+#: admin/class-accessibility-onetap-settings-options.php:2069
+msgid "Edit Alt Text"
+msgstr "编辑替代文本"
+
+#: admin/partials/accessibility-status.php:66
+msgid "Show Accessibility Statement"
+msgstr "显示无障碍声明"
+
+#: admin/partials/accessibility-status.php:78
+msgid "Select Language"
+msgstr "选择语言"
+
+#: admin/partials/accessibility-status.php:230
+msgid "Company Name"
+msgstr "公司名称"
+
+#: admin/partials/accessibility-status.php:231
+msgid "Company Inc."
+msgstr "Company Inc."
+
+#: admin/partials/accessibility-status.php:236
+msgid "Business E-mail"
+msgstr "企业邮箱"
+
+#: admin/partials/accessibility-status.php:237
+msgid "info@company.com"
+msgstr "info@company.com"
+
+#: admin/partials/accessibility-status.php:242
+msgid "Website"
+msgstr "网站"
+
+#: admin/partials/accessibility-status.php:244
+msgid "https://"
+msgstr "https://"
+
+#: admin/partials/accessibility-status.php:246
+msgid "www.company.com"
+msgstr "www.company.com"
+
+#: admin/partials/accessibility-status.php:254
+msgid ""
+"I confirm that the generated accessibility status is based on my own "
+"assessment. The provider of this generator assumes no liability for its "
+"accuracy or compliance."
+msgstr ""
+"我确认所生成的无障碍状态基于我个人的评估。该生成器的提供方不对其准确性或合规"
+"性承担任何责任。"
+
+#: admin/partials/accessibility-status.php:270
+msgid "Generate Text"
+msgstr "生成文本"
+
+#: admin/partials/accessibility-status.php:274
+msgid ""
+"Please note: Generating a new statement will automatically overwrite the "
+"previous version."
+msgstr "请注意：生成新的声明将自动覆盖先前版本。"
+
+#: admin/partials/accessibility-status.php:1757
+msgid "Generate Accessibility Status"
+msgstr "生成无障碍状态"
+
+#: admin/partials/accessibility-status.php:1760
+msgid ""
+"You can edit or insert a Statement as needed. Click \"Save settings\" to "
+"save your changes."
+msgstr "您可按需编辑或插入声明。点击“保存设置”以保存更改。"
+
+#: admin/partials/alt-text.php:37
+msgid "Save hours"
+msgstr "节省时间"
+
+#: admin/partials/alt-text.php:38
+msgid "and generate your Alt-text with AltPilot.ai."
+msgstr "并使用 AltPilot.ai 生成您的替代文本。"
+
+#: admin/partials/alt-text.php:39
+msgid "Try 25 Images for Free"
+msgstr "免费试用 25 张图片"
+
+#: admin/partials/footer.php:17
+msgid "If you're enjoying OneTap, we'd really appreciate a quick "
+msgstr "如果您喜欢 OneTap，我们将非常感激您快速提交一条 "
+
+#: admin/partials/footer.php:17
+msgid " review – it means a lot to us. "
+msgstr " 评价——这对我们意义重大。 "
+
+#: admin/partials/general-settings.php:41 admin/partials/modules.php:41
+msgid "Banner Bottom"
+msgstr "Banner unten"
+
+#: admin/partials/header.php:28
+msgid "Get Text-to-Speech, Keyboard Navigation, Dyslexic Font"
+msgstr "获取文字转语音、键盘导航和阅读障碍字体"
+
+#: admin/partials/header.php:35
+msgid "Dismiss banner"
+msgstr "关闭横幅"
+
+#: admin/partials/header.php:51
+msgid "Support"
+msgstr "支持"
+
+#: admin/partials/header.php:111
+msgid "Save changes"
+msgstr "保存更改"
+
+#: admin/partials/module-labels.php:291
+msgid "You’re currently editing"
+msgstr "您正在编辑"
+
+#: admin/partials/module-labels.php:293
+msgid "labels."
+msgstr "标签。"
+
+#: admin/partials/module-labels.php:294
+msgid "Choose another language to edit its translations."
+msgstr "选择其他语言以编辑其翻译。"
+
+#: admin/partials/module-labels.php:299
+msgid "Change Language"
+msgstr "更改语言"
+
+#: admin/partials/settings.php:23
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: public/class-accessibility-onetap-public.php:5663
+msgid "United States"
+msgstr "美国"
+
+#: public/class-accessibility-onetap-public.php:5668
+msgid "Germany"
+msgstr "德国"
+
+#: public/class-accessibility-onetap-public.php:5673
+msgid "Spain"
+msgstr "西班牙"
+
+#: public/class-accessibility-onetap-public.php:5678
+msgid "France"
+msgstr "法国"
+
+#: public/class-accessibility-onetap-public.php:5683
+msgid "Italy"
+msgstr "意大利"
+
+#: public/class-accessibility-onetap-public.php:5688
+msgid "Poland"
+msgstr "波兰"
+
+#: public/class-accessibility-onetap-public.php:5693
+msgid "Sweden"
+msgstr "瑞典"
+
+#: public/class-accessibility-onetap-public.php:5698
+msgid "Finland"
+msgstr "芬兰"
+
+#: public/class-accessibility-onetap-public.php:5703
+msgid "Portugal"
+msgstr "葡萄牙"
+
+#: public/class-accessibility-onetap-public.php:5708
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: public/class-accessibility-onetap-public.php:5713
+msgid "Slovenia"
+msgstr "斯洛文尼亚"
+
+#: public/class-accessibility-onetap-public.php:5718
+msgid "Slovakia"
+msgstr "斯洛伐克"
+
+#: public/class-accessibility-onetap-public.php:5723
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: public/class-accessibility-onetap-public.php:5728
+msgid "Denmark"
+msgstr "丹麦"
+
+#: public/class-accessibility-onetap-public.php:5733
+msgid "Greece"
+msgstr "希腊"
+
+#: public/class-accessibility-onetap-public.php:5738
+msgid "Czechia"
+msgstr "捷克"
+
+#: public/class-accessibility-onetap-public.php:5743
+msgid "Hungary"
+msgstr "匈牙利"
+
+#: public/class-accessibility-onetap-public.php:5748
+msgid "Lithuania"
+msgstr "立陶宛"
+
+#: public/class-accessibility-onetap-public.php:5753
+msgid "Latvia"
+msgstr "拉脱维亚"
+
+#: public/class-accessibility-onetap-public.php:5758
+msgid "Estonia"
+msgstr "爱沙尼亚"
+
+#: public/class-accessibility-onetap-public.php:5763
+msgid "Croatia"
+msgstr "克罗地亚"
+
+#: public/class-accessibility-onetap-public.php:5768
+msgid "Ireland"
+msgstr "爱尔兰"
+
+#: public/class-accessibility-onetap-public.php:5773
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: public/class-accessibility-onetap-public.php:5778
+msgid "Norway"
+msgstr "挪威"
+
+#: public/class-accessibility-onetap-public.php:5783
+msgid "Türkiye"
+msgstr "土耳其"
+
+#: public/class-accessibility-onetap-public.php:5788
+msgid "Indonesia"
+msgstr "印度尼西亚"
+
+#: public/class-accessibility-onetap-public.php:5793
+msgid "Brazil"
+msgstr "巴西"
+
+#: public/class-accessibility-onetap-public.php:5798
+msgid "Japan"
+msgstr "日本"
+
+#: public/class-accessibility-onetap-public.php:5803
+msgid "South Korea"
+msgstr "韩国"
+
+#: public/class-accessibility-onetap-public.php:5808
+msgid "China"
+msgstr "中国"
+
+#: public/class-accessibility-onetap-public.php:5813
+msgid "United Arab Emirates"
+msgstr "阿拉伯联合酋长国"
+
+#: public/class-accessibility-onetap-public.php:5818
+msgid "Russia"
+msgstr "俄罗斯"
+
+#: public/class-accessibility-onetap-public.php:5823
+msgid "India"
+msgstr "印度"
+
+#: public/class-accessibility-onetap-public.php:5828
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: public/class-accessibility-onetap-public.php:5833
+msgid "Serbia"
+msgstr "塞尔维亚"
+
+#: public/class-accessibility-onetap-public.php:5838
+msgid "United Kingdom"
+msgstr "英国"
+
+#: public/class-accessibility-onetap-public.php:5843
+msgid "Iran"
+msgstr "伊朗"
+
+#: public/class-accessibility-onetap-public.php:5848
+msgid "Israel"
+msgstr "以色列"
+
+#: public/class-accessibility-onetap-public.php:5853
+msgid "North Macedonia"
+msgstr "北马其顿"
+
+#: public/class-accessibility-onetap-public.php:5858
+msgid "Thailand"
+msgstr "泰国"
+
+#: public/class-accessibility-onetap-public.php:5863
+msgid "Vietnam"
+msgstr "越南"
+
+#: public/class-accessibility-onetap-public.php:5868
+msgid "Bangladesh"
+msgstr "孟加拉国"
+
+#: public/class-accessibility-onetap-public.php:5873
+msgid "Philippines"
+msgstr "菲律宾"
+
+#: public/class-accessibility-onetap-public.php:5878
+msgid "Pakistan"
+msgstr "巴基斯坦"
+
+#: public/class-accessibility-onetap-public.php:5973
+msgid "Accessibility  Adjustments"
+msgstr "无障碍调整"
+
+#: public/class-accessibility-onetap-public.php:5991
+msgid "Powered by"
+msgstr "技术支持："
+
+#: public/class-accessibility-onetap-public.php:6027
+msgid "Back"
+msgstr "返回"
+
+#: public/class-accessibility-onetap-public.php:6043
+msgid "How long do you want to hide the toolbar?"
+msgstr "您希望将无障碍工具栏隐藏多长时间？"
+
+#: public/class-accessibility-onetap-public.php:6047
+msgid "Hide Toolbar Duration"
+msgstr "隐藏工具栏时长"
+
+#: public/class-accessibility-onetap-public.php:6051
+msgid "Only for this session"
+msgstr "仅本次会话"
+
+#: public/class-accessibility-onetap-public.php:6058
+msgid "24 hours"
+msgstr "24 小时"
+
+#: public/class-accessibility-onetap-public.php:6065
+msgid "A Week"
+msgstr "一周"
+
+#: public/class-accessibility-onetap-public.php:6070
+msgid "Not Now"
+msgstr "暂不"
+
+#: public/class-accessibility-onetap-public.php:6257
+msgid "Increase Font Size"
+msgstr "增大字号"
+
+#: public/class-accessibility-onetap-public.php:6258
+#: public/class-accessibility-onetap-public.php:6297
+msgid "+"
+msgstr "+"
+
+#: public/class-accessibility-onetap-public.php:6263
+msgid "Decrease Font Size"
+msgstr "减小字号"
+
+#: public/class-accessibility-onetap-public.php:6264
+#: public/class-accessibility-onetap-public.php:6303
+msgid "-"
+msgstr "-"
+
+#: public/class-accessibility-onetap-public.php:6296
+msgid "Increase Line Height"
+msgstr "增加行高"
+
+#: public/class-accessibility-onetap-public.php:6302
+msgid "Decrease Line Height"
+msgstr "减小行高"
+
+#: public/class-accessibility-onetap-public.php:6325
+msgid "Cursor"
+msgstr "光标"
+
+#: public/class-accessibility-onetap-public.php:6521
+msgid "Choose..."
+msgstr "选择..."
+
+#: public/class-accessibility-onetap-public.php:6522
+msgid "Main Content"
+msgstr "主要内容"
+
+#: public/class-accessibility-onetap-public.php:6523
+msgid "Navigation"
+msgstr "导航"
+
+#: public/class-accessibility-onetap-public.php:6524
+msgid "Footer"
+msgstr "页脚"
+
+#: public/class-accessibility-onetap-public.php:6533
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#~ msgid "Edit Module Labels"
+#~ msgstr "编辑模块标签"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Deutsch"
+#~ msgstr "Deutsch"
+
+#~ msgid "Español"
+#~ msgstr "Español"
+
+#~ msgid "Français"
+#~ msgstr "Français"
+
+#~ msgid "Italiano"
+#~ msgstr "Italiano"
+
+#~ msgid "Polski"
+#~ msgstr "Polski"
+
+#~ msgid "Svenska"
+#~ msgstr "Svenska"
+
+#~ msgid "Suomi"
+#~ msgstr "Suomi"
+
+#~ msgid "Português"
+#~ msgstr "Português"
+
+#~ msgid "Română"
+#~ msgstr "Română"
+
+#~ msgid "Slovenščina"
+#~ msgstr "Slovenščina"
+
+#~ msgid "Slovenčina"
+#~ msgstr "Slovenčina"
+
+#~ msgid "Nederlands"
+#~ msgstr "Nederlands"
+
+#~ msgid "Dansk"
+#~ msgstr "Dansk"
+
+#~ msgid "Ελληνικά"
+#~ msgstr "Ελληνικά"
+
+#~ msgid "Čeština"
+#~ msgstr "Čeština"
+
+#~ msgid "Magyar"
+#~ msgstr "Magyar"
+
+#~ msgid "Lietuvių"
+#~ msgstr "Lietuviů"
+
+#~ msgid "Latviešu"
+#~ msgstr "Latviešu"
+
+#~ msgid "Eesti"
+#~ msgstr "Eesti"
+
+#~ msgid "Hrvatski"
+#~ msgstr "Hrvatski"
+
+#~ msgid "Gaeilge"
+#~ msgstr "Gaeilge"
+
+#~ msgid "Български"
+#~ msgstr "Български"
+
+#~ msgid "Norsk"
+#~ msgstr "Norsk"
+
+#~ msgid "Türkçe"
+#~ msgstr "Türkçe"
+
+#~ msgid "Bahasa Indonesia"
+#~ msgstr "Bahasa Indonesia"
+
+#~ msgid "Português (Brasil)"
+#~ msgstr "Português (Brasil)"
+
+#~ msgid "日本語"
+#~ msgstr "日本語"
+
+#~ msgid "한국어"
+#~ msgstr "한국어"
+
+#~ msgid "简体中文"
+#~ msgstr "简体中文"
+
+#~ msgid "العربية"
+#~ msgstr "العربية"
+
+#~ msgid "Русский"
+#~ msgstr "Русский"
+
+#~ msgid "हिन्दी"
+#~ msgstr "हिन्दी"
+
+#~ msgid "Українська"
+#~ msgstr "Українська"
+
+#~ msgid "Srpski"
+#~ msgstr "Srpski"
+
+#~ msgid "English (UK)"
+#~ msgstr "英语（英国）"
+
+#~ msgid "ایران"
+#~ msgstr "ایران"
+
+#~ msgid "ישראל"
+#~ msgstr "ישראל"
+
+#~ msgid "Македонија"
+#~ msgstr "Македонија"
+
+#~ msgid "ประเทศไทย"
+#~ msgstr "ประเทศไทย"
+
+#~ msgid "Việt Nam"
+#~ msgstr "Việt Nam"
+
+#~ msgid "icon drop down menu"
+#~ msgstr "图标下拉菜单"
+
+#~ msgid "Vertical (Default 20px)"
+#~ msgstr "垂直（默认 20px）"
+
+#~ msgid "Horizontal (Default 20px)"
+#~ msgstr "水平（默认 20px）"
+
+#~ msgid "Currently editing"
+#~ msgstr "正在编辑"
+
+#~ msgid "labels. Change the language to edit others."
+#~ msgstr "标签。切换语言以编辑其他标签。"
+
+#~ msgid "Align Center"
+#~ msgstr "文本对齐"
+
+#~ msgid "Bigger Text"
+#~ msgstr "放大文本"
+
+#~ msgid "Text Align"
+#~ msgstr "文本对齐"
+
+#~ msgid "Invert Colors"
+#~ msgstr "反转颜色"
+
+#~ msgid "Swap text and background colors for better contrast and readability"
+#~ msgstr "交换文本与背景颜色以获得更佳对比度与可读性"
+
+#~ msgid "Brightness"
+#~ msgstr "亮度"
+
+#~ msgid "Adjust screen brightness to reduce glare and enhance text visibility"
+#~ msgstr "调整屏幕亮度以降低眩光并提升文本可见性"
+
+#~ msgid "Fine-tune color contrast for clearer text and improved readability"
+#~ msgstr "微调颜色对比度以获得更清晰文本和更佳可读性"
+
+#~ msgid "Grayscale"
+#~ msgstr "灰度"
+
+#~ msgid ""
+#~ "Convert display to black and white for reduced visual clutter and better "
+#~ "focus"
+#~ msgstr "转为黑白显示以减少视觉干扰并提升专注"
+
+#~ msgid "Highlight All"
+#~ msgstr "全部高亮"
+
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgid "Colors"
+#~ msgstr "颜色"
+
+#~ msgid "Orientation"
+#~ msgstr "方向"
+
+#~ msgid "Highlight Al"
+#~ msgstr "高亮全部"
+
+#~ msgid "Version "
+#~ msgstr "版本 "

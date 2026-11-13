@@ -1,0 +1,2875 @@
+.micada-home {
+  /* Portal Notice Modal Styles */
+  /* latin-ext */
+  /* latin */
+  /* End extract */
+}
+.micada-home h1,
+.micada-home h2,
+.micada-home h3,
+.micada-home h4 {
+  font-family: "Lato", Calibri;
+}
+.micada-home .popup-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.micada-home .popup-modal-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  max-width: 1200px;
+  width: 98%;
+  max-height: 95vh;
+  padding: 0;
+  overflow: auto;
+}
+.micada-home .popup-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.55);
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #fff;
+  z-index: 1001;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.micada-home .popup-modal-close:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.micada-home .popup-modal-close span {
+  line-height: 1;
+}
+.micada-home .popup-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px 30px 20px;
+}
+.micada-home .popup-modal-image {
+  display: block;
+  width: 100%;
+  max-height: calc(100vh - 32px);
+  object-fit: contain;
+  cursor: default;
+}
+.micada-home .portal-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 17, 27, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+.micada-home .portal-modal-content {
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(2, 18, 36, 0.25);
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+.micada-home .portal-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  padding: 28px 28px 22px 28px;
+  text-align: center;
+}
+.micada-home .portal-modal-body h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #2f0a0a 0%, #6b1111 35%, #991b1b 65%, #c2410c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.micada-home .portal-divider {
+  width: 64px;
+  height: 4px;
+  background: linear-gradient(90deg, #0b6fbf, #00a3a3);
+  border-radius: 3px;
+  margin: 10px auto 0 auto;
+}
+.micada-home .portal-message {
+  font-size: 16px;
+  color: #0b2536;
+  margin: 8px 0 0 0;
+  line-height: 1.55;
+  max-width: 720px;
+}
+.micada-home .portal-message .english-text {
+  color: #0b3d91;
+}
+.micada-home .portal-message .hindi-text {
+  color: #8a2d1a;
+  margin-top: 8px;
+}
+.micada-home .portal-message .live-text.english-text {
+  color: #0b3d91;
+}
+.micada-home .portal-message .live-text.hindi-text {
+  color: #8a2d1a;
+}
+.micada-home .portal-message .highlight {
+  display: inline-block;
+  background: linear-gradient(90deg, #fff7e6, #fff0c2);
+  color: #8a5700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(12, 40, 60, 0.06);
+}
+.micada-home .portal-message strong {
+  color: #083049;
+  font-weight: 800;
+}
+.micada-home .portal-message .highlight-perc {
+  display: inline-block;
+  background: linear-gradient(90deg, #e6fbf6, #c2fff0);
+  color: #007a52;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(7, 64, 48, 0.06);
+}
+.micada-home .portal-message .scheme-highlight {
+  display: inline-block;
+  background: linear-gradient(90deg, #edf4ff, #dbe8ff);
+  color: #174ea6;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 800;
+  box-shadow: 0 2px 6px rgba(16, 58, 122, 0.06);
+}
+.micada-home .portal-message .countdown-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 0 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fff1f0, #ffe1e0);
+  color: #8b1e1e;
+  font-size: 13px;
+  font-weight: 800;
+  box-shadow: 0 8px 18px rgba(139, 30, 30, 0.18);
+  border: 1px solid rgba(204, 45, 45, 0.22);
+  animation: countdownPulse 1.8s ease-in-out infinite;
+}
+.micada-home .portal-message .countdown-line {
+  display: block;
+  line-height: 1.35;
+}
+.micada-home .portal-message .countdown-separator {
+  color: #7a7a7a;
+  font-weight: 700;
+}
+.micada-home .popup-marquee-wrap {
+  width: calc(100% + 28px);
+  margin: 10px -14px 0;
+}
+.micada-home .popup-marquee-wrap marquee {
+  display: block;
+  width: 100%;
+}
+.micada-home .marquee-green-text {
+  color: #0a8a2a;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+.micada-home .marquee-bullet {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.micada-home .marquee-separator {
+  color: #0a8a2a;
+  font-size: 18px;
+  font-weight: 700;
+}
+.micada-home .marquee-text marquee {
+  white-space: nowrap;
+}
+.micada-home .portal-message .countdown-label {
+  color: #8b1e1e;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+}
+.micada-home .portal-message .countdown-value {
+  color: #0b3d91;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+@keyframes countdownPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 8px 18px rgba(139, 30, 30, 0.18);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 10px 24px rgba(139, 30, 30, 0.28);
+  }
+}
+.micada-home .portal-actions {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0 0 0;
+}
+.micada-home .portal-btn {
+  padding: 10px 20px !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  background: linear-gradient(90deg, #0b6fbf, #00a3a3) !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(3, 60, 100, 0.12) !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+}
+.micada-home .portal-btn:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 14px 30px rgba(3, 60, 100, 0.16) !important;
+}
+.micada-home .small-note {
+  font-size: 12px;
+  color: #5b6b74;
+  margin-top: 6px;
+}
+.micada-home .popup-button-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.micada-home .popup-register-btn {
+  padding: 10px 40px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  border-radius: 4px !important;
+  min-width: 170px;
+  transition: all 0.3s ease !important;
+}
+.micada-home .popup-register-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+.micada-home .mySlides {
+  display: none;
+}
+.micada-home .w3-tag,
+.micada-home .fa {
+  cursor: pointer;
+}
+.micada-home .w3-tag {
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  margin-top: 6px;
+}
+@font-face {
+  .micada-home {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjxAwXjeu.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+}
+@font-face {
+  .micada-home {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v23/S6uyw4BMUTPHjx4wXg.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+}
+.micada-home html {
+  box-sizing: border-box;
+}
+.micada-home *,
+.micada-home *:before,
+.micada-home *:after {
+  box-sizing: inherit;
+}
+.micada-home html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.micada-home body {
+  margin: 0;
+}
+.micada-home article,
+.micada-home aside,
+.micada-home details,
+.micada-home figcaption,
+.micada-home figure,
+.micada-home footer,
+.micada-home header,
+.micada-home main,
+.micada-home menu,
+.micada-home nav,
+.micada-home section {
+  display: block;
+}
+.micada-home summary {
+  display: list-item;
+}
+.micada-home audio,
+.micada-home canvas,
+.micada-home progress,
+.micada-home video {
+  display: inline-block;
+}
+.micada-home progress {
+  vertical-align: baseline;
+}
+.micada-home audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.micada-home [hidden],
+.micada-home template {
+  display: none;
+}
+.micada-home a {
+  background-color: transparent;
+}
+.micada-home a:active,
+.micada-home a:hover {
+  outline-width: 0;
+}
+.micada-home abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+.micada-home b,
+.micada-home strong {
+  font-weight: bolder;
+}
+.micada-home dfn {
+  font-style: italic;
+}
+.micada-home mark {
+  background: #ff0;
+  color: #000;
+}
+.micada-home small {
+  font-size: 80%;
+}
+.micada-home sub,
+.micada-home sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.micada-home sub {
+  bottom: -0.25em;
+}
+.micada-home sup {
+  top: -0.5em;
+}
+.micada-home figure {
+  margin: 1em 40px;
+}
+.micada-home img {
+  border-style: none;
+}
+.micada-home code,
+.micada-home kbd,
+.micada-home pre,
+.micada-home samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.micada-home hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.micada-home button,
+.micada-home input,
+.micada-home select,
+.micada-home textarea,
+.micada-home optgroup {
+  font: inherit;
+  margin: 0;
+}
+.micada-home optgroup {
+  font-weight: bold;
+}
+.micada-home button,
+.micada-home input {
+  overflow: visible;
+}
+.micada-home button,
+.micada-home select {
+  text-transform: none;
+}
+.micada-home button,
+.micada-home [type=button],
+.micada-home [type=reset],
+.micada-home [type=submit] {
+  -webkit-appearance: button;
+}
+.micada-home button::-moz-focus-inner,
+.micada-home [type=button]::-moz-focus-inner,
+.micada-home [type=reset]::-moz-focus-inner,
+.micada-home [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+.micada-home button:-moz-focusring,
+.micada-home [type=button]:-moz-focusring,
+.micada-home [type=reset]:-moz-focusring,
+.micada-home [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+.micada-home fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.micada-home legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+.micada-home textarea {
+  overflow: auto;
+}
+.micada-home [type=checkbox],
+.micada-home [type=radio] {
+  padding: 0;
+}
+.micada-home [type=number]::-webkit-inner-spin-button,
+.micada-home [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+.micada-home [type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+.micada-home [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.micada-home ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+.micada-home html,
+.micada-home body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.micada-home html {
+  overflow-x: hidden;
+}
+.micada-home h1 {
+  font-size: 36px;
+}
+.micada-home h2 {
+  font-size: 30px;
+}
+.micada-home h3 {
+  font-size: 24px;
+}
+.micada-home h4 {
+  font-size: 20px;
+}
+.micada-home h5 {
+  font-size: 18px;
+}
+.micada-home h6 {
+  font-size: 16px;
+}
+.micada-home .w3-serif {
+  font-family: serif;
+}
+.micada-home .w3-sans-serif {
+  font-family: sans-serif;
+}
+.micada-home .w3-cursive {
+  font-family: cursive;
+}
+.micada-home .w3-monospace {
+  font-family: monospace;
+}
+.micada-home h1,
+.micada-home h2,
+.micada-home h3,
+.micada-home h4,
+.micada-home h5,
+.micada-home h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.micada-home .w3-wide {
+  letter-spacing: 4px;
+}
+.micada-home hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.micada-home .w3-image {
+  max-width: 100%;
+  height: auto;
+}
+.micada-home img {
+  vertical-align: middle;
+}
+.micada-home a {
+  color: inherit;
+}
+.micada-home .w3-table,
+.micada-home .w3-table-all {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+.micada-home .w3-table-all {
+  border: 1px solid #ccc;
+}
+.micada-home .w3-bordered tr,
+.micada-home .w3-table-all tr {
+  border-bottom: 1px solid #ddd;
+}
+.micada-home .w3-striped tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+.micada-home .w3-table-all tr:nth-child(odd) {
+  background-color: #fff;
+}
+.micada-home .w3-table-all tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+.micada-home .w3-hoverable tbody tr:hover,
+.micada-home .w3-ul.w3-hoverable li:hover {
+  background-color: #ccc;
+}
+.micada-home .w3-centered tr th,
+.micada-home .w3-centered tr td {
+  text-align: center;
+}
+.micada-home .w3-table td,
+.micada-home .w3-table th,
+.micada-home .w3-table-all td,
+.micada-home .w3-table-all th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+.micada-home .w3-table th:first-child,
+.micada-home .w3-table td:first-child,
+.micada-home .w3-table-all th:first-child,
+.micada-home .w3-table-all td:first-child {
+  padding-left: 16px;
+}
+.micada-home .w3-btn,
+.micada-home .w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.micada-home .w3-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.micada-home .w3-btn,
+.micada-home .w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.micada-home .w3-disabled,
+.micada-home .w3-btn:disabled,
+.micada-home .w3-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.micada-home .w3-disabled *,
+.micada-home :disabled * {
+  pointer-events: none;
+}
+.micada-home .w3-btn.w3-disabled:hover,
+.micada-home .w3-btn:disabled:hover {
+  box-shadow: none;
+}
+.micada-home .w3-badge,
+.micada-home .w3-tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+.micada-home .w3-badge {
+  border-radius: 50%;
+}
+.micada-home .w3-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.micada-home .w3-ul li {
+  font-weight: bold;
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.micada-home .w3-ul li:last-child {
+  border-bottom: none;
+}
+.micada-home .w3-tooltip,
+.micada-home .w3-display-container {
+  position: relative;
+}
+.micada-home .w3-tooltip .w3-text {
+  display: none;
+}
+.micada-home .w3-tooltip:hover .w3-text {
+  display: inline-block;
+}
+.micada-home .w3-ripple:active {
+  opacity: 0.5;
+}
+.micada-home .w3-ripple {
+  transition: opacity 0s;
+}
+.micada-home .w3-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.micada-home .w3-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.micada-home .w3-dropdown-click,
+.micada-home .w3-dropdown-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.micada-home .w3-dropdown-hover:hover .w3-dropdown-content {
+  display: block;
+}
+.micada-home .w3-dropdown-hover:first-child,
+.micada-home .w3-dropdown-click:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.micada-home .w3-dropdown-hover:hover > .w3-button:first-child,
+.micada-home .w3-dropdown-click:hover > .w3-button:first-child {
+  background-color: #ccc;
+  color: #000;
+}
+.micada-home .w3-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.micada-home .w3-check,
+.micada-home .w3-radio {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 6px;
+}
+.micada-home .w3-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+.micada-home .w3-bar-block .w3-dropdown-hover,
+.micada-home .w3-bar-block .w3-dropdown-click {
+  width: 100%;
+}
+.micada-home .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,
+.micada-home .w3-bar-block .w3-dropdown-click .w3-dropdown-content {
+  min-width: 100%;
+}
+.micada-home .w3-bar-block .w3-dropdown-hover .w3-button,
+.micada-home .w3-bar-block .w3-dropdown-click .w3-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+.micada-home .w3-main,
+.micada-home #main {
+  transition: margin-left 0.4s;
+}
+.micada-home .w3-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.micada-home .w3-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
+}
+.micada-home .w3-bar {
+  width: 100%;
+  overflow: hidden;
+}
+.micada-home .w3-center .w3-bar {
+  display: inline-block;
+  width: auto;
+}
+.micada-home .w3-bar .w3-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+.micada-home .w3-bar .w3-dropdown-hover,
+.micada-home .w3-bar .w3-dropdown-click {
+  position: static;
+  float: left;
+}
+.micada-home .w3-bar .w3-button {
+  white-space: normal;
+}
+.micada-home .w3-bar-block .w3-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+.micada-home .w3-bar-block.w3-center .w3-bar-item {
+  text-align: center;
+}
+.micada-home .w3-block {
+  display: block;
+  width: 100%;
+}
+.micada-home .w3-responsive {
+  display: block;
+  overflow-x: auto;
+}
+.micada-home .w3-container:after,
+.micada-home .w3-container:before,
+.micada-home .w3-panel:after,
+.micada-home .w3-panel:before,
+.micada-home .w3-row:after,
+.micada-home .w3-row:before,
+.micada-home .w3-row-padding:after,
+.micada-home .w3-row-padding:before,
+.micada-home .w3-cell-row:before,
+.micada-home .w3-cell-row:after,
+.micada-home .w3-clear:after,
+.micada-home .w3-clear:before,
+.micada-home .w3-bar:before,
+.micada-home .w3-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.micada-home .w3-col,
+.micada-home .w3-half,
+.micada-home .w3-third,
+.micada-home .w3-twothird,
+.micada-home .w3-threequarter,
+.micada-home .w3-quarter {
+  float: left;
+  width: 100%;
+}
+.micada-home .w3-col.s1 {
+  width: 8.33333%;
+}
+.micada-home .w3-col.s2 {
+  width: 16.66666%;
+}
+.micada-home .w3-col.s3 {
+  width: 24.99999%;
+}
+.micada-home .w3-col.s4 {
+  width: 33.33333%;
+}
+.micada-home .w3-col.s5 {
+  width: 41.66666%;
+}
+.micada-home .w3-col.s6 {
+  width: 49.99999%;
+}
+.micada-home .w3-col.s7 {
+  width: 58.33333%;
+}
+.micada-home .w3-col.s8 {
+  width: 66.66666%;
+}
+.micada-home .w3-col.s9 {
+  width: 74.99999%;
+}
+.micada-home .w3-col.s10 {
+  width: 83.33333%;
+}
+.micada-home .w3-col.s11 {
+  width: 91.66666%;
+}
+.micada-home .w3-col.s12 {
+  width: 99.99999%;
+}
+@media (min-width: 601px) {
+  .micada-home .w3-col.m1 {
+    width: 8.33333%;
+  }
+  .micada-home .w3-col.m2 {
+    width: 16.66666%;
+  }
+  .micada-home .w3-col.m3,
+.micada-home .w3-quarter {
+    width: 24.99999%;
+  }
+  .micada-home .w3-col.m4,
+.micada-home .w3-third {
+    width: 33.33333%;
+  }
+  .micada-home .w3-col.m5 {
+    width: 41.66666%;
+  }
+  .micada-home .w3-col.m6,
+.micada-home .w3-half {
+    width: 49.99999%;
+  }
+  .micada-home .w3-col.m7 {
+    width: 58.33333%;
+  }
+  .micada-home .w3-col.m8,
+.micada-home .w3-twothird {
+    width: 66.66666%;
+  }
+  .micada-home .w3-col.m9,
+.micada-home .w3-threequarter {
+    width: 74.99999%;
+  }
+  .micada-home .w3-col.m10 {
+    width: 83.33333%;
+  }
+  .micada-home .w3-col.m11 {
+    width: 91.66666%;
+  }
+  .micada-home .w3-col.m12 {
+    width: 99.99999%;
+  }
+}
+@media (min-width: 993px) {
+  .micada-home .w3-col.l1 {
+    width: 8.33333%;
+  }
+  .micada-home .w3-col.l2 {
+    width: 16.66666%;
+  }
+  .micada-home .w3-col.l3 {
+    width: 24.99999%;
+  }
+  .micada-home .w3-col.l4 {
+    width: 33.33333%;
+  }
+  .micada-home .w3-col.l5 {
+    width: 41.66666%;
+  }
+  .micada-home .w3-col.l6 {
+    width: 49.99999%;
+  }
+  .micada-home .w3-col.l7 {
+    width: 58.33333%;
+  }
+  .micada-home .w3-col.l8 {
+    width: 66.66666%;
+  }
+  .micada-home .w3-col.l9 {
+    width: 74.99999%;
+  }
+  .micada-home .w3-col.l10 {
+    width: 83.33333%;
+  }
+  .micada-home .w3-col.l11 {
+    width: 91.66666%;
+  }
+  .micada-home .w3-col.l12 {
+    width: 99.99999%;
+  }
+}
+.micada-home .w3-rest {
+  overflow: hidden;
+}
+.micada-home .w3-stretch {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.micada-home .w3-content,
+.micada-home .w3-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.micada-home .w3-content {
+  max-width: 980px;
+}
+.micada-home .w3-auto {
+  max-width: 1140px;
+}
+.micada-home .w3-cell-row {
+  display: table;
+  width: 100%;
+}
+.micada-home .w3-cell {
+  display: table-cell;
+}
+.micada-home .w3-cell-top {
+  vertical-align: top;
+}
+.micada-home .w3-cell-middle {
+  vertical-align: middle;
+}
+.micada-home .w3-cell-bottom {
+  vertical-align: bottom;
+}
+.micada-home .w3-hide {
+  display: none !important;
+}
+.micada-home .w3-show-block,
+.micada-home .w3-show {
+  display: block !important;
+}
+.micada-home .w3-show-inline-block {
+  display: inline-block !important;
+}
+@media (max-width: 1205px) {
+  .micada-home .w3-auto {
+    max-width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .micada-home .w3-modal-content {
+    margin: 0 10px;
+    width: auto !important;
+  }
+  .micada-home .w3-modal {
+    padding-top: 30px;
+  }
+  .micada-home .w3-dropdown-hover.w3-mobile .w3-dropdown-content,
+.micada-home .w3-dropdown-click.w3-mobile .w3-dropdown-content {
+    position: relative;
+  }
+  .micada-home .w3-hide-small {
+    display: none !important;
+  }
+  .micada-home .w3-mobile {
+    display: block;
+    width: 100% !important;
+  }
+  .micada-home .w3-bar-item.w3-mobile,
+.micada-home .w3-dropdown-hover.w3-mobile,
+.micada-home .w3-dropdown-click.w3-mobile {
+    text-align: center;
+  }
+  .micada-home .w3-dropdown-hover.w3-mobile,
+.micada-home .w3-dropdown-hover.w3-mobile .w3-btn,
+.micada-home .w3-dropdown-hover.w3-mobile .w3-button,
+.micada-home .w3-dropdown-click.w3-mobile,
+.micada-home .w3-dropdown-click.w3-mobile .w3-btn,
+.micada-home .w3-dropdown-click.w3-mobile .w3-button {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .micada-home .w3-modal-content {
+    width: 500px;
+  }
+  .micada-home .w3-modal {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 993px) {
+  .micada-home .w3-modal-content {
+    width: 900px;
+  }
+  .micada-home .w3-hide-large {
+    display: none !important;
+  }
+  .micada-home .w3-sidebar.w3-collapse {
+    display: block !important;
+  }
+}
+@media (max-width: 992px) and (min-width: 601px) {
+  .micada-home .w3-hide-medium {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  .micada-home .w3-sidebar.w3-collapse {
+    display: none;
+  }
+  .micada-home .w3-main {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .micada-home .w3-auto {
+    max-width: 100%;
+  }
+}
+.micada-home .w3-top,
+.micada-home .w3-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.micada-home .w3-top {
+  top: 0;
+}
+.micada-home .w3-bottom {
+  bottom: 0;
+}
+.micada-home .w3-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.micada-home .w3-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.micada-home .w3-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.micada-home .w3-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.micada-home .w3-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.micada-home .w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.micada-home .w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+.micada-home .w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+.micada-home .w3-display-topmiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}
+.micada-home .w3-display-bottommiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+}
+.micada-home .w3-display-container:hover .w3-display-hover {
+  display: block;
+}
+.micada-home .w3-display-container:hover span.w3-display-hover {
+  display: inline-block;
+}
+.micada-home .w3-display-hover {
+  display: none;
+}
+.micada-home .w3-display-position {
+  position: absolute;
+}
+.micada-home .w3-circle {
+  border-radius: 50%;
+}
+.micada-home .w3-round-small {
+  border-radius: 2px;
+}
+.micada-home .w3-round,
+.micada-home .w3-round-medium {
+  border-radius: 4px;
+}
+.micada-home .w3-round-large {
+  border-radius: 8px;
+}
+.micada-home .w3-round-xlarge {
+  border-radius: 16px;
+}
+.micada-home .w3-round-xxlarge {
+  border-radius: 32px;
+}
+.micada-home .w3-row-padding,
+.micada-home .w3-row-padding > .w3-half,
+.micada-home .w3-row-padding > .w3-third,
+.micada-home .w3-row-padding > .w3-twothird,
+.micada-home .w3-row-padding > .w3-threequarter,
+.micada-home .w3-row-padding > .w3-quarter,
+.micada-home .w3-row-padding > .w3-col {
+  padding: 0 8px;
+}
+.micada-home .w3-container,
+.micada-home .w3-panel {
+  padding: 0.01em 16px;
+}
+.micada-home .w3-panel {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.micada-home .w3-code,
+.micada-home .w3-codespan {
+  font-family: Consolas, "courier new";
+  font-size: 16px;
+}
+.micada-home .w3-code {
+  width: auto;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-left: 4px solid #4caf50;
+  word-wrap: break-word;
+}
+.micada-home .w3-codespan {
+  color: crimson;
+  background-color: #f1f1f1;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 110%;
+}
+.micada-home .w3-card,
+.micada-home .w3-card-2 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.micada-home .w3-card-4,
+.micada-home .w3-hover-shadow:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.micada-home .w3-spin {
+  animation: w3-spin 2s infinite linear;
+}
+@keyframes w3-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+.micada-home .w3-animate-fading {
+  animation: fading 10s infinite;
+}
+@keyframes fading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.micada-home .w3-animate-opacity {
+  animation: opac 0.8s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.micada-home .w3-animate-top {
+  position: relative;
+  animation: animatetop 0.4s;
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.micada-home .w3-animate-left {
+  position: relative;
+  animation: animateleft 0.4s;
+}
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+.micada-home .w3-animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+.micada-home .w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 0.4s;
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.micada-home .w3-animate-zoom {
+  animation: animatezoom 0.6s;
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.micada-home .w3-animate-input {
+  transition: width 0.4s ease-in-out;
+}
+.micada-home .w3-animate-input:focus {
+  width: 100% !important;
+}
+.micada-home .w3-opacity,
+.micada-home .w3-hover-opacity:hover {
+  opacity: 0.6;
+}
+.micada-home .w3-opacity-off,
+.micada-home .w3-hover-opacity-off:hover {
+  opacity: 1;
+}
+.micada-home .w3-opacity-max {
+  opacity: 0.25;
+}
+.micada-home .w3-opacity-min {
+  opacity: 0.75;
+}
+.micada-home .w3-greyscale-max,
+.micada-home .w3-grayscale-max,
+.micada-home .w3-hover-greyscale:hover,
+.micada-home .w3-hover-grayscale:hover {
+  filter: grayscale(100%);
+}
+.micada-home .w3-greyscale,
+.micada-home .w3-grayscale {
+  filter: grayscale(75%);
+}
+.micada-home .w3-greyscale-min,
+.micada-home .w3-grayscale-min {
+  filter: grayscale(50%);
+}
+.micada-home .w3-sepia {
+  filter: sepia(75%);
+}
+.micada-home .w3-sepia-max,
+.micada-home .w3-hover-sepia:hover {
+  filter: sepia(100%);
+}
+.micada-home .w3-sepia-min {
+  filter: sepia(50%);
+}
+.micada-home .w3-tiny {
+  font-size: 10px !important;
+}
+.micada-home .w3-small {
+  font-size: 12px !important;
+}
+.micada-home .w3-medium {
+  font-size: 15px !important;
+}
+.micada-home .w3-large {
+  font-size: 18px !important;
+}
+.micada-home .w3-xlarge {
+  font-size: 24px !important;
+}
+.micada-home .w3-xxlarge {
+  font-size: 36px !important;
+}
+.micada-home .w3-xxxlarge {
+  font-size: 48px !important;
+}
+.micada-home .w3-jumbo {
+  font-size: 64px !important;
+}
+.micada-home .w3-left-align {
+  text-align: left !important;
+}
+.micada-home .w3-right-align {
+  text-align: right !important;
+}
+.micada-home .w3-justify {
+  text-align: justify !important;
+}
+.micada-home .w3-center {
+  text-align: center !important;
+}
+.micada-home .w3-border-0 {
+  border: 0 !important;
+}
+.micada-home .w3-border {
+  border: 1px solid #ccc !important;
+  border-radius: 10px;
+}
+.micada-home .w3-borderB {
+  border: 2px solid #ccc !important;
+  border-radius: 10px;
+}
+.micada-home .w3-border-top {
+  border-top: 1px solid #ccc !important;
+}
+.micada-home .w3-border-bottom {
+  border-bottom: 1px solid #ccc !important;
+}
+.micada-home .w3-border-left {
+  border-left: 1px solid #ccc !important;
+}
+.micada-home .w3-border-right {
+  border-right: 1px solid #ccc !important;
+}
+.micada-home .w3-topbar {
+  border-top: 6px solid #ccc !important;
+}
+.micada-home .w3-bottombar {
+  border-bottom: 6px solid #ccc !important;
+}
+.micada-home .w3-leftbar {
+  border-left: 6px solid #ccc !important;
+}
+.micada-home .w3-rightbar {
+  border-right: 6px solid #ccc !important;
+}
+.micada-home .w3-section,
+.micada-home .w3-code {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+.micada-home .w3-margin {
+  margin: 16px !important;
+}
+.micada-home .w3-margin-top {
+  margin-top: 16px !important;
+}
+.micada-home .w3-margin-bottom {
+  margin-bottom: 16px !important;
+}
+.micada-home .w3-margin-left {
+  margin-left: 16px !important;
+}
+.micada-home .w3-margin-right {
+  margin-right: 16px !important;
+}
+.micada-home .w3-padding-small {
+  padding: 4px 8px !important;
+}
+.micada-home .w3-padding {
+  padding: 8px 16px !important;
+}
+.micada-home .w3-padding-large {
+  padding: 12px 24px !important;
+}
+.micada-home .w3-padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+.micada-home .w3-padding-24 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+.micada-home .w3-padding-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+.micada-home .w3-padding-48 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+.micada-home .w3-padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+.micada-home .w3-padding-top-64 {
+  padding-top: 64px !important;
+}
+.micada-home .w3-padding-top-48 {
+  padding-top: 48px !important;
+}
+.micada-home .w3-padding-top-32 {
+  padding-top: 32px !important;
+}
+.micada-home .w3-padding-top-24 {
+  padding-top: 24px !important;
+}
+.micada-home .w3-left {
+  float: left !important;
+}
+.micada-home .w3-right {
+  float: right !important;
+}
+.micada-home .w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.micada-home .w3-transparent,
+.micada-home .w3-hover-none:hover {
+  background-color: transparent !important;
+}
+.micada-home .w3-hover-none:hover {
+  box-shadow: none !important;
+}
+.micada-home .w3-amber,
+.micada-home .w3-hover-amber:hover {
+  color: #000 !important;
+  background-color: #ffc107 !important;
+}
+.micada-home .w3-aqua,
+.micada-home .w3-hover-aqua:hover {
+  color: #000 !important;
+  background-color: #00ffff !important;
+}
+.micada-home .w3-blue,
+.micada-home .w3-hover-blue:hover {
+  color: #fff !important;
+  background-color: #2196f3 !important;
+}
+.micada-home .w3-light-blue,
+.micada-home .w3-hover-light-blue:hover {
+  color: #000 !important;
+  background-color: #87ceeb !important;
+}
+.micada-home .w3-brown,
+.micada-home .w3-hover-brown:hover {
+  color: #fff !important;
+  background-color: #795548 !important;
+}
+.micada-home .w3-cyan,
+.micada-home .w3-hover-cyan:hover {
+  color: #000 !important;
+  background-color: #00bcd4 !important;
+}
+.micada-home .w3-blue-grey,
+.micada-home .w3-hover-blue-grey:hover,
+.micada-home .w3-blue-gray,
+.micada-home .w3-hover-blue-gray:hover {
+  color: #fff !important;
+  background-color: #607d8b !important;
+}
+.micada-home .w3-green,
+.micada-home .w3-hover-green:hover {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+}
+.micada-home .w3-light-green,
+.micada-home .w3-hover-light-green:hover {
+  color: #000 !important;
+  background-color: #8bc34a !important;
+}
+.micada-home .w3-indigo,
+.micada-home .w3-hover-indigo:hover {
+  color: #fff !important;
+  background-color: #3f51b5 !important;
+}
+.micada-home .w3-khaki,
+.micada-home .w3-hover-khaki:hover {
+  color: #000 !important;
+  background-color: #f0e68c !important;
+}
+.micada-home .w3-lime,
+.micada-home .w3-hover-lime:hover {
+  color: #000 !important;
+  background-color: #cddc39 !important;
+}
+.micada-home .w3-orange,
+.micada-home .w3-hover-orange:hover {
+  color: #000 !important;
+  background-color: #ff9800 !important;
+}
+.micada-home .w3-deep-orange,
+.micada-home .w3-hover-deep-orange:hover {
+  color: #fff !important;
+  background-color: #ff5722 !important;
+}
+.micada-home .w3-pink,
+.micada-home .w3-hover-pink:hover {
+  color: #fff !important;
+  background-color: #e91e63 !important;
+}
+.micada-home .w3-purple,
+.micada-home .w3-hover-purple:hover {
+  color: #fff !important;
+  background-color: #9c27b0 !important;
+}
+.micada-home .w3-deep-purple,
+.micada-home .w3-hover-deep-purple:hover {
+  color: #fff !important;
+  background-color: #673ab7 !important;
+}
+.micada-home .w3-red,
+.micada-home .w3-hover-red:hover {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+.micada-home .w3-sand,
+.micada-home .w3-hover-sand:hover {
+  color: #000 !important;
+  background-color: #fdf5e6 !important;
+}
+.micada-home .w3-teal,
+.micada-home .w3-hover-teal:hover {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+.micada-home .w3-yellow,
+.micada-home .w3-hover-yellow:hover {
+  color: #000 !important;
+  background-color: #ffeb3b !important;
+}
+.micada-home .w3-white,
+.micada-home .w3-hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.micada-home .w3-black,
+.micada-home .w3-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+.micada-home .w3-grey,
+.micada-home .w3-hover-grey:hover,
+.micada-home .w3-gray,
+.micada-home .w3-hover-gray:hover {
+  color: #000 !important;
+  background-color: #9e9e9e !important;
+}
+.micada-home .w3-light-grey,
+.micada-home .w3-hover-light-grey:hover,
+.micada-home .w3-light-gray,
+.micada-home .w3-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+.micada-home .w3-dark-grey,
+.micada-home .w3-hover-dark-grey:hover,
+.micada-home .w3-dark-gray,
+.micada-home .w3-hover-dark-gray:hover {
+  color: #fff !important;
+  background-color: #616161 !important;
+}
+.micada-home .w3-pale-red,
+.micada-home .w3-hover-pale-red:hover {
+  color: #000 !important;
+  background-color: #ffdddd !important;
+}
+.micada-home .w3-pale-green,
+.micada-home .w3-hover-pale-green:hover {
+  color: #000 !important;
+  background-color: #ddffdd !important;
+}
+.micada-home .w3-pale-yellow,
+.micada-home .w3-hover-pale-yellow:hover {
+  color: #000 !important;
+  background-color: #ffffcc !important;
+}
+.micada-home .w3-pale-blue,
+.micada-home .w3-hover-pale-blue:hover {
+  color: #000 !important;
+  background-color: #ddffff !important;
+}
+.micada-home .w3-text-amber,
+.micada-home .w3-hover-text-amber:hover {
+  color: #ffc107 !important;
+}
+.micada-home .w3-text-aqua,
+.micada-home .w3-hover-text-aqua:hover {
+  color: #00ffff !important;
+}
+.micada-home .w3-text-blue,
+.micada-home .w3-hover-text-blue:hover {
+  color: #2196f3 !important;
+}
+.micada-home .w3-text-light-blue,
+.micada-home .w3-hover-text-light-blue:hover {
+  color: #87ceeb !important;
+}
+.micada-home .w3-text-brown,
+.micada-home .w3-hover-text-brown:hover {
+  color: #795548 !important;
+}
+.micada-home .w3-text-cyan,
+.micada-home .w3-hover-text-cyan:hover {
+  color: #00bcd4 !important;
+}
+.micada-home .w3-text-blue-grey,
+.micada-home .w3-hover-text-blue-grey:hover,
+.micada-home .w3-text-blue-gray,
+.micada-home .w3-hover-text-blue-gray:hover {
+  color: #607d8b !important;
+}
+.micada-home .w3-text-green,
+.micada-home .w3-hover-text-green:hover {
+  color: #4caf50 !important;
+}
+.micada-home .w3-text-light-green,
+.micada-home .w3-hover-text-light-green:hover {
+  color: #8bc34a !important;
+}
+.micada-home .w3-text-indigo,
+.micada-home .w3-hover-text-indigo:hover {
+  color: #3f51b5 !important;
+}
+.micada-home .w3-text-khaki,
+.micada-home .w3-hover-text-khaki:hover {
+  color: #b4aa50 !important;
+}
+.micada-home .w3-text-lime,
+.micada-home .w3-hover-text-lime:hover {
+  color: #cddc39 !important;
+}
+.micada-home .w3-text-orange,
+.micada-home .w3-hover-text-orange:hover {
+  color: #ff9800 !important;
+}
+.micada-home .w3-text-deep-orange,
+.micada-home .w3-hover-text-deep-orange:hover {
+  color: #ff5722 !important;
+}
+.micada-home .w3-text-pink,
+.micada-home .w3-hover-text-pink:hover {
+  color: #e91e63 !important;
+}
+.micada-home .w3-text-purple,
+.micada-home .w3-hover-text-purple:hover {
+  color: #9c27b0 !important;
+}
+.micada-home .w3-text-deep-purple,
+.micada-home .w3-hover-text-deep-purple:hover {
+  color: #673ab7 !important;
+}
+.micada-home .w3-text-red,
+.micada-home .w3-hover-text-red:hover {
+  color: #f44336 !important;
+}
+.micada-home .w3-text-sand,
+.micada-home .w3-hover-text-sand:hover {
+  color: #fdf5e6 !important;
+}
+.micada-home .w3-text-teal,
+.micada-home .w3-hover-text-teal:hover {
+  color: #009688 !important;
+}
+.micada-home .w3-text-yellow,
+.micada-home .w3-hover-text-yellow:hover {
+  color: #d2be0e !important;
+}
+.micada-home .w3-text-white,
+.micada-home .w3-hover-text-white:hover {
+  color: #fff !important;
+}
+.micada-home .w3-text-black,
+.micada-home .w3-hover-text-black:hover {
+  color: #000 !important;
+}
+.micada-home .w3-text-grey,
+.micada-home .w3-hover-text-grey:hover,
+.micada-home .w3-text-gray,
+.micada-home .w3-hover-text-gray:hover {
+  color: #757575 !important;
+}
+.micada-home .w3-text-light-grey,
+.micada-home .w3-hover-text-light-grey:hover,
+.micada-home .w3-text-light-gray,
+.micada-home .w3-hover-text-light-gray:hover {
+  color: #f1f1f1 !important;
+}
+.micada-home .w3-text-dark-grey,
+.micada-home .w3-hover-text-dark-grey:hover,
+.micada-home .w3-text-dark-gray,
+.micada-home .w3-hover-text-dark-gray:hover {
+  color: #3a3a3a !important;
+}
+.micada-home .w3-border-amber,
+.micada-home .w3-hover-border-amber:hover {
+  border-color: #ffc107 !important;
+}
+.micada-home .w3-border-aqua,
+.micada-home .w3-hover-border-aqua:hover {
+  border-color: #00ffff !important;
+}
+.micada-home .w3-border-blue,
+.micada-home .w3-hover-border-blue:hover {
+  border-color: #2196f3 !important;
+}
+.micada-home .w3-border-light-blue,
+.micada-home .w3-hover-border-light-blue:hover {
+  border-color: #87ceeb !important;
+}
+.micada-home .w3-border-brown,
+.micada-home .w3-hover-border-brown:hover {
+  border-color: #795548 !important;
+}
+.micada-home .w3-border-cyan,
+.micada-home .w3-hover-border-cyan:hover {
+  border-color: #00bcd4 !important;
+}
+.micada-home .w3-border-blue-grey,
+.micada-home .w3-hover-border-blue-grey:hover,
+.micada-home .w3-border-blue-gray,
+.micada-home .w3-hover-border-blue-gray:hover {
+  border-color: #607d8b !important;
+}
+.micada-home .w3-border-green,
+.micada-home .w3-hover-border-green:hover {
+  border-color: #4caf50 !important;
+}
+.micada-home .w3-border-light-green,
+.micada-home .w3-hover-border-light-green:hover {
+  border-color: #8bc34a !important;
+}
+.micada-home .w3-border-indigo,
+.micada-home .w3-hover-border-indigo:hover {
+  border-color: #3f51b5 !important;
+}
+.micada-home .w3-border-khaki,
+.micada-home .w3-hover-border-khaki:hover {
+  border-color: #f0e68c !important;
+}
+.micada-home .w3-border-lime,
+.micada-home .w3-hover-border-lime:hover {
+  border-color: #cddc39 !important;
+}
+.micada-home .w3-border-orange,
+.micada-home .w3-hover-border-orange:hover {
+  border-color: #ff9800 !important;
+}
+.micada-home .w3-border-deep-orange,
+.micada-home .w3-hover-border-deep-orange:hover {
+  border-color: #ff5722 !important;
+}
+.micada-home .w3-border-pink,
+.micada-home .w3-hover-border-pink:hover {
+  border-color: #e91e63 !important;
+}
+.micada-home .w3-border-purple,
+.micada-home .w3-hover-border-purple:hover {
+  border-color: #9c27b0 !important;
+}
+.micada-home .w3-border-deep-purple,
+.micada-home .w3-hover-border-deep-purple:hover {
+  border-color: #673ab7 !important;
+}
+.micada-home .w3-border-red,
+.micada-home .w3-hover-border-red:hover {
+  border-color: #f44336 !important;
+}
+.micada-home .w3-border-sand,
+.micada-home .w3-hover-border-sand:hover {
+  border-color: #fdf5e6 !important;
+}
+.micada-home .w3-border-teal,
+.micada-home .w3-hover-border-teal:hover {
+  border-color: #009688 !important;
+}
+.micada-home .w3-border-yellow,
+.micada-home .w3-hover-border-yellow:hover {
+  border-color: #ffeb3b !important;
+}
+.micada-home .w3-border-white,
+.micada-home .w3-hover-border-white:hover {
+  border-color: #fff !important;
+}
+.micada-home .w3-border-black,
+.micada-home .w3-hover-border-black:hover {
+  border-color: #000 !important;
+}
+.micada-home .w3-border-grey,
+.micada-home .w3-hover-border-grey:hover,
+.micada-home .w3-border-gray,
+.micada-home .w3-hover-border-gray:hover {
+  border-color: #9e9e9e !important;
+}
+.micada-home .w3-border-light-grey,
+.micada-home .w3-hover-border-light-grey:hover,
+.micada-home .w3-border-light-gray,
+.micada-home .w3-hover-border-light-gray:hover {
+  border-color: #f1f1f1 !important;
+}
+.micada-home .w3-border-dark-grey,
+.micada-home .w3-hover-border-dark-grey:hover,
+.micada-home .w3-border-dark-gray,
+.micada-home .w3-hover-border-dark-gray:hover {
+  border-color: #616161 !important;
+}
+.micada-home .w3-border-pale-red,
+.micada-home .w3-hover-border-pale-red:hover {
+  border-color: #ffe7e7 !important;
+}
+.micada-home .w3-border-pale-green,
+.micada-home .w3-hover-border-pale-green:hover {
+  border-color: #e7ffe7 !important;
+}
+.micada-home .w3-border-pale-yellow,
+.micada-home .w3-hover-border-pale-yellow:hover {
+  border-color: #ffffcc !important;
+}
+.micada-home .w3-border-pale-blue,
+.micada-home .w3-hover-border-pale-blue:hover {
+  border-color: #e7ffff !important;
+}
+.micada-home .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.micada-home .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.micada-home .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.micada-home .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.micada-home .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.micada-home .dropdown:hover .dropdown-content {
+  display: block;
+}
+.micada-home .dropdown:hover .dropbtn {
+  background-color: darkseagreen;
+}
+.micada-home h2 {
+  vertical-align: center;
+  text-align: center;
+}
+.micada-home html,
+.micada-home body {
+  margin: 0;
+  height: 100%;
+}
+.micada-home * {
+  font-family: "Inter", "sans-serif" !important;
+  box-sizing: border-box;
+}
+.micada-home .button-div {
+  margin-top: 25px;
+}
+.micada-home .button-div label {
+  font-size: 1rem;
+  font-weight: 900;
+  color: black;
+}
+.micada-home .button-34 {
+  background-color: #f4f4c6;
+  border-radius: 80px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 10px 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 0.8rem !important;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.micada-home .button-34:hover {
+  background-color: #dcdcdc;
+  color: black;
+  transform: scale(1.1);
+}
+.micada-home .button-33 {
+  background-color: #255ea5;
+  border-radius: 80px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 10px 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 1.1vw !important;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.micada-home .button-33:hover {
+  background-color: #efd8bb;
+  color: black;
+  transform: scale(1.07);
+  z-index: 1;
+}
+@media (max-width: 700px) {
+  .micada-home .button-div {
+    margin-top: 0px;
+  }
+  .micada-home .button-33 {
+    background-color: #255ea5;
+    border-radius: 80px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .micada-home .button-33:hover {
+    background-color: #efd8bb;
+    color: black;
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 700px) {
+  .micada-home .header {
+    display: inline;
+  }
+}
+.micada-home .sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.micada-home .menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.micada-home .menu > li {
+  margin: 1.3rem;
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+.micada-home .menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.micada-home #menu-toggle {
+  display: none;
+}
+.micada-home .menu-button,
+.micada-home .menu-button::before,
+.micada-home .menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.micada-home .menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+.micada-home .menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+.micada-home #menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+.micada-home #menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+.micada-home #menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+@media (max-width: 700px) {
+  .micada-home .bottom-content-box {
+    max-height: 40vh !important;
+    overflow: auto !important;
+  }
+  .micada-home .info-container1,
+.micada-home .info-container3 {
+    max-height: 35vh !important;
+    overflow: hidden !important;
+    z-index: 99;
+  }
+  .micada-home .info-container2 {
+    max-height: 50vh !important;
+    overflow: auto !important;
+  }
+}
+.micada-home .top-header-sec {
+  background: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+.micada-home .language-translation {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.micada-home .logo-continer img {
+  width: 100%;
+  height: 90px;
+  object-fit: contain;
+}
+.micada-home .micada-heading p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #8b5815;
+}
+.micada-home .top-level-image {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.micada-home .top-level-image p {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 5px !important;
+}
+.micada-home .top-level-image img {
+  padding-bottom: 0px !important;
+}
+.micada-home .cursor-pointer {
+  cursor: pointer;
+}
+.micada-home .cursor-pointer-new {
+  cursor: pointer;
+  color: #0b0b0b;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.micada-home .social-icons {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-home .social-icons a {
+  margin: 0 5px;
+  /* Space between icons */
+  color: #fff;
+  /* Set icon color */
+  font-size: 20px;
+  /* Set icon size */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+.micada-home .social-icons img:hover {
+  transform: scale(1.1);
+  /* Change color on hover */
+}
+.micada-home .language-translation {
+  justify-content: right;
+  height: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.micada-home .language-translation label {
+  font-size: 0.8rem;
+  color: black;
+}
+.micada-home .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.micada-home .p-dropdown-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.micada-home .login-button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.micada-home .login-button-section button {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.micada-home .marquee-text .s1 {
+  margin: 0px !important;
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+}
+.micada-home .marquee-text .s2 {
+  margin: 0px !important;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black !important;
+}
+.micada-home .marquee-static-text {
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.micada-home .marquee-static-text p {
+  animation: blink 1s infinite;
+}
+.micada-home .blick-text {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    color: green;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: #cf9126;
+  }
+}
+.micada-home .p-menuitem {
+  font-size: 0.9rem !important;
+  font-weight: bold;
+}
+.micada-home .p-menuitem-link {
+  background-color: #f9a052 !important;
+  color: #000 !important;
+}
+.micada-home .p-menuitem-link:hover {
+  background-color: #f7f3f0 !important;
+  color: #000 !important;
+  z-index: 100;
+}
+.micada-home .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+  color: #000 !important;
+}
+.micada-home .p-menubar .p-menuitem-link .p-menuitem-text {
+  color: #000 !important;
+}
+.micada-home .p-menubar .p-menuitem-link .p-menuitem-icon {
+  color: #000 !important;
+}
+.micada-home .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
+  color: #000 !important;
+}
+.micada-home .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
+  color: #000 !important;
+}
+.micada-home .p-menubar.p-component {
+  background-color: #f9a052;
+}
+.micada-home .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+  margin-left: 1px;
+  font-weight: bold !important;
+}
+@media (max-width: 1100px) and (min-width: 700px) {
+  .micada-home .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    margin-left: -15px;
+    font-weight: bold !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  .micada-home .p-menubar .p-menubar-button {
+    color: #000 !important;
+  }
+}
+.micada-home .new-registration {
+  position: absolute;
+  top: 0;
+  right: 0 !important;
+  width: 30%;
+  /* Fixed box width to 30% */
+  height: auto;
+  padding: 20px;
+  z-index: 10;
+  background: #ffffff;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* Ensures content moves to the next line */
+  align-items: flex-start;
+  /* Align items at the start */
+}
+.micada-home .new-registration p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: green;
+  word-wrap: break-word;
+  /* Breaks long words to fit within the box */
+}
+.micada-home .new-registration-small-scr p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: green;
+}
+.micada-home .banner-content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 89%;
+  padding: 20px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.micada-home .container-leader {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+.micada-home .container-leader::-webkit-scrollbar {
+  width: 0px;
+}
+.micada-home .d-flex-leader {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.micada-home .image-container-leader {
+  position: relative;
+  width: 7.2vw;
+  max-height: 20vh;
+  flex-shrink: 0;
+}
+.micada-home .image-container-leader img {
+  width: 100%;
+  max-height: 20vh;
+  border-radius: 50%;
+  /* Circular image */
+  border: 3px solid #f2c9ce;
+  object-fit: cover;
+}
+.micada-home .text-box-leader {
+  background: white;
+  border-radius: 0 10px 10px 0;
+  /* Rectangle starts seamlessly from the circle */
+  padding: 1vw;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-left: -30px;
+  /* Overlaps slightly with the circular image */
+}
+.micada-home .text-box-leader-content {
+  margin-left: 25px;
+}
+.micada-home .text-box-leader-content h5 {
+  font-weight: bold;
+  margin: 0;
+  color: #f4617c;
+  font-size: 1rem;
+}
+.micada-home .text-box-leader-content p {
+  margin: 0;
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: black;
+}
+.micada-home .text-box-leader-content .location {
+  color: gray;
+  font-size: 0.8vw;
+}
+@media (max-width: 600px) {
+  .micada-home .container-leader {
+    width: 100%;
+  }
+}
+.micada-home .events-links-container {
+  background: linear-gradient(to bottom, #ffffff, #d4d4d4);
+}
+.micada-home .events-links-header {
+  background-color: #ffffff;
+  color: black;
+}
+.micada-home .gallery-area {
+  background: linear-gradient(90deg, #d9ebd7 0%, rgba(255, 255, 255, 0.8) 50%, #d9ebd7 100%);
+  padding: 0px 10px 10px 10px;
+  /* Add padding for a neat wrap effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: adds a subtle shadow for depth */
+}
+.micada-home .custom-scroll {
+  background-color: white;
+  /* Inner container background */
+  border-radius: 8px;
+  /* Match the container's style */
+  padding: 10px;
+  /* Add space inside */
+  overflow-y: auto;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Inner shadow for depth */
+  border: 1px solid #ccc;
+  /* Border for differentiation */
+}
+.micada-home .text-center {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-home .video-section,
+.micada-home .photo-section {
+  text-align: center;
+}
+.micada-home .video-section span,
+.micada-home .photo-section span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-home .photo-section-zoom {
+  text-align: center;
+}
+.micada-home .photo-section-zoom img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.micada-home .photo-section-zoom span {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+.micada-home .p-galleria .p-galleria-indicators {
+  padding: 0px;
+}
+.micada-home .gallery-container {
+  background-color: #ececec;
+}
+.micada-home .photo-gallery-section img,
+.micada-home .video-gallery-section img {
+  margin: 2% 0% 0% 0%;
+  max-width: 95%;
+  height: auto;
+  object-fit: fill;
+}
+.micada-home .useful-links-section {
+  background: linear-gradient(to bottom, #ffffff, #d4d4d4);
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.micada-home .useful-links-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: black;
+}
+.micada-home .useful-links-scroll-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  scrollbar-width: thin;
+  /* For Firefox */
+  scrollbar-color: #ccc transparent;
+  /* For Firefox */
+}
+.micada-home .useful-links-scroll-container a:hover {
+  background: #f5dac2;
+}
+.micada-home .useful-links-scroll-container::-webkit-scrollbar {
+  height: 8px;
+  /* Height of the scrollbar */
+}
+.micada-home .useful-links-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+  /* Scrollbar track color */
+}
+.micada-home .useful-links-scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+.micada-home .useful-link-card {
+  min-width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.micada-home .useful-link-card img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+.micada-home .useful-link-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.micada-home .bottom-content {
+  background-color: #ffffff;
+}
+.micada-home .bottom-content-box {
+  background-color: #ffff;
+  height: 260px !important;
+  overflow: auto !important;
+}
+.micada-home .info-container1,
+.micada-home .info-container3 {
+  height: 400px !important;
+  overflow: none !important;
+}
+.micada-home .info-container2 {
+  background-color: #ffffff;
+  min-height: 300px !important;
+  max-height: 400px !important;
+  overflow: auto !important;
+}
+.micada-home .bottom-content-box::-webkit-scrollbar {
+  display: none;
+}
+.micada-home .info-container2::-webkit-scrollbar {
+  display: none;
+}
+.micada-home .middle-content::-webkit-scrollbar {
+  display: none;
+}
+.micada-home .bottom-content-box,
+.micada-home .info-container2 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.micada-home .bottom-content-box-header {
+  background: linear-gradient(to bottom, #ffffff, #d4d4d4);
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.micada-home .custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+.micada-home .custom-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.micada-home .contact-content {
+  background-color: #f1f0f0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.micada-home .contact-heading {
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+}
+.micada-home .contact-heading p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.micada-home .footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  padding: 20px;
+}
+.micada-home .footer-icon {
+  font-size: 1.5rem;
+  color: #cf9126;
+  margin-right: 10px;
+}
+.micada-home .footer-text {
+  font-size: 1rem;
+  color: black;
+}
+.micada-home .footer-text-last-date {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-home .footer-copyright {
+  background-color: #222;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+@media (max-width: 600px) {
+  .micada-home .hide-small {
+    display: none !important;
+  }
+  .micada-home .micada-heading p {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-home .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-home .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-home .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-home .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .micada-home .banner-content-overlay {
+    width: 70%;
+    height: 80%;
+  }
+  .micada-home .image-container-leader {
+    position: relative;
+    width: 25vw;
+    max-height: 40vh;
+    flex-shrink: 0;
+  }
+  .micada-home .image-container-leader img {
+    width: 100%;
+    max-height: 40vh;
+    border-radius: 50%;
+    /* Circular image */
+    border: 3px solid #f2c9ce;
+    object-fit: cover;
+  }
+  .micada-home .text-box-leader {
+    background: white;
+    border-radius: 0 10px 10px 0;
+    /* Rectangle starts seamlessly from the circle */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: -30px;
+    /* Overlaps slightly with the circular image */
+  }
+  .micada-home .text-box-leader-content {
+    margin-left: 25px;
+  }
+  .micada-home .text-box-leader-content h5 {
+    font-weight: bold;
+    margin: 0;
+    color: #f4617c;
+    font-size: 1rem;
+  }
+  .micada-home .text-box-leader-content p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+  }
+  .micada-home .text-box-leader-content .location {
+    color: gray;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 700px) and (min-width: 601px) {
+  .micada-home .hide-small {
+    display: none !important;
+  }
+  .micada-home .micada-heading p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-home .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-home .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-home .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-home .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .micada-home .banner-content-overlay {
+    width: 40%;
+    height: 80%;
+  }
+}
+@media (max-width: 992px) and (min-width: 701px) {
+  .micada-home .hide-medium {
+    display: none !important;
+  }
+  .micada-home .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 75% !important;
+    left: 39% !important;
+  }
+  .micada-home .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 0.5em;
+    font-family: sans-serif;
+  }
+  .micada-home .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-home .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .micada-home .banner-content-overlay {
+    width: 45%;
+    height: 80%;
+  }
+}
+.micada-home .video-responsive {
+  width: 100%;
+  max-width: 600px;
+  /* or any max width you want */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.micada-home .video-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+}
+.micada-home .video-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}

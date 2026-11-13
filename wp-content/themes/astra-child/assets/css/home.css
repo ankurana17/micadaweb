@@ -1,0 +1,227 @@
+@font-face{font-family:Inter;src:url(../fonts/Inter-Regular.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Inter;src:url(../fonts/Inter-Medium.woff2) format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Inter;src:url(../fonts/Inter-SemiBold.woff2) format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:Inter;src:url(../fonts/Inter-Bold.woff2) format('woff2');font-weight:700;font-display:swap}
+body.micada-home{margin:0;padding:0;background:#edf2f6;color:#000;font-family:Inter,Arial,sans-serif;line-height:1.5}
+.micada-home *, .micada-home *::before,.micada-home *::after{box-sizing:border-box}
+.micada-home a{text-decoration:none}
+.micada-home .micada-header{background:white}
+.micada-home .micada-header .social-icon{width:24px;height:24px;object-fit:contain}
+.micada-home .micada-header .micada-heading p{line-height:1.2;font-size:2vw}
+.micada-home .micada-icon{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.125em}
+.micada-home .micada-header .logo-continer img{width:100%;height:90px;object-fit:contain}
+.micada-home .micada-header .language-translation{justify-content:center}
+.micada-home .micada-header select{width:106px;flex:none}
+.micada-home .micada-header .top-header-sec{min-height:112px}
+.micada-home .micada-header select{font-size:11px;color:#495057;padding:9px 12px;min-width:106px;height:38px}
+.micada-home .micada-navigation{background:#ffa448;border:1px solid #dee2e6;border-radius:5px;padding:4px 8px;z-index:100;min-height:50px}
+.micada-home .micada-menu,.micada-home .micada-menu ul{list-style:none;margin:0;padding:0}
+.micada-home .micada-menu{display:flex;align-items:center;flex-wrap:wrap;gap:0}
+.micada-home .micada-menu>li{position:relative;font-size:12px;font-weight:700}
+.micada-home .micada-menu a,.micada-home .micada-menu summary{display:block;padding:12px 16px;color:#111;cursor:pointer;white-space:nowrap}
+.micada-home .micada-menu summary{list-style:none}
+.micada-home .micada-menu summary::-webkit-details-marker{display:none}
+.micada-home .micada-menu .micada-nav-icon{font-size:16px;vertical-align:middle;margin-right:4px}
+.micada-home .micada-menu .micada-menu-chevron{font-size:12px;vertical-align:middle;margin-left:3px}
+.micada-home .micada-menu-toggle-icon{width:16px;height:16px;vertical-align:-.15em;margin-right:4px}
+.micada-home .micada-menu a:hover,.micada-home .micada-menu summary:hover{background:#f3d5b1;border-radius:4px}
+.micada-home .micada-menu details>ul,.micada-home .micada-menu .sub-menu{position:absolute;top:100%;left:0;background:#fff;min-width:220px;box-shadow:0 3px 10px #0003;border-radius:5px;z-index:110}
+.micada-home .micada-menu details>ul a{display:flex;align-items:center;gap:8px}
+.micada-home .micada-menu .micada-submenu-icon{width:16px;height:16px;flex:0 0 16px;vertical-align:middle}
+.micada-home .micada-menu .sub-menu{display:none}
+.micada-home .micada-menu li:hover>.sub-menu,.micada-home .micada-menu li:focus-within>.sub-menu{display:block}
+.micada-home .micada-menu-toggle{display:none}
+.micada-home .micada-farmer-line{display:flex;align-items:center;padding:0 8px;height:32px;overflow:hidden}
+.micada-home .marquee-static-text{flex-shrink:0}
+.micada-home .marquee-static-text p{margin:0;color:#477800;font-size:1rem;font-weight:700}
+.micada-home .micada-farmer-line marquee{color:red;font-weight:700;font-size:1rem}
+.micada-home .micada-farmer-line img{vertical-align:middle}
+.micada-home .micada-applications{border-radius:10px;padding:0 6px 2px}
+.micada-home .maintenance-notice{background:#fff8e6;color:#874d00;border-left:4px solid #e39100;border-radius:4px;margin:0 4px 6px;padding:7px 12px;min-height:34px;font:500 1rem/1.5 Inter,Arial,sans-serif}
+.micada-home .maintenance-notice .maintenance-icon{width:16px;height:16px;margin-right:8px;color:#dc8600;vertical-align:-.15em}
+.micada-home .login-button-section{display:flex;gap:3px;width:100%}
+.micada-home .login-button-section .button-33{flex:1;padding:8px 10px;font-family:Inter,Arial,sans-serif;font-size:1.1vw!important;line-height:1.4;margin-bottom:4px;white-space:nowrap}
+.micada-home .micada-hero{position:relative;margin-top:4px;overflow:hidden}
+.micada-home .micada-slides{position:relative;overflow:hidden;width:100%}
+.micada-home .micada-slides-track{display:flex;width:100%;transition:transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);will-change:transform}
+.micada-home .micada-slide{flex:0 0 100%;min-width:100%;max-width:100%;margin:0;padding:5px 0 0}
+.micada-home .micada-slide>img{width:100%;height:auto;aspect-ratio:3/1;object-fit:fill;display:block}
+.micada-home .micada-slide figcaption{font-size:1rem;font-weight:700;text-align:center;min-height:24px;line-height:1.5;padding:4px 10px;color:#222}
+.micada-home .banner-content-overlay{height:89%;margin-top:6px!important;z-index:12}
+.micada-home .new-registration{position:absolute;top:0;right:0;width:30%;max-height:90%;overflow-y:auto;padding:8px 12px;z-index:11;display:flex!important;flex-direction:column;gap:10px!important;align-items:stretch;background:transparent!important;border-radius:0;box-shadow:none}
+.micada-home .new-registration p{display:flex;align-items:center;gap:8px;width:100%;min-width:0;margin:0;font-size:1.1rem;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px 20px;color:green;font-weight:700;box-shadow:0 2px 6px #0002;overflow-wrap:anywhere}
+.micada-home .new-registration p span{display:block;flex:1;min-width:0;overflow-wrap:anywhere;word-break:normal}
+.micada-home .new-registration img{width:auto;max-width:48px;height:auto;flex:0 0 auto;vertical-align:middle}
+.micada-home .micada-dots{display:flex;justify-content:center;gap:8px;height:24px;align-items:center;margin-top:4px}
+.micada-home .micada-dots button{padding:0;width:12px;height:12px;min-height:0;border:0;border-radius:50%;background:#cfd5da;cursor:pointer;transition:all 0.3s ease}
+.micada-home .micada-dots button[aria-pressed=true]{background:#195085;transform:scale(1.25)}
+.micada-home .micada-mobile-leaders{display:none}
+.micada-home .micada-panels{display:flex;flex-wrap:wrap;scroll-margin-top:65px;margin-top:4px!important}
+.micada-home .micada-panels .info-container1,.micada-home .micada-panels .info-container3{width:16.66667%;height:400px!important;padding:0 16px;overflow:hidden}
+.micada-home .micada-panels .info-container2{width:66.66667%;height:400px;padding:0 16px;overflow:auto}
+.micada-home .micada-panels .info-container2>h5{font-size:18px;font-weight:700;color:#000}
+.micada-home .micada-panels .info-container2>h4{font-size:20px;line-height:1.2}
+.micada-home .micada-panels .info-container2 p{font-size:13px;font-weight:700;color:#000;line-height:1.5;text-align:justify}
+.micada-home .micada-panels .info-container2 ul{padding-left:0}
+.micada-home .micada-about h2{font-size:18px;line-height:1.5;font-weight:700;margin:12px 0 6px;color:#000}
+.micada-home .micada-about h3{font-size:20px;line-height:1.2;font-weight:700;margin:0 0 14px;background:#d3e1e7;color:#000}
+.micada-home .micada-about p{margin:0 15px;line-height:1.5}
+.micada-home .micada-about p:last-child{margin-top:20px}
+.micada-home .micada-cms-panel{padding:10px;text-align:left}
+.micada-home .micada-cms-panel table{font-size:12px;width:100%;border-collapse:collapse}
+.micada-home .micada-cms-panel th,.micada-home .micada-cms-panel td{padding:7px;border:1px solid #ddd}
+.micada-home .micada-cms-panel .micada-rti-heading{margin:4px 0 10px;padding:2px 8px;background:#d3e1e7;color:#000;text-align:center;font-size:22px;line-height:1.25;font-weight:500}
+.micada-home .micada-cms-panel .micada-rti-table-wrap{width:88%;max-width:1120px;margin:0 auto 4px;overflow-x:auto}
+.micada-home .micada-cms-panel .micada-rti-public-table{width:100%!important;min-width:650px;border:0;border-collapse:separate!important;border-spacing:3px!important;color:#000;font-family:"Inter","sans-serif"!important;font-size:14px!important;font-weight:700}
+.micada-home .micada-cms-panel .micada-rti-public-table th{padding:8px!important;background:#999!important;color:#000!important;border:1px solid #c5c5c5!important;border-radius:8px;text-align:left;white-space:nowrap}
+.micada-home .micada-cms-panel .micada-rti-public-table td{padding:7px 8px!important;background:#fff;border:1px solid #c9c9c9!important;border-radius:8px;font-weight:700}
+.micada-home .micada-cms-panel .micada-rti-public-table tbody tr:nth-child(even) td{background:#ededed}
+.micada-home #micada-information[aria-busy=true]{opacity:.65}
+.micada-home .micada-panels .events-links-header{font-size:18px!important;margin-bottom:0}
+.micada-home .micada-panels .micada-panel-heading{display:block;background:#fff;color:#000;font-family:Inter,Arial,sans-serif!important;font-size:22px!important;font-weight:700!important;line-height:normal;text-align:center}
+.micada-home .micada-panels .info-container1 .micada-panel-heading b{font-family:Inter,Arial,sans-serif!important;font-size:22px!important;font-weight:700!important;line-height:normal}
+.micada-home .micada-panels .info-container3 .micada-panel-heading b{font-family:Inter,Arial,sans-serif!important;font-size:22px!important;font-weight:700!important;line-height:normal}
+.micada-home .micada-panels .info-container3,.micada-home .micada-panels .info-container3 *{font-family:"Inter","sans-serif"!important;box-sizing:border-box}
+
+.micada-home .micada-panels marquee{display:block;max-height:300px}
+.micada-home .text-box-leader-content p{font-size:.9vw}
+.micada-home .text-box-leader-content .location{font-size:.8vw}
+.micada-home .micada-panels marquee a{color:inherit}
+.micada-home .micada-panels marquee ul{padding:0;margin:0}
+.micada-home .micada-galleries{display:flex;flex-wrap:wrap;background:#ececec;padding:8px 0;gap:26px;margin:0!important}
+.micada-home .micada-galleries>div{width:41.66667%;border-radius:9px;background:white;box-shadow:0 1px 5px #0005;margin:0 16px!important;overflow:hidden;text-align:center}
+.micada-home .micada-galleries .custom-scroll{height:300px;overflow:auto;padding:0 10px}
+.micada-home .micada-photo-button{display:block;width:100%;padding:0;background:transparent;border:0;border-radius:0;color:#000;cursor:zoom-in}
+.micada-home .micada-photo-button img{display:block;width:95%;margin:2% auto 0;height:auto}
+.micada-home .micada-photo-button span{display:block;font-size:11.2px;line-height:1.5}
+.micada-home .video-iframe-wrapper{position:relative;width:100%;aspect-ratio:16/9}
+.micada-home .video-iframe-wrapper iframe{width:100%;height:100%;border:0;border-radius:8px}
+.micada-home .micada-galleries .button-34{display:inline-block;border-radius:50px;background:#f5f4c2;font-size:11px;line-height:1.5;color:#436400;font-weight:700;margin:14px auto 7px;padding:10px 20px;min-width:120px}
+.micada-home .micada-footer .useful-links-title,.micada-home .micada-footer .contact-heading p{font-size:18px}
+.micada-home .micada-footer .contact-heading p{margin:8px 0}
+.micada-home .micada-footer iframe{height:180px;min-height:180px}
+.micada-home .micada-footer .footer-copyright{font-size:12px;font-weight:400}
+.micada-home .micada-notice{border:0;padding:0;margin:auto;width:auto;height:auto;background:transparent;max-width:calc(100vw - 32px);max-height:calc(100vh - 32px);overflow:visible;inset:0}
+.micada-home .micada-notice:not([open]){display:none}
+.micada-home .micada-notice::backdrop{background:rgba(7,17,27,.65)}
+.micada-home .micada-lightbox{position:fixed;inset:0;width:100vw;height:100vh;max-width:100vw;max-height:100vh;margin:0;border:0;background:#000e;color:#fff;padding:40px;align-items:center;justify-content:center;gap:18px}
+.micada-home .micada-lightbox[open]{display:flex}
+.micada-home .micada-lightbox::backdrop{background:#000d}
+.micada-home .micada-lightbox figure{margin:0;text-align:center;max-width:850px}
+.micada-home .micada-lightbox img{max-width:100%;max-height:80vh;object-fit:contain}
+.micada-home .micada-lightbox button{border:0;color:#fff;background:#ffffff20;padding:10px;cursor:pointer;font-size:22px}
+.micada-home .micada-lightbox [data-lightbox-close]{position:absolute;top:10px;right:20px}
+.micada-home :focus-visible{outline:3px solid #234f83;outline-offset:3px}
+@media(max-width:1100px){.micada-home .micada-menu a,.micada-home .micada-menu summary{padding:12px 10px}.micada-home .text-box-leader-content h5{font-size:12px}}
+@media(max-width:960px){.micada-home .micada-menu-toggle{display:block;background:transparent;border:0;padding:8px;color:#111;font-weight:700}.micada-home #micada-primary:not(.is-open){display:none}.micada-home .micada-menu{flex-direction:column;align-items:stretch}.micada-home .micada-menu details>ul,.micada-home .micada-menu .sub-menu{position:static;box-shadow:none}.micada-home .micada-menu .sub-menu{display:block}.micada-home .micada-panels .info-container1,.micada-home .micada-panels .info-container3{width:23%}.micada-home .micada-panels .info-container2{width:54%}}
+@media(max-width:700px){.micada-home .micada-cms-panel .micada-rti-table-wrap{width:100%}.micada-home .micada-cms-panel .micada-rti-heading{font-size:18px}.micada-home .micada-header .top-header-sec{min-height:90px}.micada-home .micada-header .logo-continer{width:20%}.micada-home .micada-header .logo-continer img{height:90px}.micada-home .micada-header .top-header-sec>.field:nth-child(2){width:80%}.micada-home .micada-header .micada-heading p{font-size:15px;padding:4px}.micada-home .micada-header .language-translation{font-size:10px}.micada-home .micada-header select{min-width:80px;height:30px;padding:3px}.micada-home .micada-header .social-icon{width:24px;height:24px}.micada-home .login-button-section{flex-wrap:wrap;justify-content:center}.micada-home .login-button-section .button-33{flex:1 1 45%;font-size:12px!important;white-space:normal;padding:9px 6px}.micada-home .micada-slide>img{aspect-ratio:3/1;min-height:140px;object-fit:cover}.micada-home .micada-slide figcaption{font-size:11px;padding:0 8px}.micada-home .micada-mobile-leaders{display:block;background:#edf2f6}.micada-home .micada-mobile-leaders .container-leader{display:grid;grid-template-columns:1fr 1fr;padding:6px}.micada-home .micada-mobile-leaders .image-container-leader{width:25vw;max-height:40vh}.micada-home .micada-mobile-leaders .image-container-leader img{max-height:40vh}.micada-home .micada-mobile-leaders .text-box-leader{padding:8px 6px 8px 24px}.micada-home .micada-mobile-leaders .text-box-leader-content{margin-left:0}.micada-home .micada-mobile-leaders .text-box-leader-content h5{font-size:10px}.micada-home .micada-mobile-leaders .text-box-leader-content p{font-size:9px}.micada-home .micada-panels .info-container1,.micada-home .micada-panels .info-container2,.micada-home .micada-panels .info-container3{width:100%;height:auto!important;max-height:none!important;min-height:0}.micada-home .micada-panels .info-container2{padding:12px}.micada-home .micada-panels marquee{height:180px!important;max-height:180px!important}.micada-home .micada-galleries{gap:12px;padding:10px}.micada-home .micada-galleries>div{width:100%;margin:0!important}.micada-home .micada-notice .popup-modal-close{width:32px;height:32px;padding:0}.micada-home .micada-lightbox{padding:40px 8px;gap:3px}.micada-home .micada-lightbox button{padding:6px}.micada-home .micada-footer .useful-links-scroll-container{flex-direction:row;justify-content:flex-start}.micada-home .micada-footer .useful-link-card{min-width:160px}.micada-home .micada-farmer-line{font-size:12px}.micada-home .maintenance-notice{font-size:11px}}
+@media(max-width:700px){.micada-home .new-registration{display:none!important}}
+@media(prefers-reduced-motion:reduce){.micada-home *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* The original homepage applies Inter to every component. */
+body.micada-home{--micada-interface-font:Inter,Arial,sans-serif;font-family:var(--micada-interface-font);font-size:15px;line-height:1.5}
+.micada-home,.micada-home *{font-family:var(--micada-interface-font)!important}
+.micada-home .micada-header .micada-heading p{line-height:1.5}
+.micada-home .micada-header .language-translation label{font-size:.8rem;font-weight:700;line-height:normal}
+.micada-home .micada-header select,.micada-home .micada-header .social-icons span,.micada-home .micada-menu a,.micada-home .micada-menu summary{font-family:var(--micada-interface-font)!important;font-weight:700;letter-spacing:normal}
+.micada-home .micada-header select,.micada-home .micada-header .social-icons span{font-size:.8rem;line-height:normal}
+.micada-home .micada-menu>li,.micada-home .micada-menu a,.micada-home .micada-menu summary{font-size:.9rem;line-height:1}
+.micada-home .micada-farmer-line .s1{line-height:normal}
+.micada-home .marquee-static-text p,.micada-home .text-box-leader-content p,.micada-home .micada-slide figcaption{line-height:1.5}
+.micada-home .maintenance-notice{font-size:.95rem;font-weight:600;line-height:1.4}
+.micada-home .login-button-section .button-33{font-size:1.1vw!important;line-height:normal}
+.micada-home .login-button-section .button-33 b{font-weight:700;line-height:normal}
+.micada-home .text-box-leader-content h5{font-size:1rem;line-height:1.2}
+.micada-home .new-registration p{font-size:1.1rem;line-height:1.25}
+.micada-home .micada-panels .events-links-header b,.micada-home .micada-panels marquee,.micada-home .micada-panels marquee a,.micada-home .micada-panels marquee b{line-height:normal}
+.micada-home .micada-about h2{line-height:1.2}
+.micada-home .micada-photo-button span,.micada-home .video-section span,.micada-home .micada-galleries .button-34{font-size:.8rem;line-height:normal}
+.micada-home .micada-footer .useful-links-title,.micada-home .micada-footer .contact-heading p{font-size:1.2rem;line-height:1.5}
+.micada-home .micada-footer .footer-text,.micada-home .micada-footer .footer-text-last-date{line-height:normal}
+.micada-home .micada-footer .footer-copyright{font-size:.9rem;line-height:normal}
+@media(max-width:700px){
+ .micada-home .micada-header .micada-heading p{font-size:1rem}
+ .micada-home .micada-slide figcaption{font-size:1rem;line-height:1.5}
+ .micada-home .micada-mobile-leaders .text-box-leader-content h5{font-size:1rem;line-height:1.2}
+ .micada-home .micada-mobile-leaders .text-box-leader-content p{font-size:.8rem;line-height:1.5}
+ .micada-home .micada-mobile-leaders .text-box-leader-content .location{font-size:.7rem;line-height:1.5}
+}
+@media(min-width:601px) and (max-width:700px){.micada-home .micada-header .micada-heading p{font-size:1.2rem}}
+
+/* Keep the reference homepage usable on tablets and phones. */
+@media(max-width:960px){
+ .micada-home .login-button-section{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+ .micada-home .login-button-section .button-33{min-width:0;white-space:normal;font-size:clamp(12px,1.6vw,16px)!important;line-height:1.25;padding:10px 8px}
+ .micada-home #micada-primary.is-open{display:block;width:100%}
+ .micada-home .micada-menu>li{width:100%}
+ .micada-home .micada-menu a,.micada-home .micada-menu summary{white-space:normal}
+}
+@media(max-width:700px){
+ .micada-home{overflow-x:hidden}
+ .micada-home .micada-header .top-header-sec{display:grid!important;grid-template-columns:64px minmax(0,1fr);gap:8px;align-items:center;min-height:0;padding:8px}
+ .micada-home .micada-header .logo-continer{width:auto!important;min-width:0}
+ .micada-home .micada-header .logo-continer img{width:100%;height:auto;max-height:72px;object-fit:contain}
+ .micada-home .micada-header .top-header-sec>.field:nth-child(2){width:auto!important;min-width:0;padding:0!important}
+ .micada-home .micada-header .micada-heading p{font-size:clamp(14px,4.2vw,20px);line-height:1.2;overflow-wrap:anywhere}
+ .micada-home .micada-header .language-translation{justify-content:center;gap:6px;flex-wrap:wrap}
+ .micada-home .micada-header .social-icons{align-items:center}
+ .micada-home .micada-header select{max-width:110px}
+ .micada-home .micada-navigation{padding:4px 8px}
+ .micada-home .micada-menu{gap:2px}
+ .micada-home .micada-menu a,.micada-home .micada-menu summary{padding:10px 8px}
+ .micada-home .login-button-section{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;padding:4px}
+ .micada-home .login-button-section .button-33{font-size:12px!important;padding:9px 6px}
+ .micada-home .login-button-section .button-33:last-child{grid-column:1/-1}
+ .micada-home .micada-farmer-line{min-width:0;max-width:100%;font-size:12px}
+ .micada-home .maintenance-notice{overflow-wrap:anywhere;line-height:1.4}
+ .micada-home .micada-slide>img{width:100%;height:auto;aspect-ratio:3/1;min-height:120px;object-fit:cover}
+ .micada-home .micada-slide figcaption{font-size:12px;line-height:1.35;min-height:0}
+ .micada-home .micada-mobile-leaders .container-leader{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding:8px;max-height:none;overflow:visible;box-sizing:border-box}
+ .micada-home .micada-mobile-leaders .d-flex-leader{display:flex!important;align-items:center;gap:0;min-width:0;width:100%;box-sizing:border-box}
+ .micada-home .micada-mobile-leaders .image-container-leader{position:relative;width:68px;height:68px;max-height:none;flex:0 0 68px;z-index:1}
+ .micada-home .micada-mobile-leaders .image-container-leader img{display:block;width:68px;height:68px;max-height:none;aspect-ratio:1;object-fit:cover}
+ .micada-home .micada-mobile-leaders .text-box-leader{flex:1 1 0;width:auto;min-width:0;margin-left:-10px;padding:10px 10px 10px 20px;box-sizing:border-box}
+ .micada-home .micada-mobile-leaders .text-box-leader-content{min-width:0;margin-left:0;overflow-wrap:anywhere;word-break:normal}
+ .micada-home .micada-mobile-leaders .text-box-leader-content h5,.micada-home .micada-mobile-leaders .text-box-leader-content p{max-width:100%;overflow-wrap:anywhere;word-break:normal}
+ .micada-home .micada-panels{display:flex;flex-direction:column;gap:8px;padding:0 8px}
+ .micada-home .micada-panels .info-container1,.micada-home .micada-panels .info-container2,.micada-home .micada-panels .info-container3{width:100%!important;height:auto!important;min-height:0!important;max-height:none!important;overflow:visible!important;margin:0!important;padding:10px!important}
+ .micada-home .micada-panels .info-container1 marquee,.micada-home .micada-panels .info-container3 marquee{height:180px!important;max-height:180px!important;overflow:hidden}
+ .micada-home .micada-panels .info-container2{overflow:visible!important}
+ .micada-home .micada-panels .info-container2 p{font-size:15px!important;line-height:1.5;overflow-wrap:anywhere}
+ .micada-home .micada-galleries{display:flex;flex-direction:column;gap:12px;padding:10px}
+ .micada-home .micada-galleries>div{width:100%!important;max-width:100%;margin:0!important;min-width:0}
+ .micada-home .micada-galleries .custom-scroll{height:260px;max-width:100%}
+ .micada-home .micada-footer .contact-content>.p-fluid>.field{width:100%!important;max-width:100%;padding-left:8px!important;padding-right:8px!important}
+ .micada-home .micada-footer .footer-info{margin-left:0!important;margin-right:0!important;padding:12px 4px;overflow-wrap:anywhere}
+ .micada-home .micada-footer iframe{width:100%;height:220px;min-height:220px}
+ .micada-home .micada-notice{position:fixed;inset:0;width:100vw;height:100dvh;max-width:100vw;max-height:100dvh;margin:0;padding:10px;border:0;box-sizing:border-box;background:transparent;align-items:center;justify-content:center}
+ .micada-home .micada-notice[open]{display:flex}
+ .micada-home .micada-notice .portal-modal-content{display:flex;width:auto;height:auto;max-width:100%;max-height:100%;overflow:hidden}
+ .micada-home .micada-notice .popup-modal-image{display:block;width:auto;height:auto;max-width:calc(100vw - 20px);max-height:calc(100dvh - 20px);object-fit:contain}
+ .micada-home .micada-notice .popup-modal-close{top:6px;right:6px;width:36px;height:36px;padding:0}
+ .micada-home .micada-lightbox{width:100vw;height:100dvh;max-width:100vw;max-height:100dvh;gap:6px;padding:48px 6px 12px}
+ .micada-home .micada-lightbox figure{min-width:0;max-width:calc(100vw - 100px)}
+ .micada-home .micada-lightbox img{max-width:100%;max-height:75dvh;object-fit:contain}
+ .micada-home .micada-lightbox button{font-size:18px;padding:8px}
+}
+@media(max-width:380px){
+ .micada-home .micada-header .top-header-sec{grid-template-columns:52px minmax(0,1fr);gap:5px;padding:6px}
+ .micada-home .micada-header .logo-continer img{max-height:58px}
+ .micada-home .login-button-section .button-33{font-size:11px!important;padding:8px 4px}
+ .micada-home .micada-mobile-leaders .image-container-leader,.micada-home .micada-mobile-leaders .image-container-leader img{width:60px;height:60px;flex-basis:60px}
+ .micada-home .micada-mobile-leaders .text-box-leader{min-height:60px;margin-left:-8px;padding:8px 8px 8px 16px}
+}
+
+@media(max-width:700px){
+ .micada-home .micada-mobile-leaders{padding:8px 6px;background:#edf2f6}
+ .micada-home .micada-mobile-leaders .container-leader{gap:10px;padding:0}
+ .micada-home .micada-mobile-leaders .image-container-leader,.micada-home .micada-mobile-leaders .image-container-leader img{width:72px;height:72px;flex-basis:72px}
+ .micada-home .micada-mobile-leaders .text-box-leader{min-height:72px;display:flex;align-items:center;background:#fff;border-radius:0 10px 10px 0;box-shadow:0 2px 5px #0002}
+ .micada-home .micada-mobile-leaders .text-box-leader-content h5{color:#f4617c;font-size:clamp(12px,3.5vw,15px)!important;line-height:1.25;font-weight:700}
+ .micada-home .micada-mobile-leaders .text-box-leader-content p{color:#111;font-size:clamp(11px,3.1vw,13px)!important;line-height:1.35;font-weight:700}
+ .micada-home .micada-mobile-leaders .text-box-leader-content .location{color:#777;font-size:clamp(10px,2.8vw,12px)!important}
+}
+@media(max-width:380px){
+ .micada-home .micada-mobile-leaders .image-container-leader,.micada-home .micada-mobile-leaders .image-container-leader img{width:60px;height:60px;flex-basis:60px}
+ .micada-home .micada-mobile-leaders .text-box-leader{min-height:60px;margin-left:-8px;padding:8px 8px 8px 16px}
+}

@@ -1,0 +1,881 @@
+.micada-public{margin:0;background:#fff;color:#000;font-family:Arial,sans-serif;font-size:14px}.micada-public p{margin-top:0}.micada-public .back-button{border:0;border-radius:6px;color:white;padding:.6rem 1rem;cursor:pointer}.micada-public iframe{border:0}.micada-public .text-center{text-align:center}.micada-public .micada-editor-content{width:100%}.micada-header select{font:inherit;font-size:11px;font-weight:700;color:#495057;padding:9px 12px;width:106px!important;min-width:106px;max-width:106px;height:38px;flex:none;border:1px solid #ced4da;border-radius:6px;background:#fff;box-sizing:border-box;cursor:pointer}.micada-header .social-icon{width:24px;height:24px;object-fit:contain}.micada-header .top-header-sec {
+  background: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+.micada-header .language-translation {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.micada-header .logo-continer img {
+  width: 100%;
+  height: 110px;
+  object-fit: contain;
+}
+.micada-header .micada-heading p {
+  font-size: 2vw;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #8b5815;
+}
+.micada-header .top-level-image {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.micada-header .top-level-image p {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 5px !important;
+}
+.micada-header .top-level-image img {
+  padding-bottom: 0px !important;
+}
+.micada-header .cursor-pointer {
+  cursor: pointer;
+}
+.micada-header .social-icons {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-header .social-icons a {
+  margin: 0 5px;
+  /* Space between icons */
+  color: #fff;
+  /* Set icon color */
+  font-size: 20px;
+  /* Set icon size */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+.micada-header .social-icons img:hover {
+  transform: scale(1.1);
+  /* Change color on hover */
+}
+.micada-header .language-translation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.micada-header .language-translation label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+}
+.micada-header .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.micada-header .p-dropdown-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .micada-header select {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px !important;
+    height: 30px;
+    padding: 3px;
+  }
+  .micada-header .hide-small {
+    display: none !important;
+  }
+  .micada-header .micada-heading p {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-header .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-header .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-header .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-header .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 700px) and (min-width: 601px) {
+  .micada-header .hide-small {
+    display: none !important;
+  }
+  .micada-header .micada-heading p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-header .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-header .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-header .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-header .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 992px) and (min-width: 701px) {
+  .micada-header .hide-medium {
+    display: none !important;
+  }
+  .micada-header .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 75% !important;
+    left: 39% !important;
+  }
+  .micada-header .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 0.5em;
+    font-family: sans-serif;
+  }
+  .micada-header .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-header .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+}.micada-footer .useful-links-section {
+  background: linear-gradient(to bottom, #ffffff, #d4d4d4);
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.micada-footer .useful-links-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: black;
+}
+.micada-footer .useful-links-scroll-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  scrollbar-width: thin;
+  /* For Firefox */
+  scrollbar-color: #ccc transparent;
+  /* For Firefox */
+}
+.micada-footer .useful-links-scroll-container a:hover {
+  background: #f5dac2;
+}
+.micada-footer .useful-links-scroll-container::-webkit-scrollbar {
+  height: 8px;
+  /* Height of the scrollbar */
+}
+.micada-footer .useful-links-scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+  /* Scrollbar track color */
+}
+.micada-footer .useful-links-scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+.micada-footer .useful-link-card {
+  min-width: 180px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.micada-footer .useful-link-card img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+.micada-footer .useful-link-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.micada-footer .bottom-content {
+  background-color: #ffffff;
+}
+.micada-footer .bottom-content-box {
+  background-color: #ffff;
+  height: 260px !important;
+  overflow: auto !important;
+}
+.micada-footer .info-container1,
+.micada-footer .info-container3 {
+  height: 400px !important;
+  overflow: none !important;
+}
+.micada-footer .info-container2 {
+  background-color: #ffffff;
+  min-height: 300px !important;
+  max-height: 400px !important;
+  overflow: auto !important;
+}
+.micada-footer .bottom-content-box::-webkit-scrollbar {
+  display: none;
+}
+.micada-footer .info-container2::-webkit-scrollbar {
+  display: none;
+}
+.micada-footer .middle-content::-webkit-scrollbar {
+  display: none;
+}
+.micada-footer .bottom-content-box,
+.micada-footer .info-container2 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.micada-footer .bottom-content-box-header {
+  background: linear-gradient(to bottom, #ffffff, #d4d4d4);
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.micada-footer .custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+.micada-footer .custom-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.micada-footer .contact-content {
+  background-color: #f1f0f0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.micada-footer .contact-heading {
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+}
+.micada-footer .contact-heading p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.micada-footer .footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  padding: 20px;
+}
+.micada-footer .footer-icon {
+  font-size: 1.5rem;
+  color: #cf9126;
+  margin-right: 10px;
+}
+.micada-footer .footer-text {
+  font-size: 1rem;
+  color: black;
+}
+.micada-footer .footer-text-last-date {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: black;
+}
+.micada-footer .footer-copyright {
+  background-color: #222;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+@media (max-width: 600px) {
+  .micada-footer .hide-small {
+    display: none !important;
+  }
+  .micada-footer .micada-heading p {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-footer .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-footer .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-footer .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-footer .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .micada-footer .useful-links-scroll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    scrollbar-width: thin;
+    /* For Firefox */
+    scrollbar-color: #ccc transparent;
+    /* For Firefox */
+  }
+}
+@media (max-width: 700px) and (min-width: 601px) {
+  .micada-footer .hide-small {
+    display: none !important;
+  }
+  .micada-footer .micada-heading p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #a66e23;
+  }
+  .micada-footer .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 78% !important;
+    left: 30% !important;
+  }
+  .micada-footer .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .micada-footer .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-footer .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 992px) and (min-width: 701px) {
+  .micada-footer .hide-medium {
+    display: none !important;
+  }
+  .micada-footer .p-menu {
+    z-index: 1001 !important;
+    transform-origin: center top !important;
+    top: 75% !important;
+    left: 39% !important;
+  }
+  .micada-footer .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #255ea5;
+    color: #ffffff;
+    height: 50px;
+    padding: 0.5em;
+    font-family: sans-serif;
+  }
+  .micada-footer .top-nav ul li {
+    font-size: 0.8rem !important;
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+  .micada-footer .top-nav ul li:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+}.micada-public .photo-gallery-header {
+  display: flex;
+  justify-content: center;
+}
+.micada-public .photo-gallery-header p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fa8620;
+}
+.micada-public .static-button {
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.micada-public .img-conatiner {
+  font-size: 1rem;
+  color: red;
+  font-weight: bold;
+}
+.micada-public .micada-public-photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.micada-public .micada-public-photo-item {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .12);
+}
+.micada-public .micada-public-photo-item img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.micada-public .micada-public-photo-item figcaption {
+  padding: 12px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .micada-public .micada-public-photo-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 580px) {
+  .micada-public .micada-public-photo-gallery { grid-template-columns: 1fr; }
+}
+.micada-public .body-container {
+  background-color: white;
+  min-height: 200px !important;
+}
+.micada-public .video-gallery,
+.micada-public .micada-video-grid,
+.micada-public .wp-block-group.micada-video-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  align-items: start !important;
+  gap: 24px 20px !important;
+  padding: 20px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+.micada-public .video-container,
+.micada-public .micada-video,
+.micada-public .wp-block-group.micada-video {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  margin-top: 0 !important;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  justify-content: flex-start !important;
+}
+.micada-public .video-container iframe,
+.micada-public .micada-video iframe {
+  width: 100% !important;
+  aspect-ratio: 16 / 9 !important;
+  min-height: 180px !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  background: #000 !important;
+  display: block !important;
+  overflow: hidden !important;
+}
+.micada-public .video-description,
+.micada-public .micada-video p {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-block-start: 10px !important;
+  margin-block-end: 0 !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  color: #333 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  min-height: 40px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+}
+@media (max-width: 1200px) {
+  .micada-public .video-gallery,
+  .micada-public .micada-video-grid,
+  .micada-public .wp-block-group.micada-video-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+@media (max-width: 900px) {
+  .micada-public .video-gallery,
+  .micada-public .micada-video-grid,
+  .micada-public .wp-block-group.micada-video-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 580px) {
+  .micada-public .video-gallery,
+  .micada-public .micada-video-grid,
+  .micada-public .wp-block-group.micada-video-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+.micada-public .back-button {
+  background-color: #8b5815;
+}
+.micada-public .back-button:hover {
+  color: black;
+  background-color: #8b5815;
+}
+
+/* MI Circular page selector and downloadable PDF cards. */
+.micada-public .micada-mi-circular-page {
+  display: block !important;
+  align-items: initial !important;
+  flex-wrap: initial !important;
+  min-height: 0 !important;
+  padding: 0 0 36px;
+  font-family: Inter, Arial, sans-serif;
+  box-sizing: border-box;
+}
+.micada-public .micada-mi-circular-heading {
+  position: relative;
+  display: block !important;
+  height: 128px;
+  margin: 0 !important;
+  padding: 18px 8px !important;
+  box-sizing: border-box;
+}
+.micada-public .micada-mi-circular-heading .static-button {
+  position: absolute;
+  top: 20px;
+  left: 8px;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.micada-public .micada-mi-circular-heading .back-button {
+  padding: 12px 20px;
+  border: 1px solid #234eab;
+  border-radius: 8px;
+  background: linear-gradient(115deg, #1d3d69, #2865ec);
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+}
+.micada-public .micada-mi-circular-heading .photo-gallery-header {
+  position: absolute;
+  inset: 18px 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 150px !important;
+}
+.micada-public .micada-mi-circular-heading .photo-gallery-header p {
+  margin: 0 !important;
+  color: #173754;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.micada-public .micada-mi-circular-heading .photo-gallery-header em {
+  margin-top: 6px;
+  color: #53657a;
+  font-family: Georgia, serif;
+  font-size: 11px;
+}
+.micada-public .micada-circular-year-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  min-height: 72px;
+  margin: 0 0 22px;
+  padding: 8px 12px;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+  background: #f7f9fc;
+  box-sizing: border-box;
+}
+.micada-public .micada-circular-year-tab {
+  min-width: 100px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #d0d9e4;
+  background: #fff;
+  color: #1d3554;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.micada-public .micada-circular-year-tab:first-child { border-radius: 8px 0 0 8px; }
+.micada-public .micada-circular-year-tab:last-child { border-radius: 0 8px 8px 0; }
+.micada-public .micada-circular-year-tab.is-active {
+  outline: 2px solid #aab7ff;
+  outline-offset: 2px;
+  background: linear-gradient(115deg, #1d3d69, #2865ec);
+  color: #fff;
+}
+.micada-public .micada-circular-card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+}
+.micada-public .micada-circular-card {
+  display: flex;
+  min-width: 0;
+  min-height: 158px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 18px 12px;
+  border: 1px solid #dce4ed;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(27, 50, 77, .1);
+  text-align: center;
+  box-sizing: border-box;
+}
+.micada-public .micada-circular-card[hidden] { display: none !important; }
+.micada-public .micada-circular-pdf-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 46px;
+  place-items: center;
+  border-radius: 14px;
+  background: #ffe1e2;
+  color: #ef3038;
+}
+.micada-public .micada-circular-pdf-icon svg { width: 22px; height: 22px; }
+.micada-public .micada-circular-card h2 {
+  margin: 0;
+  color: #101b2b;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.micada-public .micada-circular-download {
+  display: inline-flex;
+  max-width: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: linear-gradient(110deg, #1d3d69, #2865ec);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.micada-public .micada-circular-download:hover,
+.micada-public .micada-circular-download:focus { background: #173754; color: #fff; }
+.micada-public .micada-circular-download svg { width: 14px; height: 14px; flex: 0 0 14px; }
+.micada-public .micada-circular-download span { font-size: 20px; line-height: .8; }
+@media (max-width: 1200px) {
+  .micada-public .micada-circular-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (max-width: 900px) {
+  .micada-public .micada-circular-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .micada-public .micada-mi-circular-heading { height: 112px; padding-top: 16px !important; }
+  .micada-public .micada-mi-circular-heading .static-button { top: 16px; left: 8px; }
+  .micada-public .micada-mi-circular-heading .back-button { padding: 9px 12px; font-size: 13px; }
+  .micada-public .micada-mi-circular-heading .photo-gallery-header { inset: 12px 0 auto; padding: 0 110px !important; }
+  .micada-public .micada-mi-circular-heading .photo-gallery-header p { font-size: 21px; }
+  .micada-public .micada-mi-circular-heading .photo-gallery-header em { margin-top: 4px; font-size: 12px; }
+  .micada-public .micada-circular-year-tabs { min-height: 62px; margin-bottom: 14px; }
+  .micada-public .micada-circular-year-tab { min-width: 100px; padding: 10px 14px; font-size: 14px; }
+  .micada-public .micada-circular-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .micada-public .micada-circular-card { min-height: 180px; padding: 16px 10px; }
+  .micada-public .micada-circular-card { min-height: 158px; }
+  .micada-public .micada-circular-card h2 { font-size: 12px; }
+  .micada-public .micada-circular-download { font-size: 10px; padding: 6px 8px; white-space: normal; }
+}
+@media (max-width: 420px) {
+  .micada-public .micada-circular-card-grid { grid-template-columns: 1fr; }
+  .micada-public .micada-mi-circular-heading .photo-gallery-header { padding: 0 96px !important; }
+}
+
+/* Keep the shared public-page footer sized the same as the homepage footer. */
+.micada-public .micada-footer .micada-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 1em;
+  vertical-align: -.125em;
+}
+.micada-public .micada-footer .contact-heading {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.micada-public .micada-footer .contact-heading p {
+  margin: 8px 0 !important;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.micada-public .micada-footer .contact-content > .p-fluid {
+  align-items: center;
+}
+.micada-public .micada-footer .footer-info {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.micada-public .micada-footer .footer-info .footer-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex: 0 0 1.5rem;
+}
+.micada-public .micada-footer .contact-content iframe {
+  display: block;
+  width: 100%;
+  height: 180px;
+  min-height: 180px;
+}
+@media (max-width: 700px) {
+  .micada-public .micada-footer .contact-content > .p-fluid > .field {
+    width: 100% !important;
+    max-width: 100%;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .micada-public .micada-footer .footer-info {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 12px 4px;
+  }
+  .micada-public .micada-footer .contact-content iframe {
+    height: 220px;
+    min-height: 220px;
+  }
+}

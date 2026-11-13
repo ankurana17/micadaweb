@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F: '$1>800 && $1<1000 || $1>4400 && $1<4600')",
+      "Bash(grep -nE \"\\\\\\\\\\\\$[a-z_]+ *= *array\\\\\\(|locale|get_locale|switch|\\\\] = array\\\\\\(|=> array\\\\\\(\\\\s*$\" public/class-accessibility-onetap-public.php)",
+      "Bash(awk -F: '$1>780 && $1<960')",
+      "Bash(awk -F: '$1>870')",
+      "Bash(awk -F: '$1>870 && $1<5100')",
+      "Bash(awk -F: '$1<5200')",
+      "Bash(python3 __TRACKED_VAR__/apply_align.py public/class-accessibility-onetap-public.php /opt/lampp/htdocs/coding/onetap/wp-content/plugins/accessibility-plugin-onetap-pro/public/class-accessibility-pro-public.php)"
+    ]
+  }
+}
